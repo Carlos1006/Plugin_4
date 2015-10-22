@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Full Calendar</title>
+        <meta   charset="utf-8">
+        <link   rel="icon" href="img/favicon.ico" type="image/x-icon" />
+        <script src="jquery.min.js"></script>
+        <link   href='fullCalendar.css' rel='stylesheet' type='text/css'>
+        <script src="fullCalendar.js"></script>
+        <style>
+            html{
+                position:absolute;
+                width:100%;
+                height:100%;
+                background:rgb(30,30,30);
+                padding:0%;
+                margin:0%;
+            }
+            #main {
+                width:60em;
+                height:40em;
+            }
+        </style>
+        <script>
+            $(function() {
+                $("#main").fullCalendar();
+                var event = $.getEvent("Celebracion de halloween","Halloween","img/A.jpg");
+                $("#main").setEvent(31,event);
+                
+                var dateA = $.getDate(2,5,2015);
+                var dateB = $.getDate(5,6,2015);
+                var color = $.getColor(134,0,250);
+                $("#main").setRange(dateA,dateB,color);
+                
+            });
+        </script>
+    </head>
+    <body>
+        <div id="main"></div>
+    </body>
+</html>

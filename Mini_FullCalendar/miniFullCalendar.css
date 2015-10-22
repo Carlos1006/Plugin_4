@@ -1,0 +1,479 @@
+@import url(http://localhost/__naker/Plugin_4/fonts.css?family=Open+Sans:400,300,300italic,600italic,700,600,400italic,700italic,800,800italic);
+
+.superFullCalendar {
+    overflow:hidden;
+    position:relative;
+    background:rgb(244,244,244);
+	-webkit-touch-callout: none;
+	-webkit-user-select:   none;
+	-khtml-user-select:    none;
+	-moz-user-select:      none;
+	-ms-user-select:       none;
+	user-select:           none;
+    font-family:"open sans",sans-serif !important;
+    cursor:default;
+}
+.headCalendar {
+    position:inherit;
+    width:100%;
+    height:5%;
+    /*background:rgb(79,103,101);*/
+    /*background:rgb(0,125,162);*/
+    -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow:    0px 3px 8px 0px rgba(0,0,0,0.5);
+    box-shadow:         0px 3px 8px 0px rgba(0,0,0,0.5);
+    z-index:0;
+}
+.headCalendar,.headerFullDay{
+    background:rgb(0,82,155);
+    background:rgb(70,70,70);
+}
+.today {
+    color:rgb(0,125,162) !important;
+}
+.monthContainer{
+    position:absolute;
+    height:100%;
+    width:25%;
+    left:2%;
+    background:rgba(0,0,0,0.5);
+    -webkit-box-shadow: 2px 0px 3px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow:    2px 0px 3px 0px rgba(0,0,0,0.5);
+    box-shadow:         2px 0px 3px 0px rgba(0,0,0,0.5);
+    overflow:hidden;
+}
+.prevMonth,.nextMonth{
+    float:left;
+    position:relative;
+    top:0;
+    width:15%;
+    height:100%;
+    background:rgb(60,60,60);
+    transition:all 0.2s;
+}
+.prevMonth:hover,
+.nextMonth:hover {
+    cursor:pointer;
+    background:rgb(55,55,55);
+}
+.noMonth:active,
+.noMonth:hover {
+    cursor:default!important;
+    background:rgb(60,60,60) !important;
+}
+.prevMonth {/*
+    border-bottom-left-radius:0.2em; 
+    border-top-left-radius:0.2em;
+}
+.nextMonth {/*
+    border-bottom-right-radius:0.2em; 
+    border-top-right-radius:0.2em;*/
+}
+.nameMonth{
+    float:left;
+    position:relative;
+    top:0;
+    width:70%;
+    display:inline-block;
+    height:100%;
+    background:rgb(185,185,190);
+    color:rgb(21,21,21);
+    font-size:1em;
+    font-family:"open sans",sans-serif;
+    text-align:center;
+    font-weight:500;
+    line-height:3vh;
+}
+.monthContainer svg{
+    position:absolute;
+    top:20%;
+    left:20%;
+    height:60%;
+    width:60%;
+    opacity:0.8;
+}
+.yearContainer{
+    position:absolute;
+    height:100%;
+    width:12%;
+    left:30%;
+    background:rgb(185,185,190);
+    -webkit-box-shadow: 2px 0px 3px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow:    2px 0px 3px 0px rgba(0,0,0,0.5);
+    box-shadow:         2px 0px 3px 0px rgba(0,0,0,0.5);
+    border-radius:0.1em;
+    transition:all 0.2s;
+}
+.yearContainer:before{
+    position:absolute;
+    content:" ";
+    float:left;
+    width:40%;
+    height:100%;
+    font-size:0.9em;
+    left:100%;
+    text-align:center;
+    font-weight:500;
+    color:rgb(170,170,170);
+    background:rgb(60,60,60);
+    -webkit-box-shadow: 0px 3px 8px -2px rgba(0,0,0,0.5);
+    -moz-box-shadow:    0px 3px 8px -2px rgba(0,0,0,0.5);
+    box-shadow:         0px 3px 8px -2px rgba(0,0,0,0.5);
+}
+.yearContainer:after{
+    position:absolute;
+    content:" ";
+    float:left;
+    width:25%;
+    height:60%;
+    margin-left:6.5%;
+    margin-top:7%;
+    border-radius:1em;
+    font-size:0.9em;
+    text-align:center;
+    font-weight:500;
+    color:rgb(170,170,170);
+    background:rgb(200,200,200);
+    -webkit-box-shadow: 0px 3px 8px -2px rgba(0,0,0,0.5);
+    -moz-box-shadow:    0px 3px 8px -2px rgba(0,0,0,0.5);
+    box-shadow:         0px 3px 8px -2px rgba(0,0,0,0.5);
+}
+.noYear:after,
+.noYear:before{
+    content:'' !important;
+    display:none !important;
+}
+.noYear:hover,
+.noYear:active{
+    background:rgb(185,185,190) !important;
+    cursor:default !important;
+    
+}
+.nameYear{
+    float:left;
+    width:100%;
+    display:inline-block;
+    height:100%;
+    color:rgb(21,21,21);
+    font-family:"open sans",sans-serif;
+    font-weight:500;
+    text-align:center;
+    font-size:1em;
+    pointer-events:none;
+    line-height:auto;
+}
+.yearContainer:hover{
+    cursor:pointer;
+    background:rgb(175,175,180);
+}
+.yearContainer:active{
+    background:rgb(155,155,160);
+}
+.dateContainer{
+    position:absolute;
+    height:100%;
+    width:35%;
+    right:0%;
+    background:transparent;
+    color:rgb(200,200,200);
+    overflow:hidden;
+    font-size:1.05em;
+    font-weight:200;
+    font-stretch:condensed;
+    border-radius:0.1em;
+    transition:all 0.2s;
+}
+.bodyCalendar {
+    float:left;
+    position:relative;
+    width:100%;
+    height:93.05%;
+    padding-left:2%;
+    padding-top:2%;
+    padding-right:3%;
+    background:transparent;
+}
+.weekLabel {
+    position:relative;
+    float:left;
+    width:12.5%;
+    height:4%;
+    background:rgb(200,200,200);
+    margin-left:0.5%;
+    margin-right:0.5%;
+    margin-top:0.5%;
+    margin-bottom:-0.5%;
+    font-size:0.8em;
+    text-align:center;
+    line-height:auto;
+}
+.day {
+    position:relative;
+    float:left;
+    width:12.5%;
+    height:13%;
+    line-height:100%;
+    background:rgb(200,200,200);
+    -webkit-box-shadow: 3px 3px 8px -1px rgba(0,0,0,0.5);
+    -moz-box-shadow:    3px 3px 8px -1px rgba(0,0,0,0.5);
+    box-shadow:         3px 3px 8px -1px rgba(0,0,0,0.5);
+    margin:0.5%;
+    margin-top:1.5%;
+    display:inline-block;
+}
+.openFullyDay {
+    position:absolute;
+    width:50%;
+    height:50%;
+    background:rgba(100,100,100,1.0);
+    left:25%;
+    top:40%;
+    z-index:1;
+    border-radius:1em;
+    opacity:0.9;
+    display:none;
+}
+.openFullyDay:hover {
+    cursor:pointer;
+}
+.openFullyDay:active {
+    background:rgba(120,120,120,1.0);
+}
+.openFullyDay svg{
+    width:70%;
+    height:70%;
+    margin:15%;
+    pointer-events:none;
+}
+.day label{
+    float:left;
+    margin:0px;
+    width:100%;
+    height:30%;
+    font-size:0.8em;
+    text-align:center;
+    font-weight:500;
+    color:rgb(170,170,170);
+    background:rgb(70,73,70);
+    -webkit-box-shadow: 0px 3px 8px -2px rgba(0,0,0,0.5);
+    -moz-box-shadow:    0px 3px 8px -2px rgba(0,0,0,0.5);
+    box-shadow:         0px 3px 8px -2px rgba(0,0,0,0.5);
+}
+.day p {
+    float:left;
+    position:relative;
+    margin:0px;
+    width:92%;
+    height:62%;
+    background:inherit;
+    font-size:0.65em;
+    font-stretch:condensed;
+    padding:4%;
+    word-break:break-all;/*
+    overflow-x:hidden;
+    overflow-y:scroll;*/
+    overflow:hidden;
+    text-align:center;
+}
+.day b{
+    width:100%;
+    padding-top:6%;
+    height:100%;
+    font-size:2em;
+    color:rgb(50,50,50);
+    display:inline-block;
+}
+.noDay {
+    background:rgb(130,130,130);
+}
+.noDay *{
+    display:none;
+}
+.noDay:after{
+    content:attr(data-attr);
+    float:left;
+    margin:0px;
+    width:100%;
+    top:0;
+    height:30%;
+    font-size:0.8em;
+    text-align:center;
+    font-weight:500;
+    color:rgb(170,170,170);
+    background:rgb(70,73,70);
+    -webkit-box-shadow: 0px 3px 8px -2px rgba(0,0,0,0.5);
+    -moz-box-shadow:    0px 3px 8px -2px rgba(0,0,0,0.5);
+    box-shadow:         0px 3px 8px -2px rgba(0,0,0,0.5);
+}
+.fullDay{
+    top:0;
+    left:0;
+    position:absolute;
+    width:100%;
+    height:100%;
+    display:none;
+}
+.headFDContainer {
+    z-index:3;
+    position:relative;
+    width:100%;
+    height:5%;
+    overflow:hidden;
+}
+.bodyFDContainer {
+    z-index:2;
+    position:relative;
+    width:100%;
+    height:95%;
+    overflow:hidden;
+}
+.headShadow {
+    -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow:    0px 3px 8px 0px rgba(0,0,0,0.5);
+    box-shadow:         0px 3px 8px 0px rgba(0,0,0,0.5);
+}
+.headerFullDay{
+    width:98%;
+    height:100%;
+    opacity:0.95;
+    padding-left:2%;
+    display:inline-block;
+    color:rgb(20,20,20,0.8);
+    font-size:1em;
+    /*transition:all 0.5s;*/
+    transition-delay:all 0.1s;
+    text-align:center;
+    line-height:150%;
+    margin-top:-20%;
+}
+.bodyFullDay{
+    width:100%;
+    height:100%;
+    z-index:2;
+    padding-left:2%;
+    padding-top:1.2%;
+    padding-right:3%;
+    background:rgba(100,100,100,0.85);
+    overflow:auto;
+    font-size:1.3em;
+    transition-delay:all 0.2s;
+    margin-top:-150%;
+}
+.event {
+    float:left;
+    width:90%;
+    height:15%;
+    margin-top:1.8%;
+    background:rgba(150,150,150,1.0);
+    -webkit-box-shadow: 2px 0px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow:    2px 0px 5px 0px rgba(0,0,0,0.5);
+    box-shadow:         2px 0px 5px 0px rgba(0,0,0,0.5);
+}
+.eventImg img{
+    float:left;
+    height:100%;
+    width:18%;
+    -webkit-box-shadow: 2px 0px 3px -1px rgba(0,0,0,0.5);
+    -moz-box-shadow:    2px 0px 3px -1px rgba(0,0,0,0.5);
+    box-shadow:         2px 0px 3px -1px rgba(0,0,0,0.5);
+    z-index:4;
+}
+.eventImg p{
+    float:left;
+    height:94%;
+    width:79.5%;
+    z-index:3;
+    background:transparent;
+    margin:0px;
+    padding:0;
+    padding-left:2.5%;
+    padding-top:1%;
+    font-size:0.6em;
+    font-weight:400;
+    word-break:break-all;
+    overflow-x:auto;
+}
+.eventNImg p{
+    float:left;
+    height:94%;
+    width:97.5%;
+    z-index:3;
+    background:transparent;
+    margin:0px;
+    padding:0;
+    padding-left:2.5%;
+    padding-top:1%;
+    font-size:0.8em;
+    font-weight:500;
+    word-break:break-all;
+    overflow-x:auto;
+}
+.closeFullDay{
+    z-index:4;
+    position:absolute;
+    width:1.5em;
+    height:1.5em;
+    right:0%;
+    background:inherit;
+    -webkit-box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow:    0px 2px 8px 0px rgba(0,0,0,0.5);
+    box-shadow:         0px 2px 8px 0px rgba(0,0,0,0.5);
+    transition:background 0.5s;
+    display:none;
+}
+.closeFullDay:hover{
+    cursor:pointer;
+    background:rgb(0,105,142);
+}
+.closeFullDay svg{
+    height:60%;
+    width:60%;
+    margin:20%;
+}
+.swipeCalendar{
+    position:absolute;
+    height:100%;
+    width:12%;
+    background:rgb(230,230,230);
+    -webkit-box-shadow: 4px 0px 8px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow:    4px 0px 8px 0px rgba(0,0,0,0.5);
+    box-shadow:         4px 0px 8px 0px rgba(0,0,0,0.5);
+    z-index:1;    
+    transition:left 0.5s;
+    left:0%;
+}
+.hiddenSwipe{
+    left:-13%;
+}
+.swipeCalendar ul {
+    padding:0px;
+    margin:0px;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    list-style-type: none;
+    text-align:center;
+}
+.swipeCalendar ul li{
+    height:5.3%;
+    float:left;
+    width:100%;
+    font-family:"open sans",sans-serif;
+    font-size:1.1em;
+    text-align:center;
+    transition:all 0.2s;
+    font-weight:200;
+    text-decoration:none;
+    padding:0px;
+    padding-top:12%;
+}
+.swipeCalendar ul li:hover{
+    cursor:pointer;
+    background:rgb(200,200,200);
+    -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow:    0px 3px 8px 0px rgba(0,0,0,0.4);
+    box-shadow:         0px 3px 8px 0px rgba(0,0,0,0.4);
+}
+.swipeCalendar ul li:active{
+    background:rgb(190,190,190);
+}

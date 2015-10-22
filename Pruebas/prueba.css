@@ -1,0 +1,21 @@
+.container {
+  background: #ccc;
+  overflow: hidden;
+  overflow-x: scroll;
+  width: 40em;
+  padding: 0 1em 1em;
+}
+
+.container > div {
+  white-space: nowrap;
+  position: relative;
+  transition: left 0.5s ease 0;
+}
+
+.content {
+  background: red;
+  display: inline-block;
+  padding: 4em;
+  margin-right: 1em;
+  text-align: center;
+}

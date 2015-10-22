@@ -1,0 +1,109 @@
+<svg id="shape" viewBox="0 0 50 50" preserveAspectRatio="none">
+    <polygon fill="rgb(200,200,200)" points="0,0 41.1,20.5 41.1,29.4 0,50">
+        <animate id="toPlayLeft" fill="freeze" attributeName="points" begin="indefinite" dur="200ms" to="0,0 41.1,20.5 41.1,29.4 0,50"/>
+        <animate id="toPausLeft" fill="freeze" attributeName="points" begin="indefinite" dur="200ms" to="0,0 20,0 20,50 0,50"/>
+    </polygon>
+    <polygon fill="rgb(200,200,200)" points="30,15 50,25 50,25 30,35">
+        <animate id="toPlayRight" fill="freeze" attributeName="points" begin="indefinite" dur="170ms" to="30,15 50,25 50,25 30,35"/>
+        <animate id="toPausRight" fill="freeze" attributeName="points" begin="indefinite" dur="200ms" to="30,0 50,0 50,50 30,50"/>
+    </polygon>
+</svg>
+
+<svg style="display:block" viewBox="0 0 50 50" preserveAspectRatio="none">
+    <!-- 11~10 41~40 -->
+    <!-- Superior Izquierdo -->
+    <polygon fill="rgb(200,200,200)" points="00,00 20,00 20,11 00,11"></polygon>
+    <polygon fill="rgb(200,200,200)" points="00,10 20,10 20,20 00,20"></polygon>
+    <!-- Inferior Izquierdo -->
+    <polygon fill="rgb(200,200,200)" points="00,30 20,30 20,41 00,41"></polygon>
+    <polygon fill="rgb(200,200,200)" points="00,40 20,40 20,50 00,50"></polygon>
+    <!-- Superior Derecho -->
+    <polygon fill="rgb(200,200,200)" points="30,00 50,00 50,11 30,11"></polygon>
+    <polygon fill="rgb(200,200,200)" points="30,10 50,10 50,20 30,20"></polygon>
+    <!-- Inferior Derecho -->
+    <polygon fill="rgb(200,200,200)" points="30,30 50,30 50,41 30,41"></polygon>
+    <polygon fill="rgb(200,200,200)" points="30,40 50,40 50,50 30,50"></polygon>
+</svg>
+<svg style="display:block" viewBox="0 0 50 50" preserveAspectRatio="none">
+    <!-- Barra Superior -->
+    <polygon fill="rgb(200,200,200)" points="00,00 26,00 26,10 00,10"></polygon>
+    <polygon fill="rgb(200,200,200)" points="24,00 50,00 50,10 24,10"></polygon>
+    <!-- Barra Media -->
+    <polygon fill="rgb(200,200,200)" points="00,20 26,20 26,25 00,25"></polygon>
+    <polygon fill="rgb(200,200,200)" points="24,20 50,20 50,25 24,25"></polygon>
+    <polygon fill="rgb(200,200,200)" points="00,24 26,24 26,30 00,30"></polygon>
+    <polygon fill="rgb(200,200,200)" points="24,24 50,24 50,30 24,30"></polygon>
+    <!-- Barra Inferior -->
+    <polygon fill="rgb(200,200,200)" points="00,40 26,40 26,50 00,50"></polygon>
+    <polygon fill="rgb(200,200,200)" points="24,40 50,40 50,50 24,50"></polygon>
+</svg>
+
+
+TERMINADO
+<svg style="display:block" viewBox="0 0 50 50" preserveAspectRatio="none">
+    <!-- Superior Izquierdo -->
+    <polygon fill="green" points="00,00 20,00 20,11 00,11">
+        <animate id="toSqr_SSL" to="00,00 20,00 20,11 00,11"></animate>
+        <animate id="toBar_SL"  to="00,00 26,00 26,10 00,10"></animate>
+    </polygon>
+    <polygon fill="blue" points="00,10 20,10 20,20 00,20">
+        <animate id="toSqr_SIL" to="00,10 20,10 20,20 00,20"></animate>
+        <animate id="toBar_MSL" to="00,20 26,20 26,25 00,25"></animate>
+    </polygon>
+    
+    <!-- Inferior Izquierdo -->
+    <polygon fill="green" points="00,30 20,30 20,41 00,41">
+        <animate id="toSqr_ISL" to="00,30 20,30 20,41 00,41"></animate>
+        <animate id="toBar_MIL"  to="00,24 26,24 26,30 00,30"></animate>
+    </polygon>
+    <polygon fill="blue" points="00,40 20,40 20,50 00,50">
+        <animate id="toSqr_IIL"  to="00,40 20,40 20,50 00,50"></animate>
+        <animate id="toBar_IL"  to="00,40 26,40 26,50 00,50"></animate>
+    </polygon>
+    
+    <!-- Superior Derecho -->
+    <polygon fill="green" points="30,00 50,00 50,11 30,11">
+        <animate id="toSqr_SSR" to="30,00 50,00 50,11 30,11"></animate>
+        <animate id="toBar_SR" to="24,00 50,00 50,10 24,10"></animate>
+    </polygon>
+    <polygon fill="blue" points="30,10 50,10 50,20 30,20">
+        <animate id="toSqr_SIR" to="24,00 50,00 50,10 24,10"></animate>
+        <animate id="toBar_MSR" to="24,20 50,20 50,25 24,25"></animate>
+    </polygon>
+    
+    <!-- Inferior Derecho -->
+    <polygon fill="green" points="30,30 50,30 50,41 30,41">
+        <animate id="toSqr_ISR"  to="30,30 50,30 50,41 30,41"></animate>
+        <animate id="toBar_MIR"  to="24,24 50,24 50,30 24,30"></animate>
+    </polygon>
+    <polygon fill="blue" points="30,40 50,40 50,50 30,50">
+        <animate id="toSqr_IIR"  to="30,40 50,40 50,50 30,50"></animate>
+        <animate id="toBar_IR"  to="24,40 50,40 50,50 24,50"></animate>
+    </polygon>
+
+</svg>
+
+<script>
+      function margTop()          {
+        for(var i in arguments) {
+            var selector = arguments[i];
+            var object = $(selector);
+            var parent = object.parent();
+            var objHeight = object.height();
+            var parHeight = parent.innerHeight();
+            var value = (parHeight/2)-(objHeight/2);
+            object.css("margin-top",value);
+        }
+    };
+    function equalToHeight()    {
+        for(var i in arguments) {
+            var selector = arguments[i];
+            var object = $(selector);
+            var objWidth = object.width();
+            object.height(objWidth);
+        }
+    };
+   
+</script>
+
+
