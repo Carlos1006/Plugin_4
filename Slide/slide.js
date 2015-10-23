@@ -10,6 +10,9 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
     function pixel(value)       {
         return value+"px";
     };
+    function percent(value)       {
+        return value+"%";
+    };
     function margTop()          {
         var main = $(this);
         for(var i in arguments) {
@@ -100,6 +103,7 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
         this.header     = this.main.find(".slideHeader");
         this.body       = this.main.find(".slideBody");
         this.changeVis  = this.header.find(div);
+        this.qtip       = this.header.find(lbl);
         this.inSqr      = true;
         this.barAnim    = this.changeVis.find("svg .toBar");
         this.sqrAnim    = this.changeVis.find("svg .toSqr");
@@ -110,12 +114,17 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
         this.timeOut    = -1;
         this.interval   = -1;
         this.isBlock    = true;
+        
+        this.firstHover = true;
+        this.qTipTop    = percent(-6);
     };
     PDF_Slider.prototype.set        = function() {
         equalToHeight.call(this.header,"div");
-        margTop.call(this.header,"span","div","div svg");
+        margTop.call(this.header,"span","div","div svg","label");
         margTop.call(this.body,".dlc");
         refMargTop(this.body,".rightMove svg,.leftMove svg");
+        this.qTipBottom = this.qtip.css("margin-top");
+        this.qtip.css("margin-top",this.qTipTop);
         this.changeVis.find("animate").attr("dur","200ms");
         this.changeVis.find("animate").attr("attributeName","points");
         this.changeVis.find("animate").attr("fill","freeze");
@@ -155,13 +164,29 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
             }
             _this.isHover = true;
         });
-        this.main.mouseleave(function(){
+        this.main
+        .mouseleave(function(){
             _this.mov.addClass("fadeOut");
             clearInterval(_this.interval);
+        })
+        .mouseover(function(){
+            if(_this.firstHover) {
+                _this.firstHover = false;
+                _this.qtip.animate({marginTop:_this.qTipBottom},300,swing,function() {
+                    setTimeout(function(){
+                        _this.qtip.animate({marginTop:_this.qTipTop},300,swing,function() {
+                            _this.qTipBottom = null;
+                            _this.qTipTop = null;
+                            _this.qtip.remove();
+                        });
+                    },5000);
+                });
+            }           
         });
         $(document).mouseup(function(){
             clearInterval(_this.interval);
         });
+        
         this.mov
         .mousedown(function() {
             var val = $(this).hasClass("rightMove")?4:-4;
@@ -293,9 +318,9 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
     };
     PDF_Slider.prototype.createForm   = function() {
         this.main.empty();
-        var h       = this.createObj(div,getClass("slideHeader"));
-        var h_span  = this.createObj(span,{text:"Contenido Descargable"});
-        var h_div   = this.createObj(div);
+        var h           = this.createObj(div,getClass("slideHeader"));
+        var h_span      = this.createObj(span,{text:"Contenido Descargable"});
+        var h_div       = this.createObj(div);
         var h_div_svg   = "<svg viewBox='0 0 50 50' preserveAspectRatio='none'><polygon fill='rgb(200,200,200)' points='00,00 26,00 26,10 00,10'><animate begin='indefinite'  class='toBar' to='00,00 20,00 20,11 00,11'></animate><animate begin='indefinite'  class='toSqr' to='00,00 26,00 26,10 00,10'></animate></polygon><polygon fill='rgb(200,200,200)' points='00,20 26,20 26,25 00,25'><animate begin='indefinite'  class='toBar' to='00,10 20,10 20,20 00,20'></animate><animate begin='indefinite'  class='toSqr' to='00,20 26,20 26,25 00,25'></animate></polygon><polygon fill='rgb(200,200,200)' points='00,24 26,24 26,30 00,30'><animate begin='indefinite'  class='toBar' to='00,30 20,30 20,41 00,41'></animate><animate begin='indefinite'  class='toSqr' to='00,24 26,24 26,30 00,30'></animate></polygon><polygon fill='rgb(200,200,200)' points='00,40 26,40 26,50 00,50'><animate begin='indefinite'  class='toBar' to='00,40 20,40 20,50 00,50'></animate><animate begin='indefinite'  class='toSqr' to='00,40 26,40 26,50 00,50'></animate></polygon><polygon fill='rgb(200,200,200)' points='24,00 50,00 50,10 24,10'><animate begin='indefinite'  class='toBar' to='30,00 50,00 50,11 30,11'></animate><animate begin='indefinite'  class='toSqr' to='24,00 50,00 50,10 24,10'></animate></polygon><polygon fill='rgb(200,200,200)' points='24,20 50,20 50,25 24,25'><animate begin='indefinite'  class='toBar' to='30,10 50,10 50,20 30,20'></animate><animate begin='indefinite'  class='toSqr' to='24,20 50,20 50,25 24,25'></animate></polygon><polygon fill='rgb(200,200,200)' points='24,24 50,24 50,30 24,30'><animate begin='indefinite'  class='toBar' to='30,30 50,30 50,41 30,41'></animate><animate begin='indefinite'  class='toSqr' to='24,24 50,24 50,30 24,30'></animate></polygon><polygon fill='rgb(200,200,200)' points='24,40 50,40 50,50 24,50'><animate begin='indefinite'  class='toBar' to='30,40 50,40 50,50 30,50'></animate><animate begin='indefinite'  class='toSqr' to='24,40 50,40 50,50 24,50'></animate></polygon></svg>";
         var b           = this.createObj(div,getClass("slideBody"));
         var b_dlcC      = this.createObj(div,getClass("dlcContainer"));
@@ -308,6 +333,8 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
         b.append(b_dlcC);
         l.append(l_svg);
         r.append(r_svg);
+        var q = this.createObj(lbl,{text:"Cambia la visualizacion"});
+        h.append(q);
         this.main.append(h,b,l,r);
         this.main.trigger("mainFormReady");
     };
@@ -316,7 +343,6 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
         var instance = new PDF_Slider(this);
         instances[instance.globalId] = instance;
     };
-    
     $.fn.AddPDF = function(name,img) {
         var id = $(this).attr("globalid");
         var instance = instances[id];
