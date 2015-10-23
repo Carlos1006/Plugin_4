@@ -1,0 +1,164 @@
+@import url(http://localhost/__naker/Plugin_4/fonts.css?family=Open+Sans:400,300,300italic,600italic,700,600,400italic,700italic,800,800italic);
+
+.superTab{
+    background:rgb(200,200,200);
+    -webkit-touch-callout: none;
+	-webkit-user-select:   none;
+	-khtml-user-select:    none;
+	-moz-user-select:      none;
+	-ms-user-select:       none;
+	user-select:           none;
+    font-size:1em;
+    font-family:"open sans",sans-serif !important;
+    min-height:434px;
+    overflow:hidden;
+}
+.wrapper{
+    width:100%;
+    height:40%;
+}
+.tab {
+    width:100%;
+    background:rgb(235,235,235);
+    height:100%;
+    display:none;
+    
+}
+.tabShadow {
+    position:absolute;
+    background:transparent;
+    pointer-events:none;
+    display:block !important;
+    z-index:5;
+    -webkit-box-shadow: 3px -2px 13px 0px rgba(0,0,0,0.7);
+    -moz-box-shadow:    3px -2px 13px 0px rgba(0,0,0,0.7);
+    box-shadow:         3px -2px 13px 0px rgba(0,0,0,0.7);
+}
+.tabHeader {
+    width:100%;
+    height:10%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    background:rgb(80,80,80);
+    max-height:53px;
+    -webkit-box-shadow: 0px -4px 13px 8px rgba(0,0,0,0.75);
+    -moz-box-shadow:    0px -4px 13px 8px rgba(0,0,0,0.75);
+    box-shadow:         0px -4px 13px 8px rgba(0,0,0,0.75);
+}
+.tabh{
+    min-width:68px;
+    max-width:100px;
+    display:inline-block;
+    position:relative;
+    height:60%;
+    background:rgb(244,244,244);
+    margin-left:0.7%;
+    margin-right:0.5%;
+    padding-left:2%;
+    padding-right:2%;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+    transition:all 0.3s;
+    -webkit-box-shadow: 3px -1px 13px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow:    3px -1px 13px 0px rgba(0,0,0,0.75);
+    box-shadow:         3px -1px 13px 0px rgba(0,0,0,0.75);
+}
+.tabh span{
+    display:block;
+}
+.tabh:hover {
+    cursor:pointer;
+}
+.tabh:before{
+    position:absolute;
+    content:"";
+    width:0%;
+    height:8%;
+    background:rgb(0,145,182);
+    left:50%;
+    transition:all 0.3s;
+}
+.tabh:hover:before{
+    width:100%;
+    left:0%;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+}
+.tabh:active {
+    background:rgb(250,250,250);
+}
+.tabBody {
+    display:block;
+    display:none;
+    overflow:hidden;
+    position:relative;
+}
+
+.activeH {
+    position:relative;
+    background:rgb(230,230,230);
+}
+.activeH:before{
+    background:rgb(0,165,202) !important;
+    width:100% !important;
+    left:0% !important;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+}
+
+.activeT {
+    display:block;
+    float:right;
+}
+.goActiveLow {
+    display:block;
+}
+.goActiveHigh {
+    display:block;
+    opacity:0.0;
+}
+
+
+
+
+
+
+
+.rightMove,.leftMove{
+    position:absolute;
+    width:5%;
+    height:10%;
+    z-index:2;
+    top:0;
+    background:rgba(0,0,0,0.5);
+    transition:all 0.35s;
+    opacity:1.0;
+    pointer-events:all;
+}
+.fadeOut{
+    opacity:0.0;
+    pointer-events:none;
+}
+.rightMove{
+    right:0;
+    -webkit-box-shadow: -1px 0px 10px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow:    -1px 0px 10px 1px rgba(0,0,0,0.75);
+    box-shadow:         -1px 0px 10px 1px rgba(0,0,0,0.75);
+}
+.leftMove{
+    left:0;
+    -webkit-box-shadow: 1px 0px 10px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow:    1px 0px 10px 1px rgba(0,0,0,0.75);
+    box-shadow:         1px 0px 10px 1px rgba(0,0,0,0.75);
+}
+.rightMove:hover,.leftMove:hover{
+    cursor:pointer;
+}
+.rightMove:active,.leftMove:active{
+    cursor:pointer;
+}
+.rightMove svg,.leftMove svg {
+    width:50%;
+    background:transparent;
+}

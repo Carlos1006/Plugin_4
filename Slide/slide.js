@@ -333,7 +333,7 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
         b.append(b_dlcC);
         l.append(l_svg);
         r.append(r_svg);
-        var q = this.createObj(lbl,{text:"Cambia la visualizacion"});
+        var q = this.createObj(lbl,{text:"Cambiar Vista"});
         h.append(q);
         this.main.append(h,b,l,r);
         this.main.trigger("mainFormReady");
