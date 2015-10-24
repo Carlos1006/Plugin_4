@@ -5,10 +5,10 @@
     background:rgb(200,200,200);
     font-size:1em;
     font-family:"open sans",sans-serif !important;
-    max-width:800;
-    max-height:240; /*No final*/
-    min-width:480;
-    min-height:224;
+    max-width:800px;
+    max-height:240px; /*No final*/
+    min-width:480px;
+    min-height:224px;
     overflow:hidden;
     -webkit-touch-callout: none;
 	-webkit-user-select:   none;
@@ -50,7 +50,7 @@
 .slideHeader div{
     position:absolute;
     float:left;
-    width:3.5%;
+    width:3%;
     min-width:28;
     right:1%;
     border-radius:5px;
@@ -93,9 +93,8 @@
     width:1em;
     left:91%;
     top:11%;
-    /*
-    border-top-left-radius:5px;
-    border-bottom-right-radius:5px;*/
+    border-top-left-radius:20px;
+    border-bottom-right-radius:20px;
     background:inherit;
     transform:rotate(45deg);
 }
@@ -192,11 +191,14 @@
 }
 
 .dlc_row {
+    overflow:hidden;
     position:relative;
     transition:all 0.3s;
     float:left;
     width:20%;
     height:15%;
+    min-height:35px;
+    min-width:160px;
     margin-left:1.5%;
     margin-right:1.5%;
     margin-top:1%;
@@ -212,7 +214,6 @@
     width:100%;
     height:100%;
     background:rgba(0,0,0,0.8);
-    top:0%;
 }
 .dlc_row img{
     margin-top:-25% !important;
@@ -221,6 +222,7 @@
 .dlc_row span{
     position:absolute;
     left:0;
+    top:0;
     z-index:4;
     width:100%;
     height:100%;

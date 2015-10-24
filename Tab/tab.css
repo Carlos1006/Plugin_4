@@ -119,15 +119,11 @@
     opacity:0.0;
 }
 
-.superTab>div:not(.rightMove):not(.leftMove):not(.tabHeader):not(.tabBody){
+.superTab>div:not(.rightMoveTab):not(.rightMoveTab):not(.tabHeader):not(.tabBody){
     display:none;
 }
 
-
-
-
-
-.rightMove,.leftMove{
+.rightMoveTab,.rightMoveTab{
     position:absolute;
     width:5%;
     height:10%;
@@ -142,25 +138,25 @@
     opacity:0.0;
     pointer-events:none;
 }
-.rightMove{
+.rightMoveTab{
     right:0;
     -webkit-box-shadow: -1px 0px 10px 1px rgba(0,0,0,0.75);
     -moz-box-shadow:    -1px 0px 10px 1px rgba(0,0,0,0.75);
     box-shadow:         -1px 0px 10px 1px rgba(0,0,0,0.75);
 }
-.leftMove{
+.rightMoveTab{
     left:0;
     -webkit-box-shadow: 1px 0px 10px 1px rgba(0,0,0,0.75);
     -moz-box-shadow:    1px 0px 10px 1px rgba(0,0,0,0.75);
     box-shadow:         1px 0px 10px 1px rgba(0,0,0,0.75);
 }
-.rightMove:hover,.leftMove:hover{
+.rightMoveTab:hover,.rightMoveTab:hover{
     cursor:pointer;
 }
-.rightMove:active,.leftMove:active{
+.rightMoveTab:active,.rightMoveTab:active{
     cursor:pointer;
 }
-.rightMove svg,.leftMove svg {
+.rightMoveTab svg,.rightMoveTab svg {
     width:50%;
     background:transparent;
 }

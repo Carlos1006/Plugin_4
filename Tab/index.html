@@ -5,10 +5,12 @@
         <meta charset="utf-8">
         <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
         <script src="../jquery.min.js"></script>
+        <script src="../Slide/slide.js"></script>
         <script src="../Slide/scroll.js"></script>
         <script src="tab.js"></script>
         <link href="tab.css" rel="stylesheet" type="text/css">
         <link href="../Slide/scroll.css" rel="stylesheet" type="text/css">
+        <link href="../Slide/slide.css" rel="stylesheet" type="text/css">
         <style>
             html{
                 position:absolute;
@@ -31,18 +33,33 @@
             #simg{
                 width:100%;
             }
+            #slide{
+                width:100%;
+            }
         </style>
         <script>
             $(function() {
+                $("#slide").PDF_Slider();
+                $("#slide").AddPDF("CarlosCV.pdf","../img/A.jpg");
+                $("#slide").AddPDF("CarlosCV.pdf","../img/B.jpg");
+                $("#slide").AddPDF("CarlosCV.pdf","../img/C.jpg");
+                $("#slide").AddPDF("CarlosCV.pdf","../img/D.jpg");
+                $("#slide").AddPDF("CarlosCV.pdf","../img/H.png");
+                $("#slide").AddPDF("CarlosCV.pdf","../img/J.jpg");
                 $("#main").Tabs();
+                
+                $("#main").TabChange(function() {
+                    $("#slide").AdjustTiles();
+                });
+                
             });
         </script>
-    <body>
+        
         <div id="main">
             <div name="Tab1"><div class="carlos"></div></div>
             <div name="Tab2">Hola_1</div>
             <div name="Tab3"><img id="simg" src="../img/A.jpg"></div>
-            <div name="Tab4">Hola_3</div>
+            <div name="Tab4"><div id="slide"></div></div>
             <div name="Tab5">Hola_4</div>
             <div name="Tab6">Hola_5</div>
         </div>

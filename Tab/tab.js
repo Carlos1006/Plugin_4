@@ -109,7 +109,7 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
         return $(tagForm(tag),attr);
     };
     Tab.prototype.set    = function() {
-        margTop.call(this.main,span,".rightMove svg",".leftMove svg");
+        margTop.call(this.main,span,".rightMoveTab svg",".leftMoveTab svg");
         imargLeft(this.moveL.find("svg"));
         imargLeft(this.moveR.find("svg"));
         var bodyHeight = this.main.height()-this.head.height();
@@ -129,8 +129,8 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
     Tab.prototype.define = function() {
         this.head   = this.main.find(".tabHeader");
         this.body   = this.main.find(".tabBody");
-        this.moveR  = this.main.find(".rightMove");
-        this.moveL  = this.main.find(".leftMove");
+        this.moveR  = this.main.find(".rightMoveTab");
+        this.moveL  = this.main.find(".leftMoveTab");
         this.time   = -1;
         this.inter  = -1;
         this.move   = $(null).add(this.moveL).add(this.moveR);
@@ -174,7 +174,7 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
         });
         this.move
         .mousedown(function() {
-            var val = $(this).hasClass("rightMove")?4:-4;
+            var val = $(this).hasClass("rightMoveTab")?4:-4;
             _this.inter = setInterval(function() {
               _this.head.scrollLeft(_this.head.scrollLeft()+val);
               _this.head.trigger("mouseenter");
@@ -243,8 +243,8 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
         });
     };
     Tab.prototype.createMainForm = function() {
-        var r = this.createObj(div,getClass("rightMove fadeOut"));
-        var l = this.createObj(div,getClass("leftMove fadeOut"));
+        var r = this.createObj(div,getClass("rightMoveTab fadeOut"));
+        var l = this.createObj(div,getClass("leftMoveTab fadeOut"));
         var h = this.createObj(div,getClass("tabHeader"));
         var b = this.createObj(div,getClass("tabBody"));
         r.append("<svg viewBox='201 -200.8 451.8 451.8' fill='rgb(200,200,200)'><path d='M546.4,47.4L352.2,241.7c-12.4,12.4-32.4,12.4-44.8,0c-12.4-12.4-12.4-32.4,0-44.7L479.3,25.1L307.4-146.8 c-12.4-12.4-12.4-32.4,0-44.7c12.4-12.4,32.4-12.4,44.8,0L546.4,2.7c6.2,6.2,9.3,14.3,9.3,22.4C555.7,33.2,552.6,41.3,546.4,47.4z'/></svg>");
@@ -253,7 +253,7 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
         b.append(this.createObj(div,getClass("tabShadow")));
         
         
-        var oldTabs = this.main.find(">div").not(".rightMove,.leftMove,.tabHeader,.tabBody");
+        var oldTabs = this.main.find(">div").not(".rightMoveTab,.leftMoveTab,.tabHeader,.tabBody");
         var first = true;
         var _this = this;
         var limit = oldTabs.length;
@@ -262,15 +262,14 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
             var tabh = _this.createObj(div,$.extend(getClass("tabh"),{num:num}));
             var spn  = _this.createObj(span,{text:name});
             tabh.append(spn);
-            var tab = _this.createObj(div,$.extend(getClass("tab"),{num:num}));
-            tab.append($(elem).html());
+            $(elem).addClass("tab").num(num);
             if(first) {
                 first = false;
                 tabh.addClass("activeH");
-                tab.addClass("activeT");
+                $(elem).addClass("activeT");
             }
             h.append(tabh);
-            b.append(tab);
+            b.append($(elem));
         });
         this.main.append(r,l,h,b);
     };
@@ -285,6 +284,11 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
     $.fn.Tabs = function() {
         var instance = new Tab(this);
         instances[instance.globalId] = instance;
+    };
+    $.fn.TabChange = function(fun) {
+        var id = $(this).attr("globalid");
+        var instance = instances[id];
+        instance.main.find(".tabh").bind("click",fun);
     };
     
 })(jQuery,Math,document,window);

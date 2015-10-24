@@ -129,6 +129,8 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
         this.changeVis.find("animate").attr("attributeName","points");
         this.changeVis.find("animate").attr("fill","freeze");
         this.topSave = this.body.find(".dlc").attr("style");
+        this.mov.css("top",pixel(this.header.height()));
+        this.mov.css("height",pixel(this.main.height()-this.header.height()));
     };
     PDF_Slider.prototype.events     = function() {
         var _this = this;
@@ -186,7 +188,6 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
         $(document).mouseup(function(){
             clearInterval(_this.interval);
         });
-        
         this.mov
         .mousedown(function() {
             var val = $(this).hasClass("rightMove")?4:-4;
@@ -199,6 +200,7 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
             clearInterval(_this.interval);
         });
         this.body.bind("mousewheel",function(e) {
+            e.preventDefault();
             if(e.originalEvent.wheelDelta /120 > 0) {
                 $(this).scrollLeft($(this).scrollLeft()-45);
             }else {
@@ -245,6 +247,7 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
         this.tiles.find(".download").click(function(){
             $(this).siblings("a").trigger("click");
         });
+        this.body.find("span").removeAttr("style");
     };
     PDF_Slider.prototype.adjustTile = function() {
         var _this = this;
@@ -262,13 +265,13 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
                     var rel = container/wImg;
                     var newHeight = hImg * rel;
                     img.css(getDims(container,newHeight));
-                    imargTop(img);
                 }else if(hImg>wImg) {
                     var rel       = container/hImg;
                     var newWidth  = wImg * rel;
                     img.css(getDims(newWidth,container));
-                    imargLeft(img);
                 }
+                imargTop(img);
+                imargLeft(img);
             });
         },75);
     };
@@ -347,6 +350,11 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
         var id = $(this).attr("globalid");
         var instance = instances[id];
         instance.createTile(name,img);
+    };
+    $.fn.AdjustTiles = function(){
+        var id = $(this).attr("globalid");
+        var instance = instances[id];
+        instance.adjustTile();
     };
     
 })(jQuery,Math,document,window);
