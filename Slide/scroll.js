@@ -54,12 +54,16 @@
 					var hLight		= options.hightlight?22:0;
 					var fColor		= options.color;
                     var bColor      = options.bar;
+                    var aColor      = options.active;
 					var activeColor = x.returnColor(fColor.red,fColor.green,fColor.blue,1.0);
 					var hoverColor  = x.returnColor(fColor.red,fColor.green,fColor.blue,alpha);
 					var dragColor  	= x.returnColor(fColor.red-hLight,fColor.green-hLight,fColor.blue-hLight,alpha);
 					var barColor  	= x.returnColor(fColor.red-62,fColor.green-62,fColor.blue-62,0.5);
                     if(bColor != null) {
                         var barColor = x.returnColor(bColor.red,bColor.green,bColor.blue,0.5);
+                    }
+                    if(aColor != null) {
+                        var activeColor = x.returnColor(aColor.red,aColor.green,aColor.blue,0.5);
                     }
 					var style = $("<style>.myscroll{"+barColor+"} .myscroll .drag{"+dragColor+"} .myscroll .drag:hover{"+hoverColor+"} .myscroll .drag:active{"+activeColor+"}</style>");
 					$("head").append(style);

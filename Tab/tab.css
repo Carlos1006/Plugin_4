@@ -22,7 +22,6 @@
     background:rgb(235,235,235);
     height:100%;
     display:none;
-    overflow:auto;
 }
 .tabShadow {
     position:absolute;

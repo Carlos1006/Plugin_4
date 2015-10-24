@@ -85,7 +85,9 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
     function getClass(name) {
         return {class:name};  
     };
-    
+    function getColor(r,g,b) {
+        return {red:r,green:g,blue:b};
+    };
     function Tab(container) {
         this.init(container);
         this.define();
@@ -187,8 +189,26 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
         .mouseleave(function(){
             _this.isHover = false;
         });
+        this.body.on("changeView",function() {
+            var currentTab = _this.main.find(".activeT");
+            var needRevision = currentTab.attr("revision");
+            if(needRevision == undefined) {
+                currentTab.attr("revision",true);
+                var scrollH = currentTab[0].scrollHeight;
+                var height  = currentTab.height();
+                if(scrollH > height) {
+                    currentTab.myOverflow({ visible:false,
+                                            color:getColor(200,200,200),
+                                            bar:getColor(0,102,162),
+                                            alpha:true,
+                                            hightlight:false,
+                                            active:getColor(180,180,180)
+                                          });
+                }
+            }
+        });
+        this.body.trigger("changeView");
         this.tab.click(function() {
-            
             _this.tab.removeClass("activeH");
             $(this).addClass("activeH");
             _this.cont.removeClass("goActiveLow").removeClass("goActiveHigh");
@@ -199,9 +219,6 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
             var prevCont = _this.cont.filter(function() {
                 return $(this).hasClass("activeT"); 
             });
-            
-            console.log(num);
-            
             if(num > prevCont.num()) {
                 nextCont.addClass("goActiveLow");
                 prevCont.fadeOut(300);
@@ -209,6 +226,7 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
                 _this.time = setTimeout(function(){
                     prevCont.css("display",'').removeClass("activeT");
                     nextCont.removeClass("goActiveLow").addClass("activeT");
+                    _this.body.trigger("changeView");
                 },320);
             }else{
                 nextCont.addClass("goActiveHigh");
@@ -219,10 +237,10 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
                 },300,function(){
                     nextCont.removeClass("goActiveHigh").css("opacity",'').addClass("activeT");
                     prevCont.css("margin-top",'').removeClass("activeT");
+                    _this.body.trigger("changeView");
                 });
             }
         });
-        
     };
     Tab.prototype.createMainForm = function() {
         var r = this.createObj(div,getClass("rightMove fadeOut"));
