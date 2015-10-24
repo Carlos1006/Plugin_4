@@ -22,7 +22,7 @@
     background:rgb(235,235,235);
     height:100%;
     display:none;
-    
+    overflow:auto;
 }
 .tabShadow {
     position:absolute;
@@ -53,8 +53,8 @@
     position:relative;
     height:60%;
     background:rgb(244,244,244);
-    margin-left:0.7%;
-    margin-right:0.5%;
+    margin-left:0.6%;
+    margin-right:0.1%;
     padding-left:2%;
     padding-right:2%;
     border-top-left-radius:3px;
@@ -110,6 +110,7 @@
 .activeT {
     display:block;
     float:right;
+    position:sticky;
 }
 .goActiveLow {
     display:block;
@@ -119,7 +120,9 @@
     opacity:0.0;
 }
 
-
+.superTab>div:not(.rightMove):not(.leftMove):not(.tabHeader):not(.tabBody){
+    display:none;
+}
 
 
 
@@ -162,3 +165,4 @@
     width:50%;
     background:transparent;
 }
+

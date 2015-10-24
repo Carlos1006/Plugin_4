@@ -96,8 +96,9 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
         this.js         = container;
         this.main       = $(container);
         this.globalId   = makeid();
-        this.main.addClass("superSlide");
+        this.main.addClass("superTab");
         this.main.attr("globalId",this.globalId);
+        this.createMainForm();
     };
     Tab.prototype.createSvg    = function(points) {
         return "<svg viewBox='0 0 50 50' preserveAspectRatio='none'><polygon fill='rgb(200,200,200)' points='"+points.join(" ")+"'></polygon></svg>";
@@ -187,6 +188,7 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
             _this.isHover = false;
         });
         this.tab.click(function() {
+            
             _this.tab.removeClass("activeH");
             $(this).addClass("activeH");
             _this.cont.removeClass("goActiveLow").removeClass("goActiveHigh");
@@ -197,6 +199,8 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
             var prevCont = _this.cont.filter(function() {
                 return $(this).hasClass("activeT"); 
             });
+            
+            console.log(num);
             
             if(num > prevCont.num()) {
                 nextCont.addClass("goActiveLow");
@@ -220,6 +224,39 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
         });
         
     };
+    Tab.prototype.createMainForm = function() {
+        var r = this.createObj(div,getClass("rightMove fadeOut"));
+        var l = this.createObj(div,getClass("leftMove fadeOut"));
+        var h = this.createObj(div,getClass("tabHeader"));
+        var b = this.createObj(div,getClass("tabBody"));
+        r.append("<svg viewBox='201 -200.8 451.8 451.8' fill='rgb(200,200,200)'><path d='M546.4,47.4L352.2,241.7c-12.4,12.4-32.4,12.4-44.8,0c-12.4-12.4-12.4-32.4,0-44.7L479.3,25.1L307.4-146.8 c-12.4-12.4-12.4-32.4,0-44.7c12.4-12.4,32.4-12.4,44.8,0L546.4,2.7c6.2,6.2,9.3,14.3,9.3,22.4C555.7,33.2,552.6,41.3,546.4,47.4z'/></svg>");
+        l.append("<svg viewBox='201 -200.8 451.8 451.8' fill='rgb(200,200,200)'><path d='M298.1,25.1c0-8.1,3.1-16.2,9.3-22.4l194.3-194.3c12.4-12.4,32.4-12.4,44.8,0c12.4,12.4,12.4,32.4,0,44.7L374.5,25.1 L546.4,197c12.4,12.4,12.4,32.4,0,44.7c-12.4,12.4-32.4,12.4-44.7,0L307.4,47.4C301.2,41.3,298.1,33.2,298.1,25.1z'/></svg>");
+        h.append(this.createObj(div,getClass("wrapper")));
+        b.append(this.createObj(div,getClass("tabShadow")));
+        
+        
+        var oldTabs = this.main.find(">div").not(".rightMove,.leftMove,.tabHeader,.tabBody");
+        var first = true;
+        var _this = this;
+        var limit = oldTabs.length;
+        oldTabs.each(function(num,elem) {
+            var name = $(elem).attr("name")
+            var tabh = _this.createObj(div,$.extend(getClass("tabh"),{num:num}));
+            var spn  = _this.createObj(span,{text:name});
+            tabh.append(spn);
+            var tab = _this.createObj(div,$.extend(getClass("tab"),{num:num}));
+            tab.append($(elem).html());
+            if(first) {
+                first = false;
+                tabh.addClass("activeH");
+                tab.addClass("activeT");
+            }
+            h.append(tabh);
+            b.append(tab);
+        });
+        this.main.append(r,l,h,b);
+    };
+    
     $.fn.num = function(value) {
         var back = $(this).attr("num"); 
         if(value != undefined) {
