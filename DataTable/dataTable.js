@@ -116,16 +116,17 @@ var normal = 0, up = 1, down = 2;
     function isFloat(n) {
         return n === Number(n) && n % 1 !== 0;
     }
-    function Table(container) {
-        this.init(container);
+    function Table(container,name) {
+        this.init(container,name);
         this.define();
         this.set();
         this.events();
     };
-    Table.prototype.init         = function(container) {
+    Table.prototype.init         = function(container,name) {
         this.js         = container;
         this.main       = $(container);
         this.globalId   = makeid();
+        this.name       = name;
         this.main.addClass("superTable");
         this.main.attr("globalId",this.globalId);
         this.createForm();
@@ -154,7 +155,6 @@ var normal = 0, up = 1, down = 2;
         this.body      = this.main.find(".tableBody");
         this.headT     = this.body.find(".bodyHead");
         this.bodyT     = this.body.find(".bodyBody");
-        this.rows      = this.body.find("tr");
         this.tabh      = this.headT.find("span");
         this.rowsNum   = 0;
         this.saveTopRow = null;
@@ -208,6 +208,17 @@ var normal = 0, up = 1, down = 2;
             }
             this.bodyT.find("tbody").append(tableRow);
         }
+        this.rowEvents();
+    };
+    Table.prototype.rowEvents    = function() {
+        this.rows      = this.body.find("tr");
+        this.rows
+        .hover(function() {
+            $(this).prev().addClass("noBorder");
+        })
+        .mouseleave(function(){
+            $(this).prev().removeClass("noBorder");
+        });
     };
     Table.prototype.events       = function() {
         var _this = this;
@@ -255,13 +266,6 @@ var normal = 0, up = 1, down = 2;
                 matchs = rows;
             }
             _this.resetRows(matchs);
-        });
-        this.rows
-        .hover(function(){
-            $(this).prev().addClass("noBorder");
-        })
-        .mouseleave(function(){
-            $(this).prev().removeClass("noBorder");
         });
         this.tabh
         .click(function() {
@@ -331,7 +335,26 @@ var normal = 0, up = 1, down = 2;
         return $(tagForm(tag),attr);
     };
     Table.prototype.createForm   = function() {
-        
+        this.main.empty();
+        var h = this.createObj(div,getClass("tableHeader"));
+        var h_span1 = this.createObj(span,$.extend(getClass("title"),{text:this.name}));
+        var h_span2 = this.createObj(span,getClass("selector"));
+        var h_span3 = this.createObj(span,getClass("search"));
+        var h_span3_input = this.createObj("input",$.extend(getClass("inputSearch"),{type:"text",placeholder:"Buscar en todo..."}));
+        var h_span3_label = this.createObj(lbl);
+        var h_span3_label_svg = "<svg viewBox='0 0 250.313 250.313' fill='rgb(200,200,200)'><path style='fill-rule:evenodd;clip-rule:evenodd;' d='M244.186,214.604l-54.379-54.378c-0.289-0.289-0.628-0.491-0.93-0.76c10.7-16.231,16.945-35.66,16.945-56.554C205.822,46.075,159.747,0,102.911,0S0,46.075,0,102.911c0,56.835,46.074,102.911,102.91,102.911c20.895,0,40.323-6.245,56.554-16.945c0.269,0.301,0.47,0.64,0.759,0.929l54.38,54.38c8.169,8.168,21.413,8.168,29.583,0C252.354,236.017,252.354,222.773,244.186,214.604z M102.911,170.146c-37.134,0-67.236-30.102-67.236-67.235c0-37.134,30.103-67.236,67.236-67.236c37.132,0,67.235,30.103,67.235,67.236C170.146,140.044,140.043,170.146,102.911,170.146z'/></svg>";
+        h_span2.append(this.createObj("select"));
+        h_span3_label.append(h_span3_label_svg);
+        h_span3.append(h_span3_input,h_span3_label);
+        h.append(h_span1,h_span2,h_span3);
+        var b = this.createObj(div,getClass("tableBody"));
+        var b_head = this.createObj(div,getClass("bodyHead"));
+        var b_body = this.createObj(div,getClass("bodyBody"));
+        var b_body_table = this.createObj("table",getClass("bodyTable"));
+        b_body_table.append(this.createObj("tbody"));
+        b_body.append(b_body_table);
+        b.append(b_head,b_body);
+        this.main.append(h,b);
     };
     Table.prototype.createRow    = function(params) {
         this.rowsNum++;
@@ -355,6 +378,7 @@ var normal = 0, up = 1, down = 2;
             this.saveTopRow = this.body.find("td").css("margin-top");
         }
         this.originalRows.push(sortable);
+        this.rowEvents();
     };
     $.date          = function(year,month,day) {
         var argLength = arguments.length;
@@ -390,8 +414,9 @@ var normal = 0, up = 1, down = 2;
         return final;
     }
     $.fn.DataTable  = function() {
-        processTabstring(arguments);
-        var instance = new Table(this);
+        var slicedArgs = Array.prototype.slice.call(arguments, 1);
+        processTabstring(slicedArgs);
+        var instance = new Table(this,arguments[0]);
         instances[instance.globalId] = instance;
     };
     $.fn.AddRow     = function() {
