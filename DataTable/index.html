@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Data Table</title>
+        <meta charset="utf-8">
+        <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+        <script src="../jquery.min.js"></script>
+        <script src="../Slide/scroll.js"></script>
+        <script src="dataTable.js"></script>
+        <link href="dataTable.css" rel="stylesheet" type="text/css">
+        <link href="../Slide/scroll.css" rel="stylesheet" type="text/css">
+        <style>
+            html{
+                position:absolute;
+                width:100%;
+                height:100%;
+                background:rgb(30,30,30);
+                padding:0%;
+                margin:0%;
+            }
+            #main {
+                width:50em;
+                height:30em;
+            }
+        </style>
+        <script>
+            $(function() {
+                
+                $("#main").DataTable("Nombre-txt","F. Nacimiento-date","Edad-num","Precio-money");
+                $("#main").AddRow("Carlos"  ,$.date(1994,11,06)     ,"01",  "$ 1200.50"         );
+                $("#main").AddRow("Daniel"  ,$.date('2006-11-07')   ,"21",  "$ 1200.00"         );
+                $("#main").AddRow("Ariadna" ,"06/Octubre/1994"      ,"21",  $.money(10.15)      );
+                $("#main").AddRow("Pamela"  ,"06/Octubre/1994"      ,"19",  $.money(10.15)      );
+                $("#main").AddRow("Debanhi" ,"06/Octubre/1994"      ,"21",  $.money(10.15)      );
+                $("#main").AddRow("Hilda"   ,"06/Octubre/1992"      ,"21",  $.money(10.15)      );
+                $("#main").AddRow("Sergio"  ,"06/Octubre/1994"      ,"20",  $.money(120.15)     );
+                $("#main").AddRow("Berenice","06/Octubre/1994"      ,"21",  $.money(120.15)     );
+                $("#main").AddRow("Alberto" ,"06/Octubre/1994"      ,"17",  $.money(12.15)      );
+                $("#main").AddRow("Carlos"  ,$.date(1994,11,06)     ,"01",  "$ 1200.50"         );
+                $("#main").AddRow("Daniel"  ,$.date('2006-11-07')   ,"21",  "$ 1200.00"         );
+                $("#main").AddRow("Ariadna" ,"06/Octubre/1994"      ,"21",  $.money(10.15)      );
+                $("#main").AddRow("Pamela"  ,"06/Octubre/1994"      ,"19",  $.money(10.15)      );
+                $("#main").AddRow("Debanhi" ,"06/Octubre/1994"      ,"21",  $.money(10.15)      );
+                $("#main").AddRow("Hilda"   ,"06/Octubre/1992"      ,"21",  $.money(10.15)      );
+                $("#main").AddRow("Sergio"  ,"06/Octubre/1994"      ,"20",  $.money(120.15)     );
+                $("#main").AddRow("Berenice","06/Octubre/1994"      ,"21",  $.money(120.15)     );
+                $("#main").AddRow("Alberto" ,"06/Octubre/1994"      ,"17",  $.money(12.15)      );
+            });
+        </script>
+    <body>
+        <div id="main" class="superTable">
+            
+            <div class="tableHeader">
+                <span class="title">Usuarios</span>
+                <span class="selector">
+                    <select></select>
+                </span>
+                <span class="search">
+                    <input class="inputSearch" type="text" placeholder="Buscar en todo..." />
+                    <label>
+                        <svg viewBox="0 0 250.313 250.313" fill="rgb(200,200,200)">
+                            <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M244.186,214.604l-54.379-54.378c-0.289-0.289-0.628-0.491-0.93-0.76
+                                c10.7-16.231,16.945-35.66,16.945-56.554C205.822,46.075,159.747,0,102.911,0S0,46.075,0,102.911
+                                c0,56.835,46.074,102.911,102.91,102.911c20.895,0,40.323-6.245,56.554-16.945c0.269,0.301,0.47,0.64,0.759,0.929l54.38,54.38
+                                c8.169,8.168,21.413,8.168,29.583,0C252.354,236.017,252.354,222.773,244.186,214.604z M102.911,170.146
+                                c-37.134,0-67.236-30.102-67.236-67.235c0-37.134,30.103-67.236,67.236-67.236c37.132,0,67.235,30.103,67.235,67.236
+                                C170.146,140.044,140.043,170.146,102.911,170.146z"/>
+                        </svg>
+                    </label>
+                </span>
+            </div>
+            <div class="tableBody">
+                <div class="bodyHead"></div>
+                <div class="bodyBody">
+                    <table class="bodyTable">
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

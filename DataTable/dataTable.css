@@ -1,0 +1,288 @@
+@import url(http://localhost/__naker/Plugin_4/fonts.css?family=Open+Sans:400,300,300italic,600italic,700,600,400italic,700italic,800,800italic);
+
+.superTable {
+    position:relative;
+    background:rgb(200,200,200);
+    font-size:1em;
+    font-family:"open sans",sans-serif !important;
+    max-width:800px;
+    min-width:480px;
+    min-height:224px;
+    overflow:hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select:   none;
+    -khtml-user-select:    none;
+    -moz-user-select:      none;
+    -ms-user-select:       none;
+    user-select:           none;
+}
+.tableHeader{
+    position:inherit;
+    background:rgb(70,70,70);
+    width:100%;
+    height:9%;/*
+    min-height:29px;
+    max-height:41px;*/
+    -webkit-box-shadow: 0px -1px 10px 5px rgba(0,0,0,0.6);
+    -moz-box-shadow:    0px -1px 10px 5px rgba(0,0,0,0.6);
+    box-shadow:         0px -1px 10px 5px rgba(0,0,0,0.6);
+    z-index:10;
+}
+
+.tableHeader .title{
+    position:absolute;
+    float:left;
+    height:50%;
+    line-height:100%;
+    margin-left:1%;
+    color:rgb(10,10,10);
+}
+.tableHeader .search{
+    position: absolute;
+    display: inline-block;
+    float:left;
+    width:25%;
+    height:75%;
+    right:3%;
+    line-height:100%;
+    margin-left:1%;
+    color:rgb(10,10,10);
+}
+.selector {
+    position: absolute;
+    display: block;
+    width:20%;
+    height:75%;
+    right:30%;
+    line-height:100%;
+    margin-left:1%;
+    color:rgb(10,10,10);
+    transition: right .3s ease-in-out;
+}
+.selector select{
+    font-family:inherit;
+    width: 100%;
+    height:100%;
+    border: 0 !important;
+    border-radius: 3px;
+    -webkit-appearance: button;
+    background-color: #1abc9c;
+    background:rgb(0,105,142);
+    background:rgb(220,220,220);
+    text-indent: 0.01px;
+    text-overflow: '';
+}
+.selector:before,
+.selector:after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+}
+.selector:after { /*  Custom dropdown arrow */
+    content: "\25BC";
+    height: 1em;
+    font-size: .625em;
+    line-height: 1;
+    right: 1.2em;
+    top: 50%;
+    margin-top: -.5em;
+    color: rgba(0,0,0,.4);
+}
+.selector:before { /*  Custom dropdown arrow cover */
+    width: 2em;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 0 3px 3px 0;
+    background-color: rgba(0,0,0,.15);
+}
+
+.inputSearch {
+    float:left;
+    display: block;
+    width: 75%;
+    height: 95%;
+    padding-left:5%;
+    font-weight: 400;
+    color: #377D6A;
+    color:rgb(0,105,142);
+    background: #efefef;
+    border: 0;
+    border-bottom-left-radius:3px;
+    border-top-left-radius:3px;
+    outline: 0;
+    transition: all .3s ease-in-out;
+}
+.inputSearch::-webkit-input-placeholder {
+    color: #egegeg;
+    text-indent: 0;
+    font-weight: 300;
+}
+.tableHeader label {
+    display: block;
+    float:left;
+    width:20%;
+    height:100%;
+    text-align:center;
+    text-shadow: 0 1px 0 rgba(19, 74, 70, 0.4);
+    background:rgb(50,50,50);
+    transition: all .3s ease-in-out;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.tableHeader label:hover{
+    cursor:pointer;
+    background:rgb(60,60,60);
+}
+.tableHeader label:active{
+    background:rgb(100,100,100);
+}
+.tableHeader label svg{
+    width:40%;
+}
+
+.inputSearch:focus,
+.inputSearch:active {
+  color: #377D6A;
+  text-indent: 0;
+  background: #fff;
+}
+.inputSearch:focus::-webkit-input-placeholder,
+.inputSearch:active::-webkit-input-placeholder {
+  color: #aaa;
+}
+
+.tableBody {
+    position:inherit;
+    background:transparent;
+    width:100%;
+    height:91%;
+}
+.bodyHead {
+    position:inherit;
+    width:100%;
+    height:10%;
+    -webkit-box-shadow: 0px -1px 10px 5px rgba(0,0,0,0.6);
+    -moz-box-shadow:    0px -1px 10px 5px rgba(0,0,0,0.6);
+    box-shadow:         0px -1px 10px 5px rgba(0,0,0,0.6);
+    z-index:8;
+}
+.bodyBody {
+    position:inherit;
+    width:100%;
+    height:90%;
+}
+.bodyHead span {
+    position:relative;
+    float:left;
+    display:block;
+    width:25%;
+    height:100%;
+    background-color:rgb(200,200,200);
+    text-align:left;/*
+   -webkit-box-shadow: -1px 0px 17px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 0px 17px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 0px 17px 0px rgba(0,0,0,0.75);*/
+    transition:all 0.3s ease-in-out;
+}
+.bodyHead span label {
+    display:inline-block;
+    margin-left:4%;
+    font-family:"open sans",sans-serif !important;
+}
+.upLabel:after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+    content: "\25B2";
+    height: 1em;
+    font-size: 1em;
+    line-height: 1;
+    right: 1.2em;
+    top: 50%;
+    margin-top: -.5em;
+    color: rgba(0,0,0,.7);
+}
+.downLabel:after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+    content: "\25BC";
+    height: 1em;
+    font-size: 1em;
+    line-height: 1;
+    right: 1.2em;
+    top: 50%;
+    margin-top: -.5em;
+    color: rgba(0,0,0,.7);
+}
+.bodyHead span:hover {
+    cursor:pointer !important;
+    background:rgb(220,220,220);
+}
+.bodyHead span:active {
+    background:rgb(190,190,190);;
+}
+.bodyBody .bodyTable {
+    display:block;
+    width:100%;
+    height:100%;
+}
+.bodyTable tr{
+    position:relative;
+    display:block;
+    width:100%;
+    min-height:10%;
+    background-color:rgb(160,160,160);
+    border-bottom: 1px solid rgb(80,80,80);
+    transition:background 0.3s ease-in-out,padding 0.3s ease-in-out;
+    z-index:3;
+    cursor:default;
+}
+.bodyTable tbody {
+    display:block;
+    height:inherit;
+    widows:inherit;
+    /*overflow:auto;*/
+}
+.bodyTable td {
+    text-align:center;
+    padding:0;
+    float:left;
+    position:relative;
+    display:block;
+    transition:background 0.3s ease-in-out;
+}
+.bodyTable tr:hover {
+    background:rgb(200,200,200);
+    /*padding-top:4px;
+    padding-bottom:4px;*/
+    border:none;
+    z-index:5;
+    -webkit-box-shadow: 0px 0px 16px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 16px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 16px -1px rgba(0,0,0,0.75);
+}
+.noBorder {
+    border:0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

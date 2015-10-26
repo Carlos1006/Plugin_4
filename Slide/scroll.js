@@ -36,6 +36,7 @@
 			var isIn	= false;
 			var docScroll	= true;
 			var colorAdded = false;
+            
 			$(document)
 				.ready(function(){
 					var maxScrollValue 		= overflowObject[0].scrollHeight;
@@ -65,8 +66,11 @@
                     if(aColor != null) {
                         var activeColor = x.returnColor(aColor.red,aColor.green,aColor.blue,0.5);
                     }
-					var style = $("<style>.myscroll{"+barColor+"} .myscroll .drag{"+dragColor+"} .myscroll .drag:hover{"+hoverColor+"} .myscroll .drag:active{"+activeColor+"}</style>");
-					$("head").append(style);
+                    if($("head .overFlowStyle").length == 0) {
+                        var style = $("<style>.myscroll{"+barColor+"} .myscroll .drag{"+dragColor+"} .myscroll .drag:hover{"+hoverColor+"} .myscroll .drag:active{"+activeColor+"}</style>");
+                        style.addClass("overFlowStyle");
+                        $("head").append(style);
+                    }
 					/*Colorstyle*/
 				})
 				.mouseup(function(){
@@ -117,9 +121,11 @@
 						drag.css("top",newTop);
 					}
 				})
-				.on("DOMSubtreeModified",function(){
+				.on("DOMSubtreeModified",function(e){
                     if($(this).attr("myoverflow")) {
-                        $(this).myOverflow();
+                        $(this).removeOverFlow();//evita que se llene la pila
+                        $(this).myOverflow(options);
+                        $(this).trigger("scroll");//Ayuda a ajustar el scroll nuevo
                     }
 				})
 				.mouseenter(function(){
