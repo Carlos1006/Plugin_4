@@ -1,0 +1,152 @@
+@import url(http://localhost/__naker/Plugin_4/fonts.css?family=Open+Sans:400,300,300italic,600italic,700,600,400italic,700italic,800,800italic);
+.superFooter {
+    padding-left:15%;
+    padding-right:15%;
+    width:70%;
+    height:30%;
+    background:rgb(60,60,60);
+    font-family:"open sans",sans-serif !important;
+    color:rgb(200,200,200)
+}
+.wrapperF {
+    height:5%;
+    width:100%;
+    background:transparent;
+}
+.subFooter {
+    float:left;
+    width:100%;
+    height:20%;
+    border-top:1px solid rgb(200,200,200);
+}
+.appBlock {
+    width:20%;
+    float:left;
+    height:70%;
+}
+.facebookRow,
+.twitterRow {
+    display:block;
+    width:70%;
+    height:20%;
+    margin-left:15%;
+}
+.wrapperG {
+    background:transparent;
+    width:100%;
+    height:25%;
+}
+.wrapperH {
+    background:transparent;
+    width:100%;
+    height:15%;
+}
+.fbLogo,.twLogo{
+    width:30%;
+    height:100%;
+    float:left;
+    -webkit-filter:grayscale(100%);
+            filter:grayscale(100%);
+    -webkit-transition:all 0.3s ease-in-out;
+            transition:all 0.3s ease-in-out;  
+}
+.fbLogo:hover, .twLogo:hover{
+    cursor:pointer;
+    -webkit-filter:grayscale(0%);
+            filter:grayscale(0%);
+}
+.fbLogo {
+    background:url(../img/fb.png) no-repeat center;
+    background-size:auto 100%;
+}
+.twLogo {
+    background:url(../img/tw.png) no-repeat center;
+    background-size:auto 100%;
+}
+.fbLink,.twLink{
+    width:70%;
+    height:100%;
+    float:left;
+    display:table;
+}
+.fbLink label,.twLink label{
+    display:table-cell;
+    vertical-align:middle;
+    font-size:90%;
+    pointer-events:none;
+}
+.fbLink:hover,
+.twLink:hover{
+    cursor:pointer;
+}
+.noFilter {
+    -webkit-filter:grayscale(0%);
+            filter:grayscale(0%);
+}
+.pagBlock {
+    width:50%;
+    padding-left:10%;
+    float:left;
+    height:75%;
+}
+.logBlock {
+    width:15%;
+    float:left;
+    height:70%;
+    display:inline-block;
+    background:url(../img/FCFM_FULL5.png) no-repeat center;
+    background-size:auto 85%;
+    -webkit-filter:grayscale(100%) contrast(100%);
+            filter:grayscale(100%) contrast(100%);
+    -webkit-transition:all 0.3s;
+            transition:all 0.3s;
+}
+.logBlock:hover {
+    cursor:pointer;
+    -webkit-filter:grayscale(0%);
+            filter:grayscale(0%);
+}
+.column {
+    float:left;
+    width:28%;
+    height:100%;
+}
+._al{
+    width:35%;
+}
+.wrapColumn {
+    float:left;
+    width:3%;
+    height:100%;
+}
+.title {
+    width:100%;
+    height:20%;
+    display:table;
+    text-align:left;
+}
+.wrapperI {
+    width:100%;
+    height:5%;
+}
+.title label {
+    display:table-cell;
+    vertical-align:middle;
+    font-weight:600;
+}
+.link {
+    width:100%;
+    height:16.75%;
+    display:table;
+    color:rgb(150,150,150) !important;
+}
+.link a{
+    display:table-cell;
+    vertical-align:middle;
+    font-size:83%;
+    font-weight:100;
+}
+.link a:hover{
+    cursor:pointer;
+    text-decoration:underline;
+}

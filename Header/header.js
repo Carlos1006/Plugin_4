@@ -1,5 +1,5 @@
-;(function($,Math,Document,Window,undefined) {
-    $(Document).ready(function() {
+;(function($,Math,document,window,undefined) {
+    $(document).ready(function() {
         var main    = $("body");
         var doc     = $(this);
         var headerO = main.find(".superHeader");
@@ -24,9 +24,9 @@
                     header.D.slideDown();
                 },50);
             }
-        };
-        var wheel   = $(null).add(main).add(doc);
-        wheel.on("mousewheel scroll wheel",change);
+        };        
+        $(window).bind("scroll",change);
+        $(document).bind("wheel",change);
         var btns    = headerO.find(".buttn");
         btns.click(function() {
             var id      = $(this).attr("id");
