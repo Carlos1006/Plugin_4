@@ -1,0 +1,54 @@
+.body { 
+    -webkit-perspective: 1px;
+            perspective: 1px;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+}
+.superFixedSlide{
+    position: relative;
+    overflow:hidden;
+    background:rgb(30,30,30);
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+}
+
+.superFixedSlide label{
+    position:absolute;
+    background-color:red;
+    top:0;
+    left:0;
+    z-index:10;
+}
+
+.superFixedSlide .frame,
+.superFixedSlide .overlay{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    box-sizing: border-box;
+    -webkit-transform-style: inherit;
+            transform-style: inherit;
+}
+.superFixedSlide .frame {
+    z-index:1;
+}
+.superFixedSlide .overlay{
+    z-index:0;
+    -webkit-filter:blur(8px);
+            filter:blur(8px);
+}
+
+.superFixedSlide .frame:before,
+.superFixedSlide .overlay:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+}
+.superFixedSlide .overlay, .superFixedSlide .overlay:before,
+.superFixedSlide .frame, .superFixedSlide .frame:before{
+    background: 50% 50% / cover;  
+}

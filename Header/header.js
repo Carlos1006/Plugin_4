@@ -1,5 +1,5 @@
 ;(function($,Math,document,window,undefined) {
-    $(document).ready(function() {
+    $(window).on("load",function() {
         var main    = $("body");
         var doc     = $(this);
         var headerO = main.find(".superHeader");
@@ -8,25 +8,26 @@
             C  :main.find(".superHeader_C"),
             D  :main.find(".superHeader_D"),
         };
-        var heightC = header.C.height();
+        var heightC     = header.C.height();
+        var heightCDown = heightC-18+18;
         var timeout = 0;
         var change  = function() {
             var scrollTop = $(this).scrollTop();
-            if(scrollTop > heightC) {
-                clearTimeout(timeout);
-                header.D.hide();
-                header.AB.removeClass("superHeader_B").addClass("superHeader_A");
-            }
-            if(scrollTop <= heightC) {
+            
+            if(scrollTop <= heightCDown) {
                 header.AB.removeClass("superHeader_A").addClass("superHeader_B");
                 clearTimeout(timeout);
                 timeout = setTimeout(function() {
                     header.D.slideDown();
                 },50);
+            }else if(scrollTop > heightCDown) {
+                clearTimeout(timeout);
+                header.D.hide();
+                header.AB.removeClass("superHeader_B").addClass("superHeader_A");
             }
         };        
         $(window).bind("scroll",change);
-        $(document).bind("wheel",change);
+        //$(document).bind("wheel",change);
         var btns    = headerO.find(".buttn");
         btns.click(function() {
             var id      = $(this).attr("id");

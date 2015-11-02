@@ -100,7 +100,7 @@
         this.globalId = makeid();
         this.main.attr("globalId",this.globalId);
         this.main.addClass("superFullCalendar");
-        //this.createMainForm();
+        this.createMainForm();
     };
     FullCalendar.prototype.definitions  = function() {
         this.now          = new Date();
@@ -218,6 +218,7 @@
                         enter = true;
                     }
                 }
+           
             for(var i=start; i<=limit && enter; i++) {
                 var parag   = this.day.filter(function(){
                     return $(this).attr("day") == i;

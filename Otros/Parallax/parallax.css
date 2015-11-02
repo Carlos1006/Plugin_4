@@ -1,0 +1,43 @@
+@import url(http://fonts.googleapis.com/css?family=Nunito);
+
+body { 
+    -webkit-perspective: 1px;
+            perspective: 1px;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: Nunito;
+}
+.slide {
+    position: relative;
+    padding: 25vh 10%;
+    min-height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+    -webkit-transform-style: inherit;
+            transform-style: inherit;
+}
+.slide:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+}
+.title {
+    width: 50%;
+    padding: 5%;
+    border-radius: 5px;
+    background: rgba(240,230,220, .7);
+    box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+}
+.slide, .slide:before {
+    background: 50% 50% / cover;  
+}
+.slide {
+    background-image: url("../img/cern.jpg");
+    background-attachment: fixed;  
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Parallax</title>
+        <meta charset="utf-8">
+        <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+        <script src="../jquery.min.js"></script>
+        <script src="image.js"></script>
+        <link href="image.css" rel="stylesheet" type="text/css">
+        <style>
+            body{
+                position:absolute;
+                width:100%;
+                height:100%;
+                background:rgb(200,200,210);
+                padding:0%;
+                margin:0%;
+                z-index:1;
+            }
+            .block {
+                display:block;
+                width:10%;
+                height:30%;
+                background:rgb(50,50,50);
+            }
+            #main,#a,#b,#c{
+                width:100%;
+                height:65%;
+            }
+            #x{
+                width:100%;
+                height:100%;
+            }
+        </style>
+        <script>
+            $(function() {
+                $("#main").FixedSlide("random",50);
+                //$("#x").FixedSlide("random");
+                //$("#a").FixedSlide("random",0);
+            });
+        </script>
+    </head>
+
+    <body>
+        <div class="block" style="background:rgb(20,20,20)"></div>
+        <div class="block" style="background:rgb(40,40,40)"></div>
+        <div id="main"></div>
+        <div class="block" style="background:rgb(40,40,40)"></div>
+        <div class="block" style="background:rgb(60,60,60)"></div>
+        <div class="block" style="background:rgb(70,70,70)"></div>
+        <div class="block" style="background:rgb(80,80,80)"></div>
+        <div class="block" style="background:rgb(20,20,20)"></div>
+        <div class="block" style="background:rgb(40,40,40)"></div>
+        <div class="block" style="background:rgb(60,60,60)"></div>
+        <div class="block" style="background:rgb(70,70,70)"></div>
+        <div class="block" style="background:rgb(80,80,80)"></div>
+        <div class="block" style="background:rgb(100,100,100)"></div>
+    </body>
+</html>

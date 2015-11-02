@@ -226,7 +226,10 @@
     background:rgb(234,234,224);
     cursor:pointer;
 }
-
+.wrapperB2 {
+    -webkit-transition:height 0.3s ease-in-out;
+            transition:height 0.3s ease-in-out;
+}
 
 /*Header Compacto*/
 .superHeader_A {
@@ -237,7 +240,9 @@
     background:rgb(238,27,46);
     background:rgb(242,242,234);
 }
-.superHeader_A .wrapperB{
+.superHeader_A .wrapperB1,
+.superHeader_A .wrapperB2,
+.superHeader_A .wrapperB3{
     width:100%;
     height:0%;
 }
@@ -290,12 +295,24 @@
     height:14%;
     z-index:2;
 }
-.superHeader_B .wrapperB{
-    width:100%;
+.superHeader_B .wrapperB1,
+.superHeader_B .wrapperB2,
+.superHeader_B .wrapperB3{
     background:transparent;
     height:28.5714285714%;
     float:left;
-    clear:both;
+}
+.superHeader_B .wrapperB1 {
+    width:42%;
+}
+.superHeader_B .wrapperB2 {
+    background-image:url(../img/shield.png);
+    background-repeat:no-repeat;
+    background-size:100% auto;
+    width:16%;
+}
+.superHeader_B .wrapperB3 {
+    width:42%;
 }
 .superHeader_B .controls {
     width:100%;
@@ -316,6 +333,7 @@
     height:190%;
     width:16%;
     float:left;
+    top:0;
     background-image:url(../img/shield.png);
     background-repeat:no-repeat;
     background-size:100% 100%;

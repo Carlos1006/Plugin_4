@@ -6,7 +6,14 @@
     height:30%;
     background:rgb(60,60,60);
     font-family:"open sans",sans-serif !important;
-    color:rgb(200,200,200)
+    color:rgb(200,200,200);
+    -webkit-touch-callout: none;
+    -webkit-user-select:   none;
+    -khtml-user-select:    none;
+    -moz-user-select:      none;
+    -ms-user-select:       none;
+    user-select:           none;
+    cursor:default;
 }
 .wrapperF {
     height:5%;
@@ -84,8 +91,8 @@
             filter:grayscale(0%);
 }
 .pagBlock {
-    width:50%;
-    padding-left:10%;
+    width:52%;
+    padding-left:8%;
     float:left;
     height:75%;
 }
