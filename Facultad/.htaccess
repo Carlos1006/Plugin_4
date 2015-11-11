@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^(\w+)$ http://localhost/__naker/Plugin_4/Facultad/$1.php
+RewriteRule ^$ http://localhost/__naker/Plugin_4/Facultad/FCFM.php
+ErrorDocument 404 http://localhost/__naker/Plugin_4/404

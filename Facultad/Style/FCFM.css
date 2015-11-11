@@ -1,0 +1,20 @@
+
+#viewer[num="0"] {
+    background:url(../../img/facultad/historia.png) no-repeat center;
+}
+#viewer[num="1"] {
+    background:url(../../img/facultad/dir.jpg) no-repeat center;
+}
+#viewer[num="2"] {
+    background:url(../../img/facultad/mision.png) no-repeat center;
+}
+#viewer[num="3"] {
+    background:url(../../img/facultad/vision.jpg) no-repeat center;
+}
+#viewer[num="4"] {
+    background:url(../../img/facultad/valor.png) no-repeat center;
+}
+#viewer[num="5"] {
+    background:url(../../img/facultad/calidad.jpg) no-repeat center;
+    background-size:auto 100%;
+}

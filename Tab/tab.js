@@ -109,17 +109,21 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
         return $(tagForm(tag),attr);
     };
     Tab.prototype.set    = function() {
-        margTop.call(this.main,span,".rightMoveTab svg",".leftMoveTab svg");
+        this.move.height(this.head.height());
+        margTop.call(this.main,span);
+        jmargTop.call(this.head,$(".rightMoveTab svg"));
+        jmargTop.call(this.head,$(".leftMoveTab svg"));
         imargLeft(this.moveL.find("svg"));
         imargLeft(this.moveR.find("svg"));
         var bodyHeight = this.main.height()-this.head.height();
         var paddingTB  = bodyHeight*0.05;
-        var realBodyH  = bodyHeight-(paddingTB);
+        var realBodyH  = bodyHeight-(paddingTB*2);
         var bodyWidth  = this.main.width();
         var paddingLR  = bodyWidth*0.02;
         var realBodyW  = bodyWidth-(paddingLR*2);
         this.body.css({
             paddingTop:paddingTB,
+            paddingBottom:paddingTB,
             paddingLeft:paddingLR,
             paddingRight:paddingLR
         }).height(realBodyH).width(realBodyW).show();
@@ -171,6 +175,25 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
                     clearTimeout(_this.time);
                 }
             },300);
+        });
+        this.main.find(".tabHeader")
+        .bind("DOMMouseScroll mousewheel",function(e) {
+            e.preventDefault();
+            if (e.type == 'mousewheel') {
+                if(e.originalEvent.wheelDelta /120 > 0) {
+                    $(this).scrollLeft($(this).scrollLeft()-45);
+                }else {
+                    $(this).scrollLeft($(this).scrollLeft()+45);
+                }
+            }
+            else if (e.type == 'DOMMouseScroll') {
+                if(e.originalEvent.detail /120 > 0) {
+                    $(this).scrollLeft($(this).scrollLeft()-45);
+                }else {
+                    $(this).scrollLeft($(this).scrollLeft()+45);
+                }
+            }
+            $(this).trigger("mouseenter");
         });
         this.move
         .mousedown(function() {
@@ -251,8 +274,6 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
         l.append("<svg viewBox='201 -200.8 451.8 451.8' fill='rgb(200,200,200)'><path d='M298.1,25.1c0-8.1,3.1-16.2,9.3-22.4l194.3-194.3c12.4-12.4,32.4-12.4,44.8,0c12.4,12.4,12.4,32.4,0,44.7L374.5,25.1 L546.4,197c12.4,12.4,12.4,32.4,0,44.7c-12.4,12.4-32.4,12.4-44.7,0L307.4,47.4C301.2,41.3,298.1,33.2,298.1,25.1z'/></svg>");
         h.append(this.createObj(div,getClass("wrapper")));
         b.append(this.createObj(div,getClass("tabShadow")));
-        
-        
         var oldTabs = this.main.find(">div").not(".rightMoveTab,.leftMoveTab,.tabHeader,.tabBody");
         var first = true;
         var _this = this;

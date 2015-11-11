@@ -1,0 +1,54 @@
+@import url(http://localhost/__naker/Plugin_4/fonts.css?family=Open+Sans:400,300,300italic,600italic,700,600,400italic,700italic,800,800italic);
+#banner {
+    width:100%;
+    height:90%;
+    position:absolute;
+    top:10%;
+    z-index:1;
+}
+#wrapperBanner {
+    width:100%;
+    height:84%;
+}
+#backbanner {
+    width:100%;
+    height:90%;
+    position:absolute;
+    top:10%;
+    background:rgb(20,20,20);
+    z-index:0;
+}
+#message_1,#message_2,#message_3{
+    position:absolute;
+    z-index: 1;
+    font-family:"open sans",sans-serif !important;
+    font-weight:400;
+    color:rgb(220,220,220);
+    text-shadow: 3px 3px 3px rgba(20, 20, 20, 1);
+    -webkit-touch-callout: none;
+    -webkit-user-select:   none;
+    -khtml-user-select:    none;
+    -moz-user-select:      none;
+    -ms-user-select:       none;
+    user-select:           none;
+    cursor:default;
+}
+#message_1 {
+    top:20%;
+    left:5%;
+    font-size:1500%;
+}
+#message_2 {
+    top:53%;
+    left:6%;
+    font-size:300%;
+}
+#message_3 {
+    top:61%;
+    left:6%;
+    font-size:200%;
+}
+#message_3:hover {
+    cursor:pointer;
+    text-decoration:underline;
+}

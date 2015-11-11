@@ -11,9 +11,9 @@
         this.ini(object,url,position);
         this.define();
         this.set();
-        this.createStyleObject();
-        this.adjustPosition();
-        this.setImage();
+        //this.createStyleObject();
+        //this.adjustPosition();
+        //this.setImage();
         this.setImageInfo();
         this.events();
         return;
@@ -27,7 +27,7 @@
         $("body").addClass(".body");
         this.main.attr("globalId",this.globalId); 
         this.main.addClass("superFixedSlide "+this.globalId);
-        this.createForm();
+        //this.createForm();
     };
     Slide.prototype.createCanvas       = function() {
         var _this = this;
@@ -96,14 +96,14 @@
         this.frame.css("filter","blur("+value+"px)");
     };
     Slide.prototype.events             = function() {
-        window.requestAnimFrame = (function() {
+        /*window.requestAnimFrame = (function() {
             return  window.requestAnimationFrame||
                     window.webkitRequestAnimationFrame||
                     window.mozRequestAnimationFrame||
                     function( callback ){
                         window.setTimeout(callback,1000/60);
                     };
-        })();
+        })();*/
         var _this = this;
         this.tick = true;
         var counter = 0;
@@ -113,14 +113,20 @@
         var limits = this.limits;
         var height = this.height;
         $(window).bind("scroll",function() {
+            counter++;
+            if(counter < 1) {
+                return;
+            }else {
+                counter = 0;
+            }
             var scrollTop   = $(this).scrollTop();
-            if(scrollTop>=scroll && scrollTop<=limits) {
+            if(scrollTop>scroll && scrollTop<=limits) {
                 offset = scrollTop;
                 offset = offset - scroll;
                 percent = 1-((offset/height));
                 var realvalue = 6-(percent*6);
-                //realvalue = parseInt(realvalue);
-                realvalue = realvalue.toFixed(1);
+                realvalue = parseInt(realvalue)+1;
+                //realvalue = realvalue.toFixed(1);
                 if(realvalue != _this.currentBlur) {
                     _this.currentBlur = realvalue;
                     _this.frame.css("-webkit-filter","blur("+realvalue+"px)");
@@ -132,7 +138,7 @@
                     _this.currentOpacity = percent;
                     _this.changeFrameOpacity(percent);
                 }*/
-            }else if(_this.currentBlur != 0 && scrollTop<scroll){
+            }else if(_this.currentBlur != 0 && scrollTop<=scroll){
                 _this.frame.css("-webkit-filter","blur("+0+"px)");
                 _this.frame.css("filter","blur("+0+"px)");
             }
@@ -147,7 +153,7 @@
             var _this = this;
             var param = {
                 method:"post",
-                url:"getImage.php",
+                url:"../Image/getImage.php",
                 dataType:"json"
             };
             var request = $.ajax(param);

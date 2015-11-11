@@ -1,0 +1,45 @@
+
+#viewer{
+    background-color:rgb(30,30,30) !important;
+    background-size:auto 100% !important;
+}
+
+#viewer[num="0"] {
+    background: url(../../img/directores/Trevino.jpg) no-repeat center;
+}
+#viewer[num="1"] {
+    background: url(../../img/directores/Serna.jpg) no-repeat center;
+}
+#viewer[num="2"] {
+    background: url(../../img/directores/Navarro.jpg) no-repeat center;
+}
+#viewer[num="3"] {
+    background: url(../../img/directores/Saenz.jpg) no-repeat center;
+}
+#viewer[num="4"] {
+    background: url(../../img/directores/Aldape.jpg) no-repeat center;
+}
+#viewer[num="5"] {
+    background: url(../../img/directores/Comparan.jpg) no-repeat center;
+}
+#viewer[num="6"] {
+    background: url(../../img/directores/Colunga.jpg) no-repeat center;
+}
+#viewer[num="7"] {
+    background: url(../../img/directores/Tomas.jpg) no-repeat center;
+}
+#viewer[num="8"] {
+    background: url(../../img/directores/Vicente.jpg) no-repeat center;
+}
+#viewer[num="9"] {
+    background: url(../../img/directores/Montemayor.jpg) no-repeat center;
+}
+#viewer[num="10"] {
+    background: url(../../img/directores/Recio.jpg) no-repeat center;
+}
+#viewer[num="11"] {
+    background: url(../../img/directores/Carmen_0.jpg) no-repeat center;
+}
+#viewer[num="12"] {
+    background: url(../../img/directores/mp.jpg) no-repeat center;
+}

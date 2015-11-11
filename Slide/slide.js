@@ -199,12 +199,21 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
         .mouseup(function() {
             clearInterval(_this.interval);
         });
-        this.body.bind("mousewheel",function(e) {
+        this.body.bind("mousewheel DOMMouseScroll",function(e) {
             e.preventDefault();
-            if(e.originalEvent.wheelDelta /120 > 0) {
-                $(this).scrollLeft($(this).scrollLeft()-45);
-            }else {
-                $(this).scrollLeft($(this).scrollLeft()+45);
+            if (e.type == 'mousewheel') {
+                if(e.originalEvent.wheelDelta /120 > 0) {
+                    $(this).scrollLeft($(this).scrollLeft()-45);
+                }else {
+                    $(this).scrollLeft($(this).scrollLeft()+45);
+                }
+            }
+            else if (e.type == 'DOMMouseScroll') {
+                if(e.originalEvent.detail /120 > 0) {
+                    $(this).scrollLeft($(this).scrollLeft()-45);
+                }else {
+                    $(this).scrollLeft($(this).scrollLeft()+45);
+                }
             }
             $(this).trigger("mouseenter");
         });

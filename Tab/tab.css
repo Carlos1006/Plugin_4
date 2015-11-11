@@ -12,6 +12,7 @@
     font-family:"open sans",sans-serif !important;
     min-height:434px;
     overflow:hidden;
+    position:relative;
 }
 .wrapper{
     width:100%;
@@ -28,9 +29,6 @@
     background:transparent;
     pointer-events:none;
     display:block !important;
-    z-index:5;
-    -webkit-box-shadow: 3px -2px 13px 0px rgba(0,0,0,0.7);
-    -moz-box-shadow:    3px -2px 13px 0px rgba(0,0,0,0.7);
     box-shadow:         3px -2px 13px 0px rgba(0,0,0,0.7);
 }
 .tabHeader {
@@ -41,8 +39,6 @@
     position: relative;
     background:rgb(80,80,80);
     max-height:53px;
-    -webkit-box-shadow: 0px -4px 13px 8px rgba(0,0,0,0.75);
-    -moz-box-shadow:    0px -4px 13px 8px rgba(0,0,0,0.75);
     box-shadow:         0px -4px 13px 8px rgba(0,0,0,0.75);
 }
 .tabh{
@@ -58,9 +54,8 @@
     padding-right:2%;
     border-top-left-radius:3px;
     border-top-right-radius:3px;
-    transition:all 0.3s;
-    -webkit-box-shadow: 3px -1px 13px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow:    3px -1px 13px 0px rgba(0,0,0,0.75);
+    -webkit-transition:all 0.3s;
+            transition:all 0.3s;
     box-shadow:         3px -1px 13px 0px rgba(0,0,0,0.75);
 }
 .tabh span{
@@ -76,7 +71,8 @@
     height:8%;
     background:rgb(0,145,182);
     left:50%;
-    transition:all 0.3s;
+    -webkit-transition:all 0.3s;
+            transition:all 0.3s;
 }
 .tabh:hover:before{
     width:100%;
@@ -109,6 +105,7 @@
 .activeT {
     display:block;
     float:right;
+    position:-webkit-sticky;
     position:sticky;
 }
 .goActiveLow {
@@ -119,20 +116,22 @@
     opacity:0.0;
 }
 
-.superTab>div:not(.rightMoveTab):not(.rightMoveTab):not(.tabHeader):not(.tabBody){
+.superTab>div:not(.rightMoveTab):not(.leftMoveTab):not(.tabHeader):not(.tabBody){
     display:none;
 }
 
-.rightMoveTab,.rightMoveTab{
+.leftMoveTab,.rightMoveTab{
     position:absolute;
     width:5%;
     height:10%;
     z-index:2;
     top:0;
     background:rgba(0,0,0,0.5);
-    transition:all 0.35s;
+    -webkit-transition:all 0.35s;
+            transition:all 0.35s;
     opacity:1.0;
     pointer-events:all;
+    padding:0;
 }
 .fadeOut{
     opacity:0.0;
@@ -140,23 +139,19 @@
 }
 .rightMoveTab{
     right:0;
-    -webkit-box-shadow: -1px 0px 10px 1px rgba(0,0,0,0.75);
-    -moz-box-shadow:    -1px 0px 10px 1px rgba(0,0,0,0.75);
     box-shadow:         -1px 0px 10px 1px rgba(0,0,0,0.75);
 }
-.rightMoveTab{
+.leftMoveTab{
     left:0;
-    -webkit-box-shadow: 1px 0px 10px 1px rgba(0,0,0,0.75);
-    -moz-box-shadow:    1px 0px 10px 1px rgba(0,0,0,0.75);
     box-shadow:         1px 0px 10px 1px rgba(0,0,0,0.75);
 }
-.rightMoveTab:hover,.rightMoveTab:hover{
+.rightMoveTab:hover,.leftMoveTab:hover{
     cursor:pointer;
 }
-.rightMoveTab:active,.rightMoveTab:active{
+.rightMoveTab:active,.leftMoveTab:active{
     cursor:pointer;
 }
-.rightMoveTab svg,.rightMoveTab svg {
+.rightMoveTab svg,.leftMoveTab svg {
     width:50%;
     background:transparent;
 }

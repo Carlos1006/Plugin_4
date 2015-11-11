@@ -26,7 +26,7 @@
                 header.AB.removeClass("superHeader_B").addClass("superHeader_A");
             }
         };        
-        $(window).bind("scroll",change);
+        $(window).bind("scroll",change).trigger("scroll");
         //$(document).bind("wheel",change);
         var btns    = headerO.find(".buttn");
         btns.click(function() {

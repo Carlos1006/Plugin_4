@@ -1,0 +1,91 @@
+#banner {
+    width:100%;
+    height:50%;
+    position:relative;
+    text-align: center;
+}
+.tabContainer{
+    width:70%;
+    margin-left:15%;
+    height:90%;
+    background:rgb(40,40,40);
+    -webkit-box-shadow: 0px 3px 13px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 13px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 13px 0px rgba(0,0,0,0.75);
+}
+
+#banner .frame{
+    position:absolute;
+    height:100%;
+    width:100%;
+    border:0px !important;
+    padding:0px !important;
+    margin:0px !important;
+    outline:0px !important;
+    background:rgb(30,30,30) url(../../img/facultad/fcfm_frente.jpg) no-repeat center;
+}
+#banner .frame{
+    background-attachment: fixed;
+    background-size:100% auto;
+    background-position:50% 75%;
+}
+
+#goBottom {
+    display: inline;
+    background:rgba(0,0,0,0.7) url(../../img/rsc/downArrow.svg) no-repeat center;
+    background-size: 60% 60%;
+    position: absolute;
+    width:3.25em;
+    height:3.25em;
+    bottom:3%;
+    z-index:2;
+    border-radius:100px;
+    background-position-y:55%;
+    opacity:0.0;
+    transition:background 0.3s ease-in-out;
+}
+
+#goBottom:hover{
+    cursor:pointer;
+    background-color:rgba(0,0,0,0.8);
+}
+
+.tabContainer .wrapper {
+    height:40%;
+}
+.wrapperF  {
+    height:0% !important;
+}
+
+.tabh {
+    text-align:center;
+    max-width: 500px;
+}
+
+#viewer {
+    position:absolute;
+    width:10em;
+    height:10em;
+    left:2.5%;
+    z-index:2;
+    top:76%;
+    border-radius:8px;
+    -webkit-box-shadow: 3px 3px 13px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 13px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 13px 0px rgba(0,0,0,0.75);
+    transition:all 0.3s linear;
+    background-size:100% auto;
+}
+
+.rotated {
+    -webkit-transform: rotateX(360deg); /* Safari */
+    transform: rotateX(-360deg);
+}
+.noRotation{
+    -webkit-transform: rotateX(0deg); /* Safari */
+    transform: rotateX(0deg);
+}
+
+.activeH {
+    pointer-events:none;
+}
