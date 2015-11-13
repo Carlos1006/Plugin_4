@@ -2,7 +2,7 @@
     width:100%;
     height:50%;
     position:relative;
-    text-align: center;
+    text-align:center;
 }
 .tabContainer{
     width:70%;
@@ -39,6 +39,7 @@
     height:3.25em;
     bottom:3%;
     z-index:2;
+    left:Calc(50% - 1.625em);
     border-radius:100px;
     background-position-y:55%;
     opacity:0.0;
@@ -64,8 +65,8 @@
 
 #viewer {
     position:absolute;
-    width:10em;
-    height:10em;
+    width:10vw;
+    height:10vw;
     left:2.5%;
     z-index:2;
     top:76%;

@@ -15,19 +15,12 @@
     <div id="goBottom"></div>
 </div>
 <div class="tabContainer">
-    <div name="Ing. Roberto Trevi&ntilde;o"></div>
-    <div name="Ing. Rafael Serna"></div>
-    <div name="Lic. Jaime Navarro"></div>
     <div name="Dr. Eladio S&aacute;enz"></div>
-    <div name="Lic. Ra&uacute;l L&oacute;pez "></div>
+    <div name="M.C. Enrique Ram&iacute;rez"></div>
+    <div name="Dr. Israel Garza"></div>
     <div name="Dr. Jos&eacute; Luis Compar&aacute;n"></div>
-    <div name="Dr. Juan Ernesto Colunga"></div>
-    <div name="Lic. Tom&aacute;s Mart&iacute;nez"></div>
-    <div name="M.C. Luis Vicente Garc&iacute;a"></div>
-    <div name="Lic. Ra&uacute;l Montemayor"></div>
-    <div name="Ing. Oscar Recio"></div>
-    <div name="M.A. Carmen de la Fuente"></div>
-    <div name="M.A. Patricia Mart&iacute;nez"></div>
+    <div name="Ing. Rafael Serna"></div>
+    <div name="Lic. Rosa G&aacute;mez"></div>
 </div>
 <div id="viewer" num="0"></div>
 <?php require_once "../Include/footer.html" ?>

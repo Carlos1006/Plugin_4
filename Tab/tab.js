@@ -180,14 +180,14 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
         .bind("DOMMouseScroll mousewheel",function(e) {
             e.preventDefault();
             if (e.type == 'mousewheel') {
-                if(e.originalEvent.wheelDelta /120 > 0) {
+                if(e.originalEvent.wheelDelta /120 < 0) {
                     $(this).scrollLeft($(this).scrollLeft()-45);
                 }else {
                     $(this).scrollLeft($(this).scrollLeft()+45);
                 }
             }
             else if (e.type == 'DOMMouseScroll') {
-                if(e.originalEvent.detail /120 > 0) {
+                if(e.originalEvent.detail /120 < 0) {
                     $(this).scrollLeft($(this).scrollLeft()-45);
                 }else {
                     $(this).scrollLeft($(this).scrollLeft()+45);
@@ -220,13 +220,13 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
                 var scrollH = currentTab[0].scrollHeight;
                 var height  = currentTab.height();
                 if(scrollH > height) {
-                    currentTab.myOverflow({ visible:false,
+                    /*currentTab.myOverflow({ visible:false,
                                             color:getColor(200,200,200),
                                             bar:getColor(0,102,162),
                                             alpha:true,
                                             hightlight:false,
                                             active:getColor(180,180,180)
-                                          });
+                                          });*/
                 }
             }
         });

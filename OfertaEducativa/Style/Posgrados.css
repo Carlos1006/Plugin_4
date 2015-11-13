@@ -1,0 +1,149 @@
+.slideContainer {
+    width:70%;
+    margin-left:15%;
+    height:100%;
+    background-color:rgb(235,235,235);
+    overflow:hidden;
+    font-family:"open sans",sans-serif !important;
+}
+.carrerasHead {
+    width:100%;
+    height:5%;
+    position: relative;
+    background: rgb(80,80,80);
+    box-shadow: 0px -4px 13px 8px rgba(0,0,0,0.75);
+    display: table;
+    color:rgb(220,220,220);
+}
+.carrerasHead>label{
+    display: table-cell;
+    vertical-align:middle;
+    text-align:center;
+    font-size:160%;
+}
+.carrerasBody {
+    width:100%;
+    height:95%;
+}
+
+.carreraTile {
+    width:30%;
+    margin-bottom:3%;
+    margin-left:2.5%;
+    height:40%;
+    background:black;
+    float:left;
+    position: relative;
+    -webkit-touch-callout: none;
+    -webkit-user-select:   none;
+    -khtml-user-select:    none;
+    -moz-user-select:      none;
+    -ms-user-select:       none;
+    user-select:           none;
+    overflow:hidden;
+    border-radius:3px;
+    -webkit-box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.75);
+}
+.carreraTile:nth-child(1),
+.carreraTile:nth-child(2),
+.carreraTile:nth-child(3){
+    margin-top:4%;
+}
+
+.carreraTileHead {
+    width:100%;
+    height:10%;
+    float:left;
+    display: table;
+    background:rgb(30,30,30);
+}
+.carreraTileHead>label{
+    display: table-cell;
+    vertical-align:middle;
+    text-align:center;
+    color:rgb(235,235,235);
+    font-size:110%;
+}
+.carreraTileImg {
+    width:100%;
+    height:40%;
+    float:left;
+    background-color:rgb(200,200,200) !important;
+    background-repeat:no-repeat !important;
+    background-position:center !important;
+    background-image:url(../../img/A.jpg);
+    background-size:100% auto !important;
+}
+.carreraShade {
+    position: absolute;
+    top:10%;
+    width:100%;
+    height:40%;
+    background:rgba(0,0,0,0.75);
+    display: none;
+}
+.wrapperShade {
+    width:100%;
+    height:25%;
+}
+.carreraShadeBtn {
+    width:70%;
+    height:50%;
+    top:0;
+    margin-left:15%;
+    background:transparent;
+    border:2px solid rgb(200,200,200);
+    border-radius:5px;
+    display:table;
+    transition:background 0.3s;
+}
+.carreraShadeBtn>label{
+    display: table-cell;
+    vertical-align: middle;
+    text-align:center;
+    color:rgb(200,200,200);
+    font-size:150%;
+    pointer-events:none;
+}
+.carreraShadeBtn:hover{
+    cursor: pointer;
+    background:rgba(200,200,200,0.2);
+}
+.carreraShadeBtn:active{
+    background:rgba(200,200,200,0.35);
+}
+
+.carreraTileBody {
+    width:100%;
+    height:50%;
+    float:left;
+    background:rgb(150,150,150);
+    display:table;
+}
+.carreraTileBody>label{
+    padding:2%;
+    display: table-cell;
+    text-align:justify;
+    font-size:95%;
+}
+
+#COM  .carreraTileImg{
+    background-image: url(../../img/posgrado/COM.jpg);
+}
+#IFI  .carreraTileImg{
+    background-image: url(../../img/posgrado/IFI_2.jpg);
+}
+#ISI  .carreraTileImg{
+    background-image: url(../../img/posgrado/ISI_2.jpg);
+}
+#MAPTA  .carreraTileImg{
+    background-image: url(../../img/posgrado/MAPTA_2.jpg);
+}
+#DM  .carreraTileImg{
+    background-image: url(../../img/posgrado/DM.jpg);
+}
+#DFI .carreraTileImg{
+    background-image: url(../../img/posgrado/DIFI.jpg);
+}

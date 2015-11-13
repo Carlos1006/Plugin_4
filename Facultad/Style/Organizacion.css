@@ -1,0 +1,120 @@
+#viewer{
+    background-color:rgb(30,30,30) !important;
+    background-size:auto 100% !important;
+}
+#viewer[num="0"] {
+    background-size:auto 80% !important;
+    background: url(../../img/organizacion/diagram.png) no-repeat center;
+}
+#viewer[num="1"] {
+    background: url(../../img/organizacion/note.png) no-repeat center;
+}
+
+.organigrama {
+    width:100%;
+    height:92%;
+    background-size:90% auto !important;
+}
+.btnOrganigrama {
+    float:left;
+    height:80%;
+    background:#204288;
+    border-radius:5px;
+    display:table;
+    color:rgb(244,244,244);
+    -webkit-box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.75);
+    margin-left:1%;
+    transition:background 0.3s;
+}
+.btnOrganigrama:hover{
+    background: #2651b4;
+    cursor:pointer;
+}
+.btnOrganigrama:active{
+    background: #3064e1;
+}
+.btnOrganigrama>label {
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+    pointer-events:none;
+}
+.wrapperBtn {
+    width:100%;
+    height: 10%;
+}
+.btnContainer {
+    width:100%;
+    height: 8%;
+}
+
+
+/*Estado 1*/
+.btnContainer[state="0"]>.btnOrganigrama {
+    width:11%;
+    font-size:80%;
+}
+.btnContainer[state="0"]>.btnOrganigrama[num="6"] {
+    display:none;
+}
+.organigrama[state="0"][type="0"]{
+    background:url("../../img/organigrama/parte1/Main.svg") no-repeat center;
+}
+.organigrama[state="0"][type="1"]{
+    background:url("../../img/organigrama/parte1/SecAdmin.svg") no-repeat center;
+}
+.organigrama[state="0"][type="2"]{
+    background:url("../../img/organigrama/parte1/SubDesInnAc.svg") no-repeat center;
+}
+.organigrama[state="0"][type="3"]{
+    background:url("../../img/organigrama/parte1/SubPos.svg") no-repeat center;
+}
+.organigrama[state="0"][type="4"]{
+    background:url("../../img/organigrama/parte1/SubRH.svg") no-repeat center;
+}
+.organigrama[state="0"][type="5"]{
+    background:url("../../img/organigrama/parte1/CoDeEs.svg") no-repeat center;
+}
+.organigrama[state="0"][type="6"]{
+    background:url("../../img/organigrama/parte1/PoResSoUni.svg") no-repeat center;
+}
+
+/*Estado 2*/
+.btnContainer[state="1"]>.btnOrganigrama {
+    width:9.5%;
+    font-size:100%;
+}
+.organigrama[state="1"][type="0"]{
+    background:url("../../img/organigrama/parte2/Main2.svg") no-repeat center;
+}
+.organigrama[state="1"][type="1"]{
+    background:url("../../img/organigrama/parte2/LM.svg") no-repeat center;
+}
+.organigrama[state="1"][type="2"]{
+    background:url("../../img/organigrama/parte2/LF.svg") no-repeat center;
+}
+.organigrama[state="1"][type="3"]{
+    background:url("../../img/organigrama/parte2/LCC.svg") no-repeat center;
+}
+.organigrama[state="1"][type="4"]{
+    background:url("../../img/organigrama/parte2/LA.svg") no-repeat center;
+    background-size:auto 90% !important;
+}
+.organigrama[state="1"][type="5"]{
+    background:url("../../img/organigrama/parte2/LMAD.svg") no-repeat center;
+}
+.organigrama[state="1"][type="6"]{
+    background:url("../../img/organigrama/parte2/LSTI.svg") no-repeat center;
+}
+.organigrama[state="1"][type="7"]{
+    background:url("../../img/organigrama/parte2/FOGU.svg") no-repeat center;
+}
+
+.MainDLC {
+    width:95% !important;
+    height:50% !important;
+    margin-left:2.5%;
+    margin-top:5%;
+}

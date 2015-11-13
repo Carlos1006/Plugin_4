@@ -68,3 +68,6 @@
 .root::-webkit-scrollbar { 
 	width: 0 !important;
 }
+.root::-moz-scrollbar { 
+	width: 0 !important;
+}

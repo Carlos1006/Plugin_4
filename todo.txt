@@ -1,0 +1,1 @@
+Aparecer la imagen de la carrera al hacer hover en main.

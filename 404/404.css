@@ -47,8 +47,10 @@
     top:61%;
     left:6%;
     font-size:200%;
+    transition:color 0.3s;
 }
 #message_3:hover {
     cursor:pointer;
     text-decoration:underline;
+    color: rgb(54, 116, 255);
 }

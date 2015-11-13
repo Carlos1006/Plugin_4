@@ -102,8 +102,8 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
     PDF_Slider.prototype.define     = function() {
         this.header     = this.main.find(".slideHeader");
         this.body       = this.main.find(".slideBody");
-        this.changeVis  = this.header.find(div);
-        this.qtip       = this.header.find(lbl);
+        this.changeVis  = this.header.find(".changeVis");
+        this.qtip       = this.header.find(".qTip");
         this.inSqr      = true;
         this.barAnim    = this.changeVis.find("svg .toBar");
         this.sqrAnim    = this.changeVis.find("svg .toSqr");
@@ -119,9 +119,9 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
         this.qTipTop    = percent(-6);
     };
     PDF_Slider.prototype.set        = function() {
-        equalToHeight.call(this.header,"div");
-        margTop.call(this.header,"span","div","div svg","label");
+        margTop.call(this.header,".changeVis svg");
         margTop.call(this.body,".dlc");
+        
         refMargTop(this.body,".rightMove svg,.leftMove svg");
         this.qTipBottom = this.qtip.css("margin-top");
         this.qtip.css("margin-top",this.qTipTop);
@@ -218,26 +218,25 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
             $(this).trigger("mouseenter");
         });
         this.changeVis.click(function() {
-            _this.body.removeOverFlow();
+            /*_this.body.removeOverFlow();*/
             if(_this.isBlock) {
                 var temp = _this.body.find(".dlc");
-                temp.removeAttr("style").removeClass("dlc").addClass("dlc_row");
+                temp.removeClass("dlc").addClass("dlc_row");
                 _this.body.trigger("mouseenter");
-                clearTimeout(_this.timeOut);
+                clearTimeout(_this.timeOut);/*
                 _this.timeOut = setTimeout(function(){
                     _this.body.myOverflow({color:{red:50,green:50,blue:50},round:false,alpha:1.0,bar:{red:0,green:105,blue:142}});
-                },300);
+                },300);*/
                 _this.tileEvents(".dlc_row");
             }else {
                 var temp = _this.body.find(".dlc_row");
-                temp.removeAttr("style").removeClass("dlc_row").addClass("dlc");
-                temp.attr("style",_this.topSave);
+                temp.removeClass("dlc_row").addClass("dlc");
+                //temp.attr("style",_this.topSave);
                 _this.tileEvents(".dlc");
             }
             _this.isBlock = !_this.isBlock;
         });
         this.tileEvents(".dlc");
-        this.adjustTile();
     };
     PDF_Slider.prototype.tileEvents = function(class_) {
         this.tiles = null;
@@ -258,62 +257,15 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
         });
         this.body.find("span").removeAttr("style");
     };
-    PDF_Slider.prototype.adjustTile = function() {
-        var _this = this;
-        clearTimeout(this.timeOut);
-        this.timeOut = setTimeout(function() {
-            _this.tiles.each(function() {
-                var tile    = $(this);
-                var img     = tile.find("img");
-                var hImg    = img[0].naturalHeight;
-                var wImg    = img[0].naturalWidth;
-                var container = img.parent().height();
-                if(wImg == hImg) {
-                    img.css(getDims(container,container));
-                }else if(wImg>hImg) {
-                    var rel = container/wImg;
-                    var newHeight = hImg * rel;
-                    img.css(getDims(container,newHeight));
-                }else if(hImg>wImg) {
-                    var rel       = container/hImg;
-                    var newWidth  = wImg * rel;
-                    img.css(getDims(newWidth,container));
-                }
-                imargTop(img);
-                imargLeft(img);
-            });
-        },75);
-    };
-    PDF_Slider.prototype.adjustTile_2 = function() {
-        var img     = $(this);
-        var hImg    = img[0].naturalHeight;
-        var wImg    = img[0].naturalWidth;
-        var container = img.parent().height();
-        if(wImg == hImg) {
-            img.css(getDims(container,container));
-        }else if(wImg>hImg) {
-            var rel = container/wImg;
-            var newHeight = hImg * rel;
-            img.css(getDims(container,newHeight));
-            imargTop(img);
-        }else if(hImg>wImg) {
-            var rel       = container/hImg;
-            var newWidth  = wImg * rel;
-            img.css(getDims(newWidth,container));
-            imargLeft(img);
-        }
-    };
     PDF_Slider.prototype.createTile   = function(name,img_) {
         var $dlc    = this.createObj(div,getClass("dlc"));
+        $dlc.css("background-image","url(\""+img_+"\")");
         var $div    = this.createObj(div);
-        var $img    = this.createObj(img,{src:img_});
         var $span   = this.createObj(span,{text:name});
         var $dwld   = this.createObj(div,getClass("download"));
         var $link   = this.createObj(a,{name:name,href:getPath(name)});
         var $svg    = "<svg viewBox='109 -109.5 268.5 268.5' fill='rgb(200,200,200)'><path d='M341.9,114.3H144.5c-12.2,0-22.1,10-22.1,22.4c0,12.4,9.9,22.4,22.1,22.4h197.4c12.2,0,22.1-10,22.1-22.4C364.1,124.3,354.2,114.3,341.9,114.3z M226.9,89.7c4,4,9.2,6.1,14.5,6.5c0.6,0.1,1.2,0.2,1.9,0.2c0.6,0,1.2-0.1,1.8-0.2c5.3-0.4,10.5-2.5,14.5-6.5l70.8-71c8.9-8.9,8.9-23.3,0-32.1c-8.9-8.9-23.2-8.9-32.1,0l-32.7,32.8V-87.1c0-12.4-10-22.4-22.4-22.4c-12.4,0-22.4,10-22.4,22.4V19.3l-32.7-32.8c-8.9-8.9-23.2-8.9-32.1,0c-8.9,8.9-8.9,23.3,0,32.1L226.9,89.7z'/></svg>";
         $dwld.append($svg);
-        $img.on("load",this.adjustTile_2);
-        $div.append($img);
         $dlc.append($div,$span,$dwld,$link);
         this.body.find(".dlcContainer").append($dlc);
         this.tileEvents(".dlc");
@@ -331,8 +283,11 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
     PDF_Slider.prototype.createForm   = function() {
         this.main.empty();
         var h           = this.createObj(div,getClass("slideHeader"));
-        var h_span      = this.createObj(span,{text:"Contenido Descargable"});
-        var h_div       = this.createObj(div);
+        var h_span      = this.createObj(div,getClass("span"));
+        var h_span_div  = this.createObj(div,getClass("spanDiv"));
+        h_span_div.append(this.createObj(lbl,{text:"Contenido Descargable"}));
+        h_span.append(h_span_div);
+        var h_div       = this.createObj(div,getClass("changeVis"));
         var h_div_svg   = "<svg viewBox='0 0 50 50' preserveAspectRatio='none'><polygon fill='rgb(200,200,200)' points='00,00 26,00 26,10 00,10'><animate begin='indefinite'  class='toBar' to='00,00 20,00 20,11 00,11'></animate><animate begin='indefinite'  class='toSqr' to='00,00 26,00 26,10 00,10'></animate></polygon><polygon fill='rgb(200,200,200)' points='00,20 26,20 26,25 00,25'><animate begin='indefinite'  class='toBar' to='00,10 20,10 20,20 00,20'></animate><animate begin='indefinite'  class='toSqr' to='00,20 26,20 26,25 00,25'></animate></polygon><polygon fill='rgb(200,200,200)' points='00,24 26,24 26,30 00,30'><animate begin='indefinite'  class='toBar' to='00,30 20,30 20,41 00,41'></animate><animate begin='indefinite'  class='toSqr' to='00,24 26,24 26,30 00,30'></animate></polygon><polygon fill='rgb(200,200,200)' points='00,40 26,40 26,50 00,50'><animate begin='indefinite'  class='toBar' to='00,40 20,40 20,50 00,50'></animate><animate begin='indefinite'  class='toSqr' to='00,40 26,40 26,50 00,50'></animate></polygon><polygon fill='rgb(200,200,200)' points='24,00 50,00 50,10 24,10'><animate begin='indefinite'  class='toBar' to='30,00 50,00 50,11 30,11'></animate><animate begin='indefinite'  class='toSqr' to='24,00 50,00 50,10 24,10'></animate></polygon><polygon fill='rgb(200,200,200)' points='24,20 50,20 50,25 24,25'><animate begin='indefinite'  class='toBar' to='30,10 50,10 50,20 30,20'></animate><animate begin='indefinite'  class='toSqr' to='24,20 50,20 50,25 24,25'></animate></polygon><polygon fill='rgb(200,200,200)' points='24,24 50,24 50,30 24,30'><animate begin='indefinite'  class='toBar' to='30,30 50,30 50,41 30,41'></animate><animate begin='indefinite'  class='toSqr' to='24,24 50,24 50,30 24,30'></animate></polygon><polygon fill='rgb(200,200,200)' points='24,40 50,40 50,50 24,50'><animate begin='indefinite'  class='toBar' to='30,40 50,40 50,50 30,50'></animate><animate begin='indefinite'  class='toSqr' to='24,40 50,40 50,50 24,50'></animate></polygon></svg>";
         var b           = this.createObj(div,getClass("slideBody"));
         var b_dlcC      = this.createObj(div,getClass("dlcContainer"));
@@ -345,10 +300,9 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
         b.append(b_dlcC);
         l.append(l_svg);
         r.append(r_svg);
-        var q = this.createObj(lbl,{text:"Cambiar Vista"});
+        var q = this.createObj(lbl,{class:"qTip",text:"Cambiar Vista"});
         h.append(q);
         this.main.append(h,b,l,r);
-        this.main.trigger("mainFormReady");
     };
     
     $.fn.PDF_Slider = function() {

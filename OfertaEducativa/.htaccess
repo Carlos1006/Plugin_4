@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^(\w+)$ http://localhost/__naker/Plugin_4/OfertaEducativa/$1.php
+RewriteRule ^$ http://localhost/__naker/Plugin_4/OfertaEducativa/Carreras.php
+ErrorDocument 404 http://localhost/__naker/Plugin_4/404
