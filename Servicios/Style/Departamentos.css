@@ -1,0 +1,15 @@
+#viewer {
+    background:rgb(20,20,20) url(../../img/A.jpg) no-repeat center;
+    background-size:auto 100%;
+}
+#viewer[num="0"]{  background-image:url(../../img/servicios/departamentos/escolar.jpg);  }
+#viewer[num="1"]{  background-image:url(../../img/servicios/departamentos/tesoreria.jpg);  }
+#viewer[num="2"]{  background-image:url(../../img/servicios/departamentos/biblioteca.gif);  background-size:100% auto;}
+#viewer[num="3"]{  background-image:url(../../img/servicios/departamentos/caadi.png);  }
+#viewer[num="4"]{  background-image:url(../../img/servicios/departamentos/sociedad_alumnos.jpg);  }
+#viewer[num="5"]{  background-image:url(../../img/servicios/departamentos/astronomia.jpg);  }
+#viewer[num="6"]{  background-image:url(../../img/servicios/departamentos/deportivo.gif);  }
+#viewer[num="7"]{  background-image:url(../../img/servicios/departamentos/soporte_tecnico.png);  }
+
+
+

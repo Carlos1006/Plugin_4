@@ -57,7 +57,9 @@
         
     }
     $.fn.Table              = function() {
-        var instance = new Table(this);
-        instances[instance.globalId] = instance;
+        $(this).each(function() {
+            var instance = new Table(this);
+            instances[instance.globalId] = instance;
+        });
     }
 })(jQuery,Math,document,window);
