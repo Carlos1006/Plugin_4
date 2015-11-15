@@ -6,7 +6,7 @@
     -ms-user-select: none;
     user-select: none;
 	position:absolute;
-	width:8px;
+	width:16px;
 	height:100%;
 	/*background:rgba(160,160,160,0.5);*/
 	z-index:100;
@@ -54,7 +54,7 @@
 }
 
 .root {
-	overflow-y:scroll!important;
+	overflow-y:hidden!important;
 	overflow-x:hidden !important;
 	position:relative !important;
 	-webkit-touch-callout: none !important;

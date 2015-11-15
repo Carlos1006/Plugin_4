@@ -5,7 +5,6 @@
     background:rgb(200,200,200);
     font-size:1em;
     font-family:"open sans",sans-serif !important;
-    max-width:800px;
     min-width:480px;
     min-height:224px;
     overflow:hidden;
@@ -15,6 +14,7 @@
     -moz-user-select:      none;
     -ms-user-select:       none;
     user-select:           none;
+    
 }
 .tableHeader{
     position:inherit;
@@ -32,10 +32,16 @@
 .tableHeader .title{
     position:absolute;
     float:left;
-    height:50%;
-    line-height:100%;
-    margin-left:1%;
+    height:100%;
     color:rgb(10,10,10);
+    display:table;
+}
+.tableHeader .title>span{
+    display:table-cell;
+    vertical-align:middle;
+    text-indent:2%;
+    font-size:150%;
+    color:rgb(200,200,200);
 }
 .tableHeader .search{
     position: absolute;
@@ -72,40 +78,15 @@
     text-indent: 0.01px;
     text-overflow: '';
 }
-.selector:before,
-.selector:after {
-    content: "";
-    position: absolute;
-    pointer-events: none;
-}
-.selector:after { /*  Custom dropdown arrow */
-    content: "\25BC";
-    height: 1em;
-    font-size: .625em;
-    line-height: 1;
-    right: 1.2em;
-    top: 50%;
-    margin-top: -.5em;
-    color: rgba(0,0,0,.4);
-}
-.selector:before { /*  Custom dropdown arrow cover */
-    width: 2em;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    border-radius: 0 3px 3px 0;
-    background-color: rgba(0,0,0,.15);
-}
 
 .inputSearch {
     float:left;
     display: block;
-    width: 75%;
+    width: 70%;
     height: 95%;
     padding-left:5%;
     font-weight: 400;
-    color: #377D6A;
-    color:rgb(0,105,142);
+    color:rgb(20,20,20);
     background: #efefef;
     border: 0;
     border-bottom-left-radius:3px;
@@ -114,7 +95,6 @@
     transition: all .3s ease-in-out;
 }
 .inputSearch::-webkit-input-placeholder {
-    color: #egegeg;
     text-indent: 0;
     font-weight: 300;
 }
@@ -144,13 +124,11 @@
 
 .inputSearch:focus,
 .inputSearch:active {
-  color: #377D6A;
   text-indent: 0;
   background: #fff;
 }
 .inputSearch:focus::-webkit-input-placeholder,
 .inputSearch:active::-webkit-input-placeholder {
-  color: #aaa;
 }
 
 .tableBody {
@@ -176,7 +154,7 @@
 .bodyHead span {
     position:relative;
     float:left;
-    display:block;
+    display:table;
     width:25%;
     height:100%;
     background-color:rgb(200,200,200);
@@ -187,8 +165,11 @@
     transition:all 0.3s ease-in-out;
 }
 .bodyHead span label {
-    display:inline-block;
-    margin-left:4%;
+    display:table-cell;
+    text-indent:4%;
+    vertical-align:middle;
+    pointer-events:none;
+    font-size:110%;
     font-family:"open sans",sans-serif !important;
 }
 .upLabel:after {
@@ -231,9 +212,9 @@
 }
 .bodyTable tr{
     position:relative;
-    display:block;
+    display:table;
     width:100%;
-    min-height:10%;
+    height:10%;
     background-color:rgb(160,160,160);
     border-bottom: 1px solid rgb(80,80,80);
     transition:background 0.3s ease-in-out,padding 0.3s ease-in-out;
@@ -251,7 +232,9 @@
     padding:0;
     float:left;
     position:relative;
-    display:block;
+    height:100% !important;
+    display:table-cell;
+    font-size:110%;
     transition:background 0.3s ease-in-out;
 }
 .bodyTable tr:hover {

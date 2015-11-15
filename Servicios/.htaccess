@@ -1,4 +1,4 @@
 RewriteEngine on
 RewriteRule ^(\w+)$ http://localhost/__naker/Plugin_4/Servicios/$1.php
-RewriteRule ^$ http://localhost/__naker/Plugin_4/Servicios/Alumnos.php
+RewriteRule ^$ http://localhost/__naker/Plugin_4/Servicios/Departamentos.php
 ErrorDocument 404 http://localhost/__naker/Plugin_4/404

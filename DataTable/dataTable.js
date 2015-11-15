@@ -161,8 +161,8 @@ var normal = 0, up = 1, down = 2;
         this.originalRows = [];
     };
     Table.prototype.set          = function() {
-        margTop.call(this.head,".title",".search",".selector","svg");
-        margTop.call(this.body,"label","td");
+        margTop.call(this.head,".search",".selector","svg");
+        //margTop.call(this.body,"label","td");
         this.bodyT.myOverflow({ round:false, 
                                 visible:true,
                                 color:getColor(200,200,200),
@@ -337,7 +337,8 @@ var normal = 0, up = 1, down = 2;
     Table.prototype.createForm   = function() {
         this.main.empty();
         var h = this.createObj(div,getClass("tableHeader"));
-        var h_span1 = this.createObj(span,$.extend(getClass("title"),{text:this.name}));
+        var h_span1 = this.createObj(span,getClass("title"));
+        h_span1.append(this.createObj(span,{text:this.name}));
         var h_span2 = this.createObj(span,getClass("selector"));
         var h_span3 = this.createObj(span,getClass("search"));
         var h_span3_input = this.createObj("input",$.extend(getClass("inputSearch"),{type:"text",placeholder:"Buscar en todo..."}));
