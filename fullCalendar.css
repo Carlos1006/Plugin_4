@@ -192,7 +192,7 @@
     padding-left:2%;
     padding-top:0.5%;
     padding-right:3%;
-    background: transparent;
+    background:rgb(244,244,244);
 }
 .weekLabel {
     position:relative;
@@ -353,37 +353,52 @@
 }
 .event {
     float:left;
-    width:90%;
-    height:23%;
-    margin-top:0.8%;
+    width:95%;
+    height:95%;
+    margin-top:0.5%;
+    margin-bottom:1%;
     background:rgba(150,150,150,1.0);
     -webkit-box-shadow: 2px 0px 5px 0px rgba(0,0,0,0.5);
     -moz-box-shadow:    2px 0px 5px 0px rgba(0,0,0,0.5);
     box-shadow:         2px 0px 5px 0px rgba(0,0,0,0.5);
 }
-.eventImg img{
+.event2 {
     float:left;
-    height:100%;
-    width:15.3%;
+    width:90%;
+    height:90%;
+    margin-top:0.8%;
+    -webkit-box-shadow: 2px 0px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow:    2px 0px 5px 0px rgba(0,0,0,0.5);
+    box-shadow:         2px 0px 5px 0px rgba(0,0,0,0.5);
+    background:rgba(150,150,150,1.0) url(img/A.jpg) no-repeat center;
+    background-size:auto 90%;
+}
+.eventImg div{
+    float:left;
+    height:90%;
+    width:100%;
     -webkit-box-shadow: 2px 0px 3px -1px rgba(0,0,0,0.5);
     -moz-box-shadow:    2px 0px 3px -1px rgba(0,0,0,0.5);
     box-shadow:         2px 0px 3px -1px rgba(0,0,0,0.5);
     z-index:4;
+    background:rgb(30,30,30) no-repeat center;
+    background-size:auto 95%;
 }
 .eventImg p{
     float:left;
-    height:94%;
-    width:82.2%;
+    height:10%;
+    width:100%;
     z-index:3;
-    background:transparent;
+    color:rgb(70,70,70);
+    background:rgb(200,200,200);
     margin:0px;
     padding:0;
-    padding-left:2.5%;
-    padding-top:1%;
-    font-size:0.8em;
+    text-indent:2%;
+    font-size:180%;
     font-weight:500;
     word-break:break-all;
     overflow-x:auto;
+    overflow: hidden;
 }
 .eventNImg p{
     float:left;

@@ -285,13 +285,17 @@ var normal = 0, up = 1, down = 2;
             var typeSort  = tabs[sortLogic].type;   //tipo de ordenamiento
             var sortFunction = -1;
             if(sortOrder == 1 || sortOrder == 2) {
-                if(typeSort == "txt" || typeSort =="num") {
+                if(typeSort == "txt") {
                     sortFunction = function(a,b) {
                         if (a[sortLogic] < b[sortLogic])
                             return sortOrder==1?-1:1;
                         if (a[sortLogic] > b[sortLogic])
                             return sortOrder==1?1:-1;
                         return 0;
+                    };
+                }else if(typeSort =="num"){
+                    sortFunction = function(a,b) {
+                        return a-b;
                     };
                 }else if(typeSort == "date") {
                     sortFunction = function(a,b) {

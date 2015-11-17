@@ -1,5 +1,4 @@
 <?php
-
 $file = $_GET['file'];
 $name = $_GET['name'];
 header('Content-Description: File Transfer');

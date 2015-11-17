@@ -8,6 +8,13 @@
     <script src="./Script/Organizacion.js"></script>
     <link href="./Style/Style.css" rel="stylesheet">
     <link href="./Style/Organizacion.css" rel="stylesheet">
+    <style>
+        .dlc:nth-child(1)
+        ,.dlc:nth-child(2) {
+            background-size:auto 60% !important;
+        }
+        }
+    </style>
 </head>
 <body>
 <?php require_once "../Include/header.html" ?>

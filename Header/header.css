@@ -374,7 +374,7 @@
     top:0;
     background:rgb(60,60,60);
     position:absolute;
-    z-index:3;
+    z-index:501 !important;
 }
 .superHeader_C img{
     width:2.5%;

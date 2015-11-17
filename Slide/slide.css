@@ -60,7 +60,7 @@
     top:10%;
     width:3%;
     height:80%;
-    min-width:28;
+    min-width:28px;
     right:1%;
     border-radius:5px;
     background:rgb(50,50,50);
@@ -71,7 +71,7 @@
 }
 .slideHeader .changeVis svg{
     margin-left:15%;
-    margin-top:2%;
+    margin-top:2% !important;
     display:inline;
     width:70%;
     height:70%;
@@ -161,6 +161,7 @@
     display:block;
     text-align:center;
     box-shadow:         0px 0px 13px 1px rgba(0,0,0,0.75);
+    font-size:90%;
 }
 .dlc span:after{
     content:"";

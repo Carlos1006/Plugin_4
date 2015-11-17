@@ -1,0 +1,31 @@
+#viewer {
+    background-color:rgb(235,235,235) !important;
+    background-size:90% auto !important;
+}
+
+#viewer[num="0"]{background:url(../../img/educacionContinua/EC.png) no-repeat center;  }
+#viewer[num="1"]{background:url(../../img/educacionContinua/diploma.png) no-repeat center;}
+
+.tab>label{
+    overflow:auto;
+}
+
+.textTab{
+    width:100%;
+    height:100%;
+    display: table;
+    overflow:auto;
+}
+.textTab>label {
+    display:table-cell;
+    padding:2%;
+    color:rgb(30,30,30);
+}
+
+.textTab b{
+    display: block;
+    margin-bottom:1%;
+    border-bottom:1px solid rgb(40,40,40);
+    width:100%;
+    font-size:150%;
+}

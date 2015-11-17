@@ -62,8 +62,9 @@ $(function(){
     });
 
     $(".MainDLC").PDF_Slider();
-    $(".MainDLC").AddPDF("CarlosCV.pdf","../img/A.jpg");
-
+    $(".MainDLC").AddPDF("Plan de Desarrollo.pdf","../img/pdf/puzzle.png","Organizacion");
+    $(".MainDLC").AddPDF("1er Informe de Act.pdf","../img/pdf/info.png","Organizacion");
+    $(".MainDLC").AddPDF("Reglamento.pdf","../img/pdf/rules.jpg","Organizacion");
 
     var doc    = $("body,html");
     var banner = $("#banner");

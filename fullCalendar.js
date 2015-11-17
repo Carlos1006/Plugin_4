@@ -230,7 +230,8 @@
     };
     FullCalendar.prototype.getRanges    = function() {
         var _this   = this;
-        var params  = $.extend(defParam,{url:"getRanges.php"});
+        return;
+        var params  = $.extend(defParam,{url:"../getRanges.php"});
         var request = $.ajax(params);
         request.done(function(rangeObject){
             rangeObject.forEach(function(range,num) {
@@ -288,7 +289,7 @@
         });
         
         var data    = {month:this.month,year:this.year};
-        var params  = $.extend(defParam,{url:"getEvents.php",data:data});
+        var params  = $.extend(defParam,{url:"../getEvents.php",data:data});
         var request = $.ajax(params);
         var _this   = this;
         request.done(function(eventObject) {
@@ -369,13 +370,14 @@
                 path    = dayCelebs[i].pic;
                 if(path != null && path != '' && typeof path != 'undefined') {
                     $event.addClass("eventImg");
-                    var $img = _this.createObj(img,{src:path});
+                    var $img = _this.createObj("div",{});
+                    $img.css("background-image","url(\""+path+"\")");
                     $event.append($img);
                 }else{
                     $event.addClass("eventNImg");
                 }
                 var $p = _this.createObj(p,{text:dayCelebs[i].long});
-                $event.append($p);
+                $event.prepend($p);
                 _this.bodyFD.append($event);
             }
             if(_this.animateReady) {
@@ -503,6 +505,7 @@
             this.staticEvents[year][month][day] = [];
         }
         this.staticEvents[year][month][day].push(data);
+        console.log(this.staticEvents);
     };
     FullCalendar.prototype.setDinamicEvents = function(day,data) {
         if(this.celebs[day] == undefined) {

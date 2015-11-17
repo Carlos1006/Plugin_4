@@ -77,7 +77,7 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
         return  {width:w,height:h};
     };
     function getPath(name) {
-        return "http://localhost/__naker/Plugin_4/Slide/rsc/"+name;  
+        return "http://localhost/__naker/Plugin_4/rsc/"+name;
     };
     function tagForm(name) {
         return "<"+name+">";
@@ -243,7 +243,7 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
         this.tiles = this.body.find(class_);
         this.body.find("a").on('click', function (event) {
             event.preventDefault();//prevent the normal click action from occuring
-            window.location = 'download.php?file=' + encodeURIComponent(this.href)+'&name='+this.name;
+            window.location = '../rsc/download.php?file=' + encodeURIComponent(this.href)+'&name='+this.name;
         });
         this.tiles
         .mouseenter(function() {
@@ -257,13 +257,13 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
         });
         this.body.find("span").removeAttr("style");
     };
-    PDF_Slider.prototype.createTile   = function(name,img_) {
+    PDF_Slider.prototype.createTile   = function(name,img_,folder) {
         var $dlc    = this.createObj(div,getClass("dlc"));
         $dlc.css("background-image","url(\""+img_+"\")");
         var $div    = this.createObj(div);
         var $span   = this.createObj(span,{text:name});
         var $dwld   = this.createObj(div,getClass("download"));
-        var $link   = this.createObj(a,{name:name,href:getPath(name)});
+        var $link   = this.createObj(a,{name:name,href:getPath(folder+"/"+name)});
         var $svg    = "<svg viewBox='109 -109.5 268.5 268.5' fill='rgb(200,200,200)'><path d='M341.9,114.3H144.5c-12.2,0-22.1,10-22.1,22.4c0,12.4,9.9,22.4,22.1,22.4h197.4c12.2,0,22.1-10,22.1-22.4C364.1,124.3,354.2,114.3,341.9,114.3z M226.9,89.7c4,4,9.2,6.1,14.5,6.5c0.6,0.1,1.2,0.2,1.9,0.2c0.6,0,1.2-0.1,1.8-0.2c5.3-0.4,10.5-2.5,14.5-6.5l70.8-71c8.9-8.9,8.9-23.3,0-32.1c-8.9-8.9-23.2-8.9-32.1,0l-32.7,32.8V-87.1c0-12.4-10-22.4-22.4-22.4c-12.4,0-22.4,10-22.4,22.4V19.3l-32.7-32.8c-8.9-8.9-23.2-8.9-32.1,0c-8.9,8.9-8.9,23.3,0,32.1L226.9,89.7z'/></svg>";
         $dwld.append($svg);
         $dlc.append($div,$span,$dwld,$link);
@@ -309,10 +309,10 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
         var instance = new PDF_Slider(this);
         instances[instance.globalId] = instance;
     };
-    $.fn.AddPDF = function(name,img) {
+    $.fn.AddPDF = function(name,img,folder) {
         var id = $(this).attr("globalid");
         var instance = instances[id];
-        instance.createTile(name,img);
+        instance.createTile(name,img,folder);
     };
     $.fn.AdjustTiles = function(){
         var id = $(this).attr("globalid");

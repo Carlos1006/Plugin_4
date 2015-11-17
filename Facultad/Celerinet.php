@@ -2,13 +2,25 @@
 <html>
 <head>
     <title>Celerinet</title>
-    <?php header('Content-Type: text/html; charset=utf-8'); ?>
     <?php require "../Include/root.html" ?>
     <?php require "../Include/Slide.html" ?>
     <script src="./Script/Celerinet.js"></script>
     <link href="./Style/Style.css" rel="stylesheet">
     <link href="./Style/Celerinet.css" rel="stylesheet">
-    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <style>
+        .dlc {
+            background-size:auto 100% !important;
+        }
+    </style>
+    <script>
+        $(window).on("load",function() {
+            $(".downloadContainer").AddPDF("Volumen1.pdf","../img/pdf/vol1.jpg","Celerinet");
+            $(".downloadContainer").AddPDF("Volumen2.pdf","../img/pdf/vol2.jpg","Celerinet");
+            $(".downloadContainer").AddPDF("Volumen3.pdf","../img/pdf/vol3.png","Celerinet");
+            $(".downloadContainer").AddPDF("Volumen4.pdf","../img/pdf/vol4.png","Celerinet");
+            $(".downloadContainer").AddPDF("Volumen5.pdf","../img/pdf/vol5.jpg","Celerinet");
+        });
+    </script>
 </head>
 <body>
 <?php require_once "../Include/header.html" ?>

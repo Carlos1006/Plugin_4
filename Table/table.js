@@ -56,7 +56,7 @@
         });
         
     }
-    $.fn.Table              = function() {
+    $.fn.TableT              = function() {
         $(this).each(function() {
             var instance = new Table(this);
             instances[instance.globalId] = instance;
