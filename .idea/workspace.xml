@@ -2,138 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09686260-ad31-4682-ad35-2be26be78e50" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/Organizacion/1er Informe de Act.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/Intercambio/Becas IFAL.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/Intercambio/Botin.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/educacionContinua/CCCM.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/Profesores/Cisco_IP_PHONE.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/Profesores/Curso_IP_PHONE.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/educacionContinua/EC.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/Intercambio/Eslovenia.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/Intercambio/Francia.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/Profesores/Manual Tutor.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/Becas/Manutencion.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/Movilidad/Movilidad estudiantil.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/Profesores/PAT_FCFM.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/Profesores/PIT.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/Organizacion/Plan de Desarrollo.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/Intercambio/Quebec.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/Organizacion/Reglamento.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/servicios/apoyo/SEP-logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/Profesores/SIASE Tutor.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/Intercambio/Solicitud.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/Profesores/Tutorial_IP_7940.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/Profesores/Tutorial_IP_PHONE.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/Celerinet/Volumen2.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/Celerinet/Volumen3.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/Celerinet/Volumen4.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/Celerinet/Volumen5.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/rsc/asesores.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/servicios/profesores/bd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/intercambio/beca.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/intercambio/botin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/intercambio/canada.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pdf/cisco.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/rsc/cuerposA.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/educacionContinua/diploma.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/educacionContinua/director.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/rsc/egresados.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/rsc/egresadosIFI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/servicios/programas/emprendedor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/rsc/estadisticaIFI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/rsc/estadisticas.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/rsc/estudiantesIFI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/intercambio/francia.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/servicios/reglamento/leyes.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/Apoyo/manual_alumno.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/intercambio/movilidad.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pdf/phone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/rsc/planIFI1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/rsc/planIFI2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/rsc/profesores.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/rsc/profesoresIFI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/rsc/profesoresISI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/rsc/profesoresMAPTA.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/servicios/profesores/promep.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/rsc/requisitosISI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/educacionContinua/servicio.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/intercambio/si.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pdf/siase.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/servicios/programas/ss.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pdf/tutor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/rsc/tutorias.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/rsc/vinculacionIFI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/rsc/vinculacionISI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pdf/vol1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pdf/vol2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pdf/vol3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pdf/vol4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pdf/vol5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EducacionContinua/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Noticias/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Noticias/Style/Busqueda.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Noticias/Script/Busqueda.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Noticias/Busqueda.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EducacionContinua/Style/CCCM.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EducacionContinua/Style/EducacionContinua.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EducacionContinua/EducacionContinua.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Noticias/Style/Eventos.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Servicios/Script/ExaFCFM.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Noticias/Style/Noticias.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Noticias/Script/Noticias.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Servicios/Style/Profesores.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Servicios/Script/Profesores.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Servicios/Style/Programas.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Servicios/Script/Programas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Servicios/Style/Reglamento.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Servicios/Script/Reglamento.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EducacionContinua/Script/Script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Noticias/Script/Script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EducacionContinua/Style/Style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/download.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Include/fullCalendar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Include/table.html" />
-      <change type="MOVED" beforePath="C:\wamp\www\__naker\Plugin_4\Noticias\Evento.php" afterPath="$PROJECT_DIR$/EducacionContinua/CCCM.php" />
-      <change type="MOVED" beforePath="C:\wamp\www\__naker\Plugin_4\rsc\CarlosCV.pdf" afterPath="$PROJECT_DIR$/rsc/Celerinet/Volumen1.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/404/404.css" afterPath="$PROJECT_DIR$/404/404.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servicios/Style/Apoyo.css" afterPath="$PROJECT_DIR$/Servicios/Style/Apoyo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servicios/Apoyo.php" afterPath="$PROJECT_DIR$/Servicios/Apoyo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfertaEducativa/COM.php" afterPath="$PROJECT_DIR$/OfertaEducativa/COM.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facultad/Celerinet.php" afterPath="$PROJECT_DIR$/Facultad/Celerinet.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servicios/Style/Departamentos.css" afterPath="$PROJECT_DIR$/Servicios/Style/Departamentos.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servicios/Departamentos.php" afterPath="$PROJECT_DIR$/Servicios/Departamentos.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facultad/Style/Directores.css" afterPath="$PROJECT_DIR$/Facultad/Style/Directores.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facultad/Directores.php" afterPath="$PROJECT_DIR$/Facultad/Directores.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Noticias/Eventos.php" afterPath="$PROJECT_DIR$/Noticias/Eventos.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servicios/ExaFCFM.php" afterPath="$PROJECT_DIR$/Servicios/ExaFCFM.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facultad/Style/FCFM.css" afterPath="$PROJECT_DIR$/Facultad/Style/FCFM.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facultad/FCFM.php" afterPath="$PROJECT_DIR$/Facultad/FCFM.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfertaEducativa/IFI.php" afterPath="$PROJECT_DIR$/OfertaEducativa/IFI.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfertaEducativa/ISI.php" afterPath="$PROJECT_DIR$/OfertaEducativa/ISI.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfertaEducativa/MAPTA.php" afterPath="$PROJECT_DIR$/OfertaEducativa/MAPTA.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facultad/Style/Maestros.css" afterPath="$PROJECT_DIR$/Facultad/Style/Maestros.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facultad/Maestros.php" afterPath="$PROJECT_DIR$/Facultad/Maestros.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Noticias/Noticia.php" afterPath="$PROJECT_DIR$/Noticias/Noticia.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Noticias/Noticias.php" afterPath="$PROJECT_DIR$/Noticias/Noticias.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facultad/Script/Organizacion.js" afterPath="$PROJECT_DIR$/Facultad/Script/Organizacion.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facultad/Organizacion.php" afterPath="$PROJECT_DIR$/Facultad/Organizacion.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servicios/Profesores.php" afterPath="$PROJECT_DIR$/Servicios/Profesores.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servicios/Programas.php" afterPath="$PROJECT_DIR$/Servicios/Programas.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servicios/Reglamento.php" afterPath="$PROJECT_DIR$/Servicios/Reglamento.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfertaEducativa/Style/Style.css" afterPath="$PROJECT_DIR$/OfertaEducativa/Style/Style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataTable/dataTable.css" afterPath="$PROJECT_DIR$/DataTable/dataTable.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataTable/dataTable.js" afterPath="$PROJECT_DIR$/DataTable/dataTable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slide/download.php" afterPath="$PROJECT_DIR$/Slide/download.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fullCalendar.css" afterPath="$PROJECT_DIR$/fullCalendar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fullCalendar.js" afterPath="$PROJECT_DIR$/fullCalendar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/getEvents.php" afterPath="$PROJECT_DIR$/getEvents.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/getRanges.php" afterPath="$PROJECT_DIR$/getRanges.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Header/header.css" afterPath="$PROJECT_DIR$/Header/header.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slide/slide.css" afterPath="$PROJECT_DIR$/Slide/slide.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slide/slide.js" afterPath="$PROJECT_DIR$/Slide/slide.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Table/table.js" afterPath="$PROJECT_DIR$/Table/table.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfertaEducativa/LA.php" afterPath="$PROJECT_DIR$/OfertaEducativa/LA.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfertaEducativa/LCC.php" afterPath="$PROJECT_DIR$/OfertaEducativa/LCC.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfertaEducativa/LF.php" afterPath="$PROJECT_DIR$/OfertaEducativa/LF.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfertaEducativa/LM.php" afterPath="$PROJECT_DIR$/OfertaEducativa/LM.php" />
     </list>
     <ignored path="Plugin_4.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -155,11 +27,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LA.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/OfertaEducativa/LA.php">
+      <file leaf-file-name="LCC.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OfertaEducativa/LCC.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5788531">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.626">
+              <caret line="352" column="10" selection-start-line="352" selection-start-column="10" selection-end-line="352" selection-end-column="10" />
+              <folding>
+                <element signature="n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LMAD.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OfertaEducativa/LMAD.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.461538">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -168,18 +53,18 @@
       <file leaf-file-name="LF.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OfertaEducativa/LF.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-11.769231">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="26" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LM.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OfertaEducativa/LM.php">
+      <file leaf-file-name="LSTI.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OfertaEducativa/LSTI.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.1923077">
-              <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -201,10 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Noticias/Noticia.php" />
-        <option value="$PROJECT_DIR$/Noticias/Style/Noticias.css" />
-        <option value="$PROJECT_DIR$/Include/fullCalendar.html" />
-        <option value="$PROJECT_DIR$/Noticias/Eventos.php" />
         <option value="$PROJECT_DIR$/getEvents.php" />
         <option value="$PROJECT_DIR$/getRanges.php" />
         <option value="$PROJECT_DIR$/Noticias/Style/Busqueda.css" />
@@ -252,6 +133,10 @@
         <option value="$PROJECT_DIR$/OfertaEducativa/IFI.php" />
         <option value="$PROJECT_DIR$/OfertaEducativa/ISI.php" />
         <option value="$PROJECT_DIR$/OfertaEducativa/MAPTA.php" />
+        <option value="$PROJECT_DIR$/OfertaEducativa/LA.php" />
+        <option value="$PROJECT_DIR$/OfertaEducativa/LF.php" />
+        <option value="$PROJECT_DIR$/OfertaEducativa/LM.php" />
+        <option value="$PROJECT_DIR$/OfertaEducativa/LCC.php" />
       </list>
     </option>
   </component>
@@ -544,31 +429,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/pdf/cisco.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/pdf/puzzle.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facultad/Script/Organizacion.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="63" selection-start-line="66" selection-start-column="63" selection-end-line="66" selection-end-column="63" />
-          <folding>
-            <element signature="e#64#272#0" expanded="false" />
-            <element signature="e#290#401#0" expanded="false" />
-            <element signature="e#427#629#0" expanded="false" />
-            <element signature="e#654#856#0" expanded="false" />
-            <element signature="e#920#1009#0" expanded="false" />
-            <element signature="e#1058#1094#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Facultad/Organizacion.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12164579">
@@ -1160,13 +1020,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OfertaEducativa/MAPTA.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.496">
-          <caret line="108" column="53" selection-start-line="108" selection-start-column="53" selection-end-line="108" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.4874552">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OfertaEducativa/LF.php">
+    <entry file="file://$PROJECT_DIR$/OfertaEducativa/LA.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51">
+          <caret line="15" column="9" selection-start-line="13" selection-start-column="8" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfertaEducativa/LM.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.068">
+          <caret line="284" column="44" selection-start-line="284" selection-start-column="44" selection-end-line="284" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfertaEducativa/LSTI.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1174,19 +1052,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OfertaEducativa/LM.php">
+    <entry file="file://$PROJECT_DIR$/OfertaEducativa/LF.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1923077">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        <state vertical-scroll-proportion="-11.769231">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="26" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OfertaEducativa/LA.php">
+    <entry file="file://$PROJECT_DIR$/OfertaEducativa/LMAD.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5788531">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        <state vertical-scroll-proportion="-10.461538">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfertaEducativa/LCC.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.626">
+          <caret line="352" column="10" selection-start-line="352" selection-start-column="10" selection-end-line="352" selection-end-column="10" />
+          <folding>
+            <element signature="n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
