@@ -24,7 +24,7 @@
             <div class="carreraTileImg"></div>
             <div class="carreraShade">
                 <div class="wrapperShade"></div>
-                <div class="carreraShadeBtn">
+                <div class="carreraShadeBtn" ref="./LF">
                     <label>LEER MAS</label>
                 </div>
             </div>
@@ -41,7 +41,7 @@
             <div class="carreraTileImg"></div>
             <div class="carreraShade">
                 <div class="wrapperShade"></div>
-                <div class="carreraShadeBtn">
+                <div class="carreraShadeBtn" ref="./LM">
                     <label>LEER MAS</label>
                 </div>
             </div>
@@ -59,7 +59,7 @@
             <div class="carreraTileImg"></div>
             <div class="carreraShade">
                 <div class="wrapperShade"></div>
-                <div class="carreraShadeBtn">
+                <div class="carreraShadeBtn" ref="./LCC">
                     <label>LEER MAS</label>
                 </div>
             </div>
@@ -76,7 +76,7 @@
             <div class="carreraTileImg"></div>
             <div class="carreraShade">
                 <div class="wrapperShade"></div>
-                <div class="carreraShadeBtn">
+                <div class="carreraShadeBtn" ref="./LMAD">
                     <label>LEER MAS</label>
                 </div>
             </div>
@@ -92,7 +92,7 @@
             <div class="carreraTileImg"></div>
             <div class="carreraShade">
                 <div class="wrapperShade"></div>
-                <div class="carreraShadeBtn">
+                <div class="carreraShadeBtn" ref="./LA">
                     <label>LEER MAS</label>
                 </div>
             </div>
@@ -105,11 +105,11 @@
             </div>
         </div>
         <div class="carreraTile" id="LSTI">
-            <div class="carreraTileHead"><label>Seguridad en Tecnologias de Informacion</label></div>
+            <div class="carreraTileHead"><label style="font-size:90%;">Seguridad en Tecnologias de Informacion</label></div>
             <div class="carreraTileImg"></div>
             <div class="carreraShade">
                 <div class="wrapperShade"></div>
-                <div class="carreraShadeBtn">
+                <div class="carreraShadeBtn" ref="./LSTI">
                     <label>LEER MAS</label>
                 </div>
             </div>

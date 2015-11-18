@@ -15,54 +15,56 @@
     <div class="frame"></div>
     <div id="goBottom"></div>
 </div>
+<div class="prev"></div>
+<div class="next"></div>
 <div class="tabContainer">
     <div class="newHeader"><label>Ultimas noticias</label></div>
-    <div class="new">
+    <div class="new" id="new0">
         <div class="newImg"></div>
-        <div class="newtitle"><label>Titulo de noticias</label></div>
-        <div class="newCont"><label>aSDDsddddddddddddddddddddddd</label></div>
+        <div class="newtitle"><label></label></div>
+        <div class="newCont"><label></label></div>
         <div class="newMore"><label>Leer noticia</label></div>
     </div>
-    <div class="new">
+    <div class="new" id="new1">
         <div class="newImg"></div>
-        <div class="newtitle"><label>Titulo de noticias</label></div>
-        <div class="newCont"><label>aSDDsddddddddddddddddddddddd</label></div>
+        <div class="newtitle"><label></label></div>
+        <div class="newCont"><label></label></div>
         <div class="newMore"><label>Leer noticia</label></div>
     </div>
-    <div class="new">
+    <div class="new" id="new2">
         <div class="newImg"></div>
-        <div class="newtitle"><label>Titulo de noticias</label></div>
-        <div class="newCont"><label>aSDDsddddddddddddddddddddddd</label></div>
+        <div class="newtitle"><label></label></div>
+        <div class="newCont"><label></label></div>
         <div class="newMore"><label>Leer noticia</label></div>
     </div>
-    <div class="new">
+    <div class="new" id="new3">
         <div class="newImg"></div>
-        <div class="newtitle"><label>Titulo de noticias</label></div>
-        <div class="newCont"><label>aSDDsddddddddddddddddddddddd</label></div>
+        <div class="newtitle"><label></label></div>
+        <div class="newCont"><label></label></div>
         <div class="newMore"><label>Leer noticia</label></div>
     </div>
-    <div class="new">
+    <div class="new" id="new4">
         <div class="newImg"></div>
-        <div class="newtitle"><label>Titulo de noticias</label></div>
-        <div class="newCont"><label>aSDDsddddddddddddddddddddddd</label></div>
+        <div class="newtitle"><label></label></div>
+        <div class="newCont"><label></label></div>
         <div class="newMore"><label>Leer noticia</label></div>
     </div>
-    <div class="new">
+    <div class="new" id="new5">
         <div class="newImg"></div>
-        <div class="newtitle"><label>Titulo de noticias</label></div>
-        <div class="newCont"><label>aSDDsddddddddddddddddddddddd</label></div>
+        <div class="newtitle"><label></label></div>
+        <div class="newCont"><label></label></div>
         <div class="newMore"><label>Leer noticia</label></div>
     </div>
-    <div class="new">
+    <div class="new" id="new6">
         <div class="newImg"></div>
-        <div class="newtitle"><label>Titulo de noticias</label></div>
-        <div class="newCont"><label>aSDDsddddddddddddddddddddddd</label></div>
+        <div class="newtitle"><label></label></div>
+        <div class="newCont"><label></label></div>
         <div class="newMore"><label>Leer noticia</label></div>
     </div>
-    <div class="new">
+    <div class="new" id="new7">
         <div class="newImg"></div>
-        <div class="newtitle"><label>Titulo de noticias</label></div>
-        <div class="newCont"><label>aSDDsddddddddddddddddddddddd</label></div>
+        <div class="newtitle"><label></label></div>
+        <div class="newCont"><label></label></div>
         <div class="newMore"><label>Leer noticia</label></div>
     </div>
 </div>

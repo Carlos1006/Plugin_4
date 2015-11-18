@@ -373,6 +373,10 @@
     background:rgba(150,150,150,1.0) url(img/A.jpg) no-repeat center;
     background-size:auto 90%;
 }
+.eventImg {
+    overflow-y:auto;
+    text-align:center;
+}
 .eventImg div{
     float:left;
     height:90%;

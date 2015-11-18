@@ -30,4 +30,8 @@ $(function() {
         $(this).find(".carreraShade").fadeOut(300);
     });
 
+    $(".carreraShadeBtn").click(function() {
+        window.location.replace($(this).attr("ref"));
+    });
+
 });

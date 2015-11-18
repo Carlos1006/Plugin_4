@@ -47,4 +47,21 @@ $(function() {
         });
     });
 
+    $(".quickAccess,.moreBtn").click(function() {
+        window.location.replace($(this).attr("ref"));
+    });
+
+    $("#events_c .titl").click(function() {
+        $("#moreEvent").trigger("click");
+    });
+
+    $("b").click(function () {
+        var id = $(this).attr("idnoticia");
+        if($.trim(id) !='' && id!=null && typeof id != 'undefined') {
+            var url = "../Noticias/Noticia?id="+id;
+            window.location.replace(url);
+        }
+    });
+
+
 });

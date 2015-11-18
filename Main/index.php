@@ -23,6 +23,7 @@
             }
         </style>
         <script src="main.js"></script>
+        <script src="ajaxRequest.js"></script>
         <link href="main.css" rel="stylesheet" type="text/css">
     </head>
     <body>
@@ -33,19 +34,19 @@
             <div id="sideBanner">
                 <div class="quickAccessContainer">
                     <div class="wrapQ"></div>
-                    <div class="quickAccess"><label>LMAD</label></div>
+                    <div class="quickAccess" ref="../OfertaEducativa/LMAD"><label>LMAD</label></div>
                     <div class="wrapR"></div>
-                    <div class="quickAccess"><label>LSTI</label></div>
+                    <div class="quickAccess" ref="../OfertaEducativa/LSTI"><label>LSTI</label></div>
                     <div class="wrapR"></div>
-                    <div class="quickAccess"><label>LCC</label></div>
+                    <div class="quickAccess" ref="../OfertaEducativa/LCC"><label>LCC</label></div>
                     <div class="wrapR"></div>
-                    <div class="quickAccess"><label>LM</label></div>
+                    <div class="quickAccess" ref="../OfertaEducativa/LM"><label>LM</label></div>
                     <div class="wrapR"></div>
-                    <div class="quickAccess"><label>LA</label></div>
+                    <div class="quickAccess" ref="../OfertaEducativa/LA"><label>LA</label></div>
                     <div class="wrapR"></div>
-                    <div class="quickAccess"><label>LF</label></div>
+                    <div class="quickAccess" ref="../OfertaEducativa/LF"><label>LF</label></div>
                     <div class="wrapR"></div>
-                    <div class="quickAccess"><label>Posgrado</label></div>
+                    <div class="quickAccess" ref="../OfertaEducativa/Posgrado"><label>Posgrado</label></div>
                     <div class="wrapQ"></div>
                 </div>
             </div>
@@ -56,7 +57,7 @@
             </div>
             <div class="moreContainer">
                 <span class="wrapM"></span>
-                <div id="moreEvent" class="moreBtn">
+                <div id="moreEvent" class="moreBtn" ref="../Noticias/Eventos">
                     <label>Ver mas...</label>
                 </div>
             </div>
@@ -66,45 +67,40 @@
             <div num="0" class="tile">
                 <div class="imgEvent"></div>
                 <div class="txtEvent">
-                    <div class="date"><label>19/Dic/2015 - 1:25pm</label></div>
-                    <div class="titl"><label>Lorem ipsum dolor sit amet</label></div>
-                    <div class="text"><label>Nullam et aliquam tortor. Sed lorem dui, mollis id leo eget, ultrices bibendum</label></div>
+                    <div class="date"><label></label></div>
+                    <div class="titl"><label></label></div>
                 </div>
             </div>
             <div class="wrapT"></div>
             <div num="1" class="tile">
                 <div class="imgEvent"></div>
                 <div class="txtEvent">
-                    <div class="date"><label>19/Dic/2015 - 1:25pm</label></div>
-                    <div class="titl"><label>Lorem ipsum dolor sit amet</label></div>
-                    <div class="text"><label>Nullam et aliquam tortor. Sed lorem dui, mollis id leo eget, ultrices bibendum</label></div>
+                    <div class="date"><label></label></div>
+                    <div class="titl"><label></label></div>
                 </div>
             </div>
             <div class="wrapT"></div>
             <div num="2" class="tile">
                 <div class="imgEvent"></div>
                 <div class="txtEvent">
-                    <div class="date"><label>19/Dic/2015 - 1:25pm</label></div>
-                    <div class="titl"><label>Lorem ipsum dolor sit amet</label></div>
-                    <div class="text"><label>Nullam et aliquam tortor. Sed lorem dui, mollis id leo eget, ultrices bibendum</label></div>
+                    <div class="date"><label></label></div>
+                    <div class="titl"><label></label></div>
                 </div>
             </div>
             <div class="wrapT"></div>
             <div num="3" class="tile">
                 <div class="imgEvent"></div>
                 <div class="txtEvent">
-                    <div class="date"><label>19/Dic/2015 - 1:25pm</label></div>
-                    <div class="titl"><label>Lorem ipsum dolor sit amet</label></div>
-                    <div class="text"><label>Nullam et aliquam tortor. Sed lorem dui, mollis id leo eget, ultrices bibendum</label></div>
+                    <div class="date"><label></label></div>
+                    <div class="titl"><label></label></div>
                 </div>
             </div>
             <div class="wrapT"></div>
             <div num="4" class="tile">
                 <div class="imgEvent"></div>
                 <div class="txtEvent">
-                    <div class="date"><label>19/Dic/2015 - 1:25pm</label></div>
-                    <div class="titl"><label>Lorem ipsum dolor sit amet</label></div>
-                    <div class="text"><label>Nullam et aliquam tortor. Sed lorem dui, mollis id leo eget, ultrices bibendum</label></div>
+                    <div class="date"><label></label></div>
+                    <div class="titl"><label></label></div>
                 </div>
             </div>
         </div>
@@ -114,7 +110,7 @@
             </div>
             <div class="moreContainer">
                 <span class="wrapM"></span>
-                <div id="moreNews" class="moreBtn">
+                <div id="moreNews" class="moreBtn" ref="../Noticias/">
                     <label>Ver mas...</label>
                 </div>
             </div>
@@ -124,44 +120,44 @@
             <div num="0" class="tile redTile fullTile">
                 <div class="upRow">
                     <div class="imgEvent"></div>
-                    <div class="titl"><label>Lorem ipsum dolor sit amet</label></div>
-                    <div class="date"><label>19/Dic/2015</label></div>
+                    <div class="titl"><label></label></div>
+                    <div class="date"><label></label></div>
                 </div>
                 <div class="dwRow">
-                    <label>Nullam et aliquam tortor. Sed lorem dui, mollis id leo eget, ultrices bibendum <b>Leer mas</b> </label>
+                    <label> <b>Leer mas</b> </label>
                 </div>
             </div>
             <div class="wrapT"></div>
             <div num="1" class="tile blueTile fullTile">
                 <div class="upRow">
                     <div class="imgEvent"></div>
-                    <div class="titl"><label>Lorem ipsum dolor sit amet</label></div>
-                    <div class="date"><label>19/Dic/2015</label></div>
+                    <div class="titl"><label></label></div>
+                    <div class="date"><label></label></div>
                 </div>
                 <div class="dwRow">
-                    <label>Nullam et aliquam tortor. Sed lorem dui, mollis id leo eget, ultrices bibendum <b>Leer mas</b> </label>
+                    <label> <b>Leer mas</b> </label>
                 </div>
             </div>
             <div class="wrapT"></div>
             <div num="2" class="tile redTile fullTile">
                 <div class="upRow">
                     <div class="imgEvent"></div>
-                    <div class="titl"><label>Lorem ipsum dolor sit amet</label></div>
-                    <div class="date"><label>19/Dic/2015</label></div>
+                    <div class="titl"><label></label></div>
+                    <div class="date"><label></label></div>
                 </div>
                 <div class="dwRow">
-                    <label>Nullam et aliquam tortor. Sed lorem dui, mollis id leo eget, ultrices bibendum <b>Leer mas</b> </label>
+                    <label> <b>Leer mas</b> </label>
                 </div>
             </div>
             <div class="wrapT"></div>
             <div num="3" class="tile blueTile fullTile">
                 <div class="upRow">
                     <div class="imgEvent"></div>
-                    <div class="titl"><label>Lorem ipsum dolor sit amet</label></div>
-                    <div class="date"><label>19/Dic/2015</label></div>
+                    <div class="titl"><label></label></div>
+                    <div class="date"><label></label></div>
                 </div>
                 <div class="dwRow">
-                    <label>Nullam et aliquam tortor. Sed lorem dui, mollis id leo eget, ultrices bibendum <b>Leer mas</b> </label>
+                    <label> <b>Leer mas</b> </label>
                 </div>
             </div>
         </div>

@@ -15,7 +15,15 @@
             var body = $("html, body");
             body.stop().animate({scrollTop:0},500,'swing',function(){});
         });
-        
+
+        $(".exLink").click(function() {
+            var url = $(this).attr("ref");
+            window.open(url);
+        });
+        $(".inLink").click(function() {
+            var url = $(this).attr("ref");
+            window.location.replace(url);
+        });
         
     });
 })(jQuery,Math,document,window);

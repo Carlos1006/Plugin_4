@@ -1,0 +1,17 @@
+#viewer {
+    background:rgb(30,30,30) url(../../img/A.jpg) no-repeat center;
+    background-size:100% auto;
+}
+
+#viewer[num="0"] {  background-image: url(../../img/oferta/COM/descripcion.jpg); }
+#viewer[num="1"] {  background-image: url(../../img/oferta/COM/objetivo.jpg);}
+#viewer[num="2"] {  background-image: url(../../img/oferta/COM/requisitos.jpg); }
+#viewer[num="3"] {  background-image: url(../../img/oferta/COM/PLAN%20DE%20ESTUDIO.jpg); }
+#viewer[num="4"] {  background-image: url(../../img/oferta/COM/asesores.jpg); }
+#viewer[num="5"] {  background-image: url(../../img/oferta/COM/egresado.jpg); }
+#viewer[num="6"] {  background-image: url(../../img/oferta/COM/profesores.jpg); }
+#viewer[num="7"] {  background-image: url(../../img/oferta/COM/colaboradores.jpg); }
+#viewer[num="8"] {  background-image: url(../../img/oferta/COM/estadisticas.jpg); }
+#viewer[num="9"] {  background-image: url(../../img/oferta/COM/cuerpo_academico.jpg); }
+#viewer[num="10"] {  background-image: url(../../img/oferta/COM/vinculacion.jpg); }
+#viewer[num="11"] {  background-image: url(../../img/oferta/COM/proceso_administrativo.jpg); }

@@ -150,7 +150,7 @@
     pointer-events:none;
 }
 .content#events_c{
-    height:65%;
+    height:40%;
 }
 .content#news_c{
     height:30%;
@@ -182,15 +182,16 @@
 }
 #events_c>.tile>.imgEvent{
     width:100%;
-    height:30%;
-    background:rgb(10,10,10) url(../img/H.png) no-repeat center;
+    height:50%;
+    background:rgb(10,10,10) no-repeat;
     background-size:100% auto;
+    background-position:50% 0%;
 }
 #events_c>.tile>.txtEvent{
     width:90%;
     padding-left:5%;
     padding-right:5%;
-    height:70%;
+    height:50%;
 }
 #events_c>.tile>.txtEvent>.date{
     width:100%;
@@ -206,10 +207,10 @@
 }
 #events_c>.tile>.txtEvent>.titl{
     width:100%;
-    height: 20%;
+    height: 85%;
     max-height: 30%;
     display:table;
-    font-size:105%;
+    font-size:100%;
     color:rgb(20,20,20);
     font-weight:600;
 }
@@ -285,7 +286,7 @@
 #news_c>.tile .imgEvent{
     height:100%;
     width:50%;
-    background:rgb(30,30,30) url(../img/D.jpg) no-repeat center;
+    background:rgb(30,30,30) no-repeat center;
     background-size:100% auto;
     float:left;
 }
@@ -294,7 +295,7 @@
     width:50%;
     float: left;
     display:table;
-    font-size:90%;
+    font-size:55%;
     color:rgb(40,40,40);
     background-color:rgb(220,220,220);
     font-weight:800;
@@ -305,6 +306,7 @@
     vertical-align:middle;
     pointer-events: none;
     padding-left:4%;
+
 }
 #news_c>.tile .titl:hover{
     cursor:pointer;
@@ -347,7 +349,7 @@
     padding-top:2%;
     padding-left:2%;
     padding-right:2%;
-    font-size:90%;
+    font-size:80%;
     color:rgb(30,30,30);
     font-weight:200;
 }

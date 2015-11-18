@@ -6,10 +6,11 @@
     <?php require "../Include/tabs.html" ?>
     <script src="./Script/Script.js"></script>
     <link href="./Style/Style.css" rel="stylesheet">
+    <link href="./Style/ISI.css" rel="stylesheet">
     <?php
     $array = ['','_2','_3'];
     $num = $array[array_rand($array)];
-    $file  = "./rsc/posgrado/ISI$num.jpg";
+    $file  = "../img/posgrado/ISI$num.jpg";
     ?>
     <style>
         #banner>.frame{
@@ -17,6 +18,9 @@
         }
         .tab[name="Plan de estudios"]{
             overflow-x:auto;
+        }
+        #vinculacion img{
+            width:50%;
         }
     </style>
 </head>
@@ -85,12 +89,12 @@
             </label>
         </div>
     </div>
-    <div name="Vinculación">
+    <div id="vinculacion" name="Vinculación">
         <div class="textTab">
             <label>
                 <b>Vinculación</b>
                 <p>Actualmente se cuenta con alianzas estratégicas tanto en el sector educativo como en el productivo.</p>
-                <img style="width: 30%; height: 90%;" src="./rsc/vinculacionISI.jpg" /><br />
+                <img src="./rsc/vinculacionISI.jpg" /><br />
             </label>
         </div>
     </div>

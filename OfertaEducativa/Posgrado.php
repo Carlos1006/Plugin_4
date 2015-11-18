@@ -26,11 +26,11 @@
     <div class="carrerasHead"><label>Maestrias</label></div>
     <div class="carrerasBody">
         <div class="carreraTile" id="COM">
-            <div class="carreraTileHead"><label>Ciencias con Orientacion en Matematicas</label></div>
+            <div class="carreraTileHead"><label style="font-size:90%">Ciencias con Orientacion en Matematicas</label></div>
             <div class="carreraTileImg"></div>
             <div class="carreraShade">
                 <div class="wrapperShade"></div>
-                <div class="carreraShadeBtn">
+                <div class="carreraShadeBtn" ref="./COM">
                     <label>LEER MAS</label>
                 </div>
             </div>
@@ -48,7 +48,7 @@
             <div class="carreraTileImg"></div>
             <div class="carreraShade">
                 <div class="wrapperShade"></div>
-                <div class="carreraShadeBtn">
+                <div class="carreraShadeBtn" ref="./IFI">
                     <label>LEER MAS</label>
                 </div>
             </div>
@@ -62,11 +62,11 @@
             </div>
         </div>
         <div class="carreraTile" id="ISI">
-            <div class="carreraTileHead"><label>Ing. en Seguridad de la Información</label></div>
+            <div class="carreraTileHead"><label style="font-size:90%">Ing. en Seguridad de la Información</label></div>
             <div class="carreraTileImg"></div>
             <div class="carreraShade">
                 <div class="wrapperShade"></div>
-                <div class="carreraShadeBtn">
+                <div class="carreraShadeBtn" ref="./ISI">
                     <label>LEER MAS</label>
                 </div>
             </div>
@@ -81,11 +81,11 @@
             </div>
         </div>
         <div class="carreraTile" id="MAPTA">
-            <div class="carreraTileHead"><label>Astrofísica Planetaria y Tecnologías Afines</label></div>
+            <div class="carreraTileHead"><label style="font-size:90%">Astrofísica Planetaria y Tecnologías Afines</label></div>
             <div class="carreraTileImg"></div>
             <div class="carreraShade">
                 <div class="wrapperShade"></div>
-                <div class="carreraShadeBtn">
+                <div class="carreraShadeBtn" ref="./MAPTA">
                     <label>LEER MAS</label>
                 </div>
             </div>
@@ -108,7 +108,7 @@
             <div class="carreraTileImg"></div>
             <div class="carreraShade">
                 <div class="wrapperShade"></div>
-                <div class="carreraShadeBtn">
+                <div class="carreraShadeBtn" ref="./DM">
                     <label>LEER MAS</label>
                 </div>
             </div>
@@ -125,7 +125,7 @@
             <div class="carreraTileImg"></div>
             <div class="carreraShade">
                 <div class="wrapperShade"></div>
-                <div class="carreraShadeBtn">
+                <div class="carreraShadeBtn" ref="./DFI">
                     <label>LEER MAS</label>
                 </div>
             </div>

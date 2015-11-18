@@ -7,10 +7,11 @@
     <?php require "../Include/table.html" ?>
     <script src="./Script/Script.js"></script>
     <link href="./Style/Style.css" rel="stylesheet">
+    <link href="./Style/IFI.css" rel="stylesheet">
     <?php
     $array = ['','_2'];
     $num = $array[array_rand($array)];
-    $file  = "./rsc/posgrado/IFI$num.jpg";
+    $file  = "../img/posgrado/IFI$num.jpg";
     ?>
     <script>
         $(function(){

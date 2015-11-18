@@ -8,13 +8,7 @@
     <link href="./Style/Style.css" rel="stylesheet">
     <link href="./Style/Eventos.css" rel="stylesheet">
     <script src="Script/Script.js"></script>
-    <script>
-        $(function(){
-            $(".tabContainer").fullCalendar();
-            var event = $.getEvent("Halloween","Halloween","../img/A.jpg");
-            $(".tabContainer").setEvent(2015,10,10,event);
-        });
-    </script>
+    <script src="Script/Eventos.js"></script>
 </head>
 <body>
 <?php require_once "../Include/header.html" ?>

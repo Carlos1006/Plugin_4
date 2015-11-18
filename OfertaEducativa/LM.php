@@ -7,6 +7,7 @@
     <?php require "../Include/table.html" ?>
     <script src="./Script/Script.js"></script>
     <link href="./Style/Style.css" rel="stylesheet">
+    <link href="./Style/LM.css" rel="stylesheet">
     <?php
     $array = ["LM","LM_2"];
     $num = $array[array_rand($array)];

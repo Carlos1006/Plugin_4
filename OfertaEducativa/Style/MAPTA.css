@@ -1,0 +1,13 @@
+#viewer {
+    background:rgb(30,30,30) url(../../img/A.jpg) no-repeat center;
+    background-size:100% auto;
+}
+
+#viewer[num="0"] {  background-image: url(../../img/oferta/MAPTA/descripcion.jpg); }
+#viewer[num="1"] {  background-image: url(../../img/facultad/mision.png);}
+#viewer[num="2"] {  background-image: url(../../img/oferta/MAPTA/requisitos.jpg); }
+#viewer[num="3"] {  background-image: url(../../img/oferta/DM/estudiante.jpg); }
+#viewer[num="4"] {  background-image: url(../../img/oferta/MAPTA/profesores.jpg); }
+#viewer[num="5"] {  background-image: url(../../img/oferta/MAPTA/colaboradores.jpg); }
+#viewer[num="6"] {  background-image: url(../../img/oferta/MAPTA/cuerpo_academico.jpg); }
+#viewer[num="7"] {  background-image: url(../../img/oferta/MAPTA/proceso_administrativo.jpg); }

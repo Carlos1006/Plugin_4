@@ -1,0 +1,11 @@
+#viewer {
+    background:rgb(30,30,30) url(../../img/A.jpg) no-repeat center;
+    background-size:100% auto;
+}
+
+#viewer[num="0"] {  background-image: url(../../img/oferta/LMAD.jpg); }
+#viewer[num="1"] {  background-image: url(../../img/oferta/ASPIRANTE.jpg);}
+#viewer[num="2"] {  background-image: url(../../img/oferta/egresado.jpg); }
+#viewer[num="3"] {  background-image: url(../../img/oferta/PLAN%20DE%20ESTUDIO.jpg); }
+#viewer[num="4"] {  background-image: url(../../img/oferta/MAESTRO.jpg); }
+#viewer[num="5"] {  background-image: url(../../img/oferta/PROPOSITO.jpg); }

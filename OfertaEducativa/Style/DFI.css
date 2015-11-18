@@ -1,0 +1,17 @@
+#viewer {
+    background:rgb(30,30,30) url(../../img/A.jpg) no-repeat center;
+    background-size:100% auto;
+}
+
+#viewer[num="0"] {  background-image: url(../../img/oferta/DFI/descripcion.jpg); }
+#viewer[num="1"] {  background-image: url(../../img/oferta/DFI/objetivo.jpg);}
+#viewer[num="2"] {  background-image: url(../../img/oferta/DFI/requisitos.jpg); }
+#viewer[num="3"] {  background-image: url(../../img/oferta/DFI/PLAN%20DE%20ESTUDIO.jpg); }
+#viewer[num="4"] {  background-image: url(../../img/oferta/DM/estudiante.jpg); }
+#viewer[num="5"] {  background-image: url(../../img/oferta/DFI/profesores.jpg); }
+#viewer[num="6"] {  background-image: url(../../img/oferta/DFI/colaboradores.jpg); }
+#viewer[num="7"] {  background-image: url(../../img/oferta/DFI/estadisticas.jpg); }
+#viewer[num="8"] {  background-image: url(../../img/oferta/DFI/productividad_academia.jpg); }
+#viewer[num="9"] {  background-image: url(../../img/oferta/DFI/cuerpo_academico.jpg); }
+#viewer[num="10"] {  background-image: url(../../img/oferta/DFI/vinculacion.jpg); }
+#viewer[num="11"] {  background-image: url(../../img/oferta/DM/proceso_administrativo.jpg); }

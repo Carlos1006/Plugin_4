@@ -370,8 +370,8 @@
                 path    = dayCelebs[i].pic;
                 if(path != null && path != '' && typeof path != 'undefined') {
                     $event.addClass("eventImg");
-                    var $img = _this.createObj("div",{});
-                    $img.css("background-image","url(\""+path+"\")");
+                    var $img = _this.createObj("img",{});
+                    $img.attr("src",path);
                     $event.append($img);
                 }else{
                     $event.addClass("eventNImg");
@@ -443,6 +443,7 @@
                 }
             }
         });
+        this.setDays();
     };
     FullCalendar.prototype.createSvg    = function(points) {
         return "<svg viewBox='0 0 50 50' preserveAspectRatio='none'><polygon fill='rgb(200,200,200)' points='"+points.join(" ")+"'></polygon></svg>";
@@ -523,7 +524,11 @@
     FullCalendar.prototype.setStaticRange   = function(range) {
         this.ranges.push(range);
     };
-    
+    $.fn.refresh        = function() {
+        var globalId = $(this).attr("globalId");
+        var instance = globals[globalId];
+        instance.monthBtn.trigger("click");
+    };
     $.fn.fullCalendar   = function() {
         var userOptions = arguments[0]||{};
         var options = {

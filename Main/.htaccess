@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^(\w+)$ http://localhost/__naker/Plugin_4/Main/index.php
+RewriteRule ^$ http://localhost/__naker/Plugin_4/Main/index.php
+ErrorDocument 404 http://localhost/__naker/Plugin_4/404

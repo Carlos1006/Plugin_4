@@ -6,6 +6,7 @@
     <?php require "../Include/tabs.html" ?>
     <script src="./Script/Script.js"></script>
     <link href="./Style/Style.css" rel="stylesheet">
+    <link href="./Style/MAPTA.css" rel="stylesheet">
     <?php
     $array = ['','_2','_3','_4','_5','_6','_7','_8'];
     $num = $array[array_rand($array)];

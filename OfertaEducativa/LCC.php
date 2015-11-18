@@ -7,6 +7,7 @@
     <?php require "../Include/table.html" ?>
     <script src="./Script/Script.js"></script>
     <link href="./Style/Style.css" rel="stylesheet">
+    <link href="./Style/LCC.css" rel="stylesheet">
     <?php
     $array = ["LCC","LCC_2"];
     $num = $array[array_rand($array)];
@@ -123,7 +124,7 @@
             <br>
             <div id="main2" class="tabla">
                 <div class="superHead">2do Semestre</div>
-                <div class="header">Créditos-Horas-semana-Requisitos</div>
+                <div class="header">-Créditos-Horas/semana-Requisitos</div>
                 <div class="row">MATEMATICAS 3-4-3-MATEMATICAS 1, MATEMATICAS 2</div>
                 <div class="row">MATEMATICAS 4-2-3-MATEMATICAS 2</div>
                 <div class="row">FISICA-4-3-MATEMATICAS 2</div>
@@ -135,7 +136,7 @@
             <br>
             <div id="main3" class="tabla">
                 <div class="superHead">3er Semestre</div>
-                <div class="header">Créditos-Horas-semana-Requisitos</div>
+                <div class="header">-Créditos-Horas/semana-Requisitos</div>
                 <div class="row">MATEMATICAS DISCRETAS-2-3-MATEMATICAS 1, MATEMATICAS 4</div>
                 <div class="row">ANALISIS DE SISTEMAS I-2-3</div>
                 <div class="row">SISTEMAS ELECTRONICOS-4-3-FISICA</div>
@@ -148,7 +149,7 @@
             <br>
             <div id="main4" class="tabla">
                 <div class="superHead">4to Semestre</div>
-                <div class="header">Créditos-Horas-semana-Requisitos</div>
+                <div class="header">-Créditos-Horas/semana-Requisitos</div>
                 <div class="row">ECUACIONES DIFERENCIALES-2-3-MATEMATICAS DISCRETAS</div>
                 <div class="row">CIRCUITOS DIGITALES-4-3-SISTEMAS ELECTRONICOS</div>
                 <div class="row">BIOINFORMATICA-4-3-ESTRUCTURA DE DATOS</div>
@@ -159,7 +160,7 @@
             <br>
             <div id="main5" class="tabla">
                 <div class="superHead">5to Semestre</div>
-                <div class="header">Créditos-Horas-semana-Requisitos</div>
+                <div class="header">-Créditos-Horas/Semana-Requisitos</div>
                 <div class="row">ESTADISTICA I-4-3-ECUACIONES DIFERENCIALES</div>
                 <div class="row">ANALISIS NUMERICO-2-3-ECUACIONES DIFERENCIALES</div>
                 <div class="row">MICROPROCESADORES-4-3-CIRCUITOS DIGITALES</div>
@@ -169,7 +170,7 @@
             <br>
             <div id="main6" class="tabla">
                 <div class="superHead">6to Semestre</div>
-                <div class="header">Créditos-Horas-semana-Requisitos</div>
+                <div class="header">-Créditos-Horas/semana-Requisitos</div>
                 <div class="row">SISTEMAS EMBEBIDOS I-2-3-MICROPROCESADORES</div>
                 <div class="row">ESTADISTICA II-4-3-ESTADISTICA I</div>
                 <div class="row">SISTEMAS OPERATIVOS-2-3-MICROPROCESADORES</div>
@@ -180,7 +181,7 @@
             <br>
             <div id="main7" class="tabla">
                 <div class="superHead">7mo Semestre</div>
-                <div class="header">Créditos-Horas-semana-Requisitos</div>
+                <div class="header">-Créditos-Horas/Semana-Requisitos</div>
                 <div class="row">INVESTIGACION DE OPERACIONES-2-3-ESTADISTICA II</div>
                 <div class="row">RENDIMIENTO DE SISTEMAS-4-3-SISTEMAS ELECTRONICOS</div>
                 <div class="row">MINERIA DE DATOS-4-3</div>

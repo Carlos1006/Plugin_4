@@ -7,6 +7,7 @@
     <?php require "../Include/table.html" ?>
     <script src="./Script/Script.js"></script>
     <link href="./Style/Style.css" rel="stylesheet">
+    <link href="./Style/LF.css" rel="stylesheet">
     <?php
     $array = ["LF","LF_2"];
     $num = $array[array_rand($array)];
@@ -99,7 +100,7 @@
             <br />
             <div id="main2" class="tabla">
                 <div class="superHead">Segundo Semestre</div>
-                <div class="header">Creditos-Horas-Semana-Requisitos</div>
+                <div class="header">-Creditos-Hora/Semana-Requisitos</div>
                 <div class="row">INTRODUCCIÓN A LA NANOTECNOLOGÍA-3-3</div>
                 <div class="row">DERECHOS HUMANOS-2-3</div>
                 <div class="row">DESARROLLO HUMANO Y COMPETITIVIDAD PROFESIONAL-2-3</div>

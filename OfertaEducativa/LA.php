@@ -7,6 +7,7 @@
     <?php require "../Include/table.html" ?>
     <script src="./Script/Script.js"></script>
     <link href="./Style/Style.css" rel="stylesheet">
+    <link href="./Style/LA.css" rel="stylesheet">
     <style>
         #banner>.frame{
             background-image: url("../img/carrera/LA.jpg");

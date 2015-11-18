@@ -47,5 +47,30 @@
         });
         var input = headerO.find(".searchInputHeader");
         input.focusin(fadeOutDrop);
+
+
+        $(".searchIcon").click(function() {
+            var val = $(this).siblings("input").val();
+            val = $.trim(val);
+            if(val != '' && val!=null && typeof val != 'undefined') {
+                var url = "../Noticias/Busqueda?buscar="+val;
+                window.location = url;
+                window.location.replace (url);
+            }
+        });
+
+        $(".dropt").click(function() {
+            var url = $(this).attr("ref");
+            window.location.replace(url);
+        });
+
+        $(".core").click(function() {
+            window.location.replace("..");
+        });
+
+        $(".superHeader_C>img").click(function() {
+           window.open("http://www.uanl.mx/");
+        });
+        
     });
 })(jQuery,Math,document,window);
