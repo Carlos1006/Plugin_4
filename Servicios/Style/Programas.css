@@ -4,6 +4,8 @@
 }
 #viewer[num="0"]{  background-image:url(../../img/servicios/programas/emprendedor.png);  }
 #viewer[num="1"]{  background-image:url(../../img/servicios/programas/ss.png);  }
+#viewer[num="2"]{  background-size:100% auto;  }
+#viewer[num="3"]{  background-image:url(../../img/beca.jpg);  background-size:auto 100%; }
 
 .tab>label{
     overflow:auto;
