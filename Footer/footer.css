@@ -79,7 +79,7 @@
 .fbLink label,.twLink label{
     display:table-cell;
     vertical-align:middle;
-    font-size:90%;
+    font-size:85%;
     pointer-events:none;
 }
 .fbLink:hover,
