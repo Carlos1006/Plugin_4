@@ -23,7 +23,7 @@
     </style>
     <script>
         $(function() {
-            $(".tabla").TableT();
+            $(".tabla,.tableS").TableT();
         });
     </script>
 </head>
@@ -88,7 +88,7 @@
             <label>
             <div id="main" class="tabla">
                 <div class="superHead">Primer Semestre</div>
-                <div class="header">Creditos-Horas/Semana-Requisitos</div>
+                <div class="header">-Creditos-Horas/Semana-Requisitos</div>
                 <div class="row">Metodologia de la programacion-2-3</div>
                 <div class="row">Competencia comunicativa-2-3</div>
                 <div class="row">Calculo Diferencial-4-5</div>
@@ -212,29 +212,32 @@
         <div class="textTab">
             <label>
             <b>Maestros</b>
-            ADAME VILLANUEVA LUCIA, DRA.<br />
-            AYALA GÓMEZ SANDRA ANGÉLICA, DRA.<br />
-            CEBALLOS HERRERA DANIEL ENRIQUE, DR.<br />
-            COMPARAN ELIZONDO JOSÉ LUÍS, DR.<br />
-            ELIZONDO VILLARREAL NORA, DRA.<br />
-            GARCÍA MÉNDEZ MANUEL, DR.<br />
-            GARZA LÓPEZ ISRAEL, DR.<br />
-            GUERRERO VILLA MARTIN, DR.<br />
-            GUZMÁN RAMOS VALENTÍN, M. C.<br />
-            GONZALEZ AMEZCUA OMAR, DR.<br />
-            GRACIA PINILLA MIGUEL ÁNGEL, DR.<br />
-            LARA NEAVE ALEJANDRO, M. E. C.<br />
-            MARTÍNEZ GUERRA EDGAR, DR.<br />
-            MARTÍNEZ HERNÁNDEZ CARLOS, DR.<br />
-            MENCHACA ARREDONDO JORGE LUIS, DR.<br />
-            MEJÍA ROSALES  SERGIO, DR.<br />
-            MORONES IBARRA RUBÉN, DR.<br />
-            OBREGÓN GUERRA RICARDO, DR.<br />
-            RAMÍREZ HERNÁNDEZ ENRIQUE RAÚL, M<br />. C.
-            RUIZ MENDOZA JUAN CARLOS, DR.<br />
-            SALAS SOLÍS MARÍA CONCEPCIÓN. DRA.<br />
-            SALINAS ESTEVANE JUAN PABLO, DR.<br />
-            SUÁREZ DE LA CRUZ JESÚS GUADALUPE, M. E. C.<br />
+                <div class="tableS">
+                    <div class="header">Nombre-Titulo</div>
+                    <div class="row">ADAME VILLANUEVA LUCIA-DRA.</div>
+                    <div class="row">AYALA GÓMEZ SANDRA ANGÉLICA-DRA.</div>
+                    <div class="row">CEBALLOS HERRERA DANIEL ENRIQUE-DR.</div>
+                    <div class="row">COMPARAN ELIZONDO JOSÉ LUÍS-DR.</div>
+                    <div class="row">ELIZONDO VILLARREAL NORA-DRA.</div>
+                    <div class="row">GARCÍA MÉNDEZ MANUEL-DR.</div>
+                    <div class="row">GARZA LÓPEZ ISRAEL-DR.</div>
+                    <div class="row">GUERRERO VILLA MARTIN-DR.</div>
+                    <div class="row">GUZMÁN RAMOS VALENTÍN-M. C.</div>
+                    <div class="row">GONZALEZ AMEZCUA OMAR-DR.</div>
+                    <div class="row">GRACIA PINILLA MIGUEL ÁNGEL-DR.</div>
+                    <div class="row">LARA NEAVE ALEJANDRO-M. E. C.</div>
+                    <div class="row">MARTÍNEZ GUERRA EDGAR-DR.</div>
+                    <div class="row">MARTÍNEZ HERNÁNDEZ CARLOS-DR.</div>
+                    <div class="row">MENCHACA ARREDONDO JORGE LUIS-DR.</div>
+                    <div class="row">MEJÍA ROSALES  SERGIO-DR.</div>
+                    <div class="row">MORONES IBARRA RUBÉN-DR.</div>
+                    <div class="row">OBREGÓN GUERRA RICARDO-DR.</div>
+                    <div class="row">RAMÍREZ HERNÁNDEZ ENRIQUE RAÚL-M.C.</div>
+                    <div class="row">RUIZ MENDOZA JUAN CARLOS-DR.</div>
+                    <div class="row">SALAS SOLÍS MARÍA CONCEPCIÓN. DRA.</div>
+                    <div class="row">SALINAS ESTEVANE JUAN PABLO-DR.</div>
+                    <div class="row">SUÁREZ DE LA CRUZ JESÚS GUADALUPE-M. E. C.</div>
+                </div>
             </label>
         </div>
     </div>

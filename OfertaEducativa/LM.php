@@ -117,7 +117,7 @@
             <label>
             <div id="main" class="tabla">
                 <div class="superHead">Primer Semestre</div>
-                <div class="header">Creditos-Horas-Semana-Requisitos</div>
+                <div class="header">-Creditos-Horas/Semana-Requisitos</div>
                 <div class="row">CÁLCULO DIFERENCIAL-5-5</div>
                 <div class="row">ÁLGEBRA-4-5</div>
                 <div class="row">GEOMETRÍA ANALÍTICA-5-5</div>

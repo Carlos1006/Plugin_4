@@ -99,7 +99,7 @@
             <label>
             <div id="main" class="tabla">
                 <div class="superHead">Primer Semestre</div>
-                <div class="header">Creditos-Horas/Semana-Requisitos</div>
+                <div class="header">-Creditos-Horas/Semana-Requisitos</div>
                 <div class="row">ALGEBRA I-10-5</div>
                 <div class="row">MATEMATICAS I-10-5</div>
                 <div class="row">GEOMETRIA ANALITICA-10-5</div>

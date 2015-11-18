@@ -111,7 +111,7 @@
             <label>
             <div id="main" class="tabla">
                 <div class="superHead">1er Semestre</div>
-                <div class="header">Créditos-Horas/semana-Requisitos</div>
+                <div class="header">-Créditos-Horas/semana-Requisitos</div>
                 <div class="row">MATEMATICAS 1-4-3</div>
                 <div class="row">MATEMATICAS 2-4-3</div>
                 <div class="row">PRINCIPIOS DE ARQUITECTURA COMPUTACIONAL-2-3</div>

@@ -110,7 +110,7 @@
             <label>
             <div class="tabla" id="main">
                 <div class="superHead">1er Semestre</div>
-                <div class="header">Créditos-Horas/Semana-Requisitos</div>
+                <div class="header">-Créditos-Horas/Semana-Requisitos</div>
                 <div class="row">FUNDAMENTOS DE LAS GRAFICAS COMPUTACIONALES-2-3</div>
                 <div class="row">MECANICA PARA EL DISEÑO DE SIMULADORES-2-3</div>
                 <div class="row">PROGRAMACION I-4-3</div>
