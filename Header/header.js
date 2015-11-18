@@ -53,7 +53,7 @@
             var val = $(this).siblings("input").val();
             val = $.trim(val);
             if(val != '' && val!=null && typeof val != 'undefined') {
-                var url = "../Noticias/Busqueda?buscar="+val;
+                var url = "../Noticias/Busqueda.php?buscar="+val;
                 window.location = url;
                 window.location.replace (url);
             }
