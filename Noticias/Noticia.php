@@ -40,7 +40,7 @@ while ($fila = mysqli_fetch_array($mysqli_result)) {
         <div class="newHeader"><label><?php echo utf8_encode($fila["tituloNoticia"]) ?></label></div>
         <div class="newMainImg" style="background-image:url(<?php echo "data:image/jpeg;base64,".base64_encode($fila["imagenNoticia"]); ?>);"></div>
         <div class="divisor"></div>
-        <div class="newMainCont"><label><?php echo utf8_encode($fila["contenidoNoticia"])?> </label></div>
+        <div class="newMainCont"><label><?php echo nl2br(utf8_encode($fila["contenidoNoticia"]))?> </label></div>
     </div>  <?php
 }
 ?>

@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09686260-ad31-4682-ad35-2be26be78e50" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EducacionContinua/.htaccess" afterPath="$PROJECT_DIR$/EducacionContinua/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facultad/.htaccess" afterPath="$PROJECT_DIR$/Facultad/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main/.htaccess" afterPath="$PROJECT_DIR$/Main/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Noticias/.htaccess" afterPath="$PROJECT_DIR$/Noticias/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfertaEducativa/.htaccess" afterPath="$PROJECT_DIR$/OfertaEducativa/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servicios/.htaccess" afterPath="$PROJECT_DIR$/Servicios/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/404/404.css" afterPath="$PROJECT_DIR$/404/404.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/404/404.js" afterPath="$PROJECT_DIR$/404/404.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Noticias/Busqueda.php" afterPath="$PROJECT_DIR$/Noticias/Busqueda.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfertaEducativa/Carreras.php" afterPath="$PROJECT_DIR$/OfertaEducativa/Carreras.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Noticias/Script/Noticias.js" afterPath="$PROJECT_DIR$/Noticias/Script/Noticias.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfertaEducativa/Posgrado.php" afterPath="$PROJECT_DIR$/OfertaEducativa/Posgrado.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts.css" afterPath="$PROJECT_DIR$/fonts.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/footer.html" afterPath="$PROJECT_DIR$/Include/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fullCalendar.css" afterPath="$PROJECT_DIR$/fullCalendar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Header/header.css" afterPath="$PROJECT_DIR$/Header/header.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/header.html" afterPath="$PROJECT_DIR$/Include/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main/index.php" afterPath="$PROJECT_DIR$/Main/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main/main.js" afterPath="$PROJECT_DIR$/Main/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slide/slide.js" afterPath="$PROJECT_DIR$/Slide/slide.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Noticias/Noticia.php" afterPath="$PROJECT_DIR$/Noticias/Noticia.php" />
     </list>
     <ignored path="Plugin_4.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,7 +23,20 @@
     <favorites_list name="Plugin_4" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Noticia.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Noticias/Noticia.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.63978493">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding>
+                <marker date="1447827121580" expanded="true" signature="174:860" placeholder="SELECT DISTI..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -88,7 +81,6 @@
         <option value="$PROJECT_DIR$/Header/header.js" />
         <option value="$PROJECT_DIR$/OfertaEducativa/Script/Carreras.js" />
         <option value="$PROJECT_DIR$/OfertaEducativa/Script/Posgrados.js" />
-        <option value="$PROJECT_DIR$/Noticias/Noticia.php" />
         <option value="$PROJECT_DIR$/Main/ajaxRequest.js" />
         <option value="$PROJECT_DIR$/Main/.htaccess" />
         <option value="$PROJECT_DIR$/Facultad/.htaccess" />
@@ -110,6 +102,7 @@
         <option value="$PROJECT_DIR$/Main/index.php" />
         <option value="$PROJECT_DIR$/Include/footer.html" />
         <option value="$PROJECT_DIR$/fullCalendar.css" />
+        <option value="$PROJECT_DIR$/Noticias/Noticia.php" />
       </list>
     </option>
   </component>
@@ -417,13 +410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41880342">
           <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Noticias/Noticia.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0609319">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -854,6 +840,16 @@
         <state vertical-scroll-proportion="-9.945206">
           <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Noticias/Noticia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63978493">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <marker date="1447827121580" expanded="true" signature="174:860" placeholder="SELECT DISTI..." />
+          </folding>
         </state>
       </provider>
     </entry>
