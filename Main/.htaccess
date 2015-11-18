@@ -1,4 +1,4 @@
-RewriteEngine on
-RewriteRule ^(\w+)$ http://localhost/__naker/Plugin_4/Main/index.php
-RewriteRule ^$ http://localhost/__naker/Plugin_4/Main/index.php
-ErrorDocument 404 http://localhost/__naker/Plugin_4/404
+#RewriteEngine on
+#RewriteRule ^(\w+)$ http://localhost/__naker/Plugin_4/Main/index.php
+#RewriteRule ^$ http://localhost/__naker/Plugin_4/Main/index.php
+ErrorDocument 404 http://52.33.172.255/pgmm/404

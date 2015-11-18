@@ -57,7 +57,7 @@ $(function() {
         var parent = $(this).parents(".new");
         var id = parent.attr("idnoticia");
         if($.trim(id) !='' && id!=null && typeof id != 'undefined') {
-            var url = "./Noticia?id="+id;
+            var url = "./Noticia.php?id="+id;
             window.location.replace(url);
         }
     });

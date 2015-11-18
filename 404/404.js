@@ -15,6 +15,8 @@ $(function(){
         });
     },1000);
 
-
+    $("#message_3").click(function() {
+       window.location.replace("../Main");
+    });
 
 });

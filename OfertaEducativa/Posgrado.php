@@ -30,7 +30,7 @@
             <div class="carreraTileImg"></div>
             <div class="carreraShade">
                 <div class="wrapperShade"></div>
-                <div class="carreraShadeBtn" ref="./COM">
+                <div class="carreraShadeBtn" ref="./COM.php">
                     <label>LEER MAS</label>
                 </div>
             </div>
@@ -48,7 +48,7 @@
             <div class="carreraTileImg"></div>
             <div class="carreraShade">
                 <div class="wrapperShade"></div>
-                <div class="carreraShadeBtn" ref="./IFI">
+                <div class="carreraShadeBtn" ref="./IFI.php">
                     <label>LEER MAS</label>
                 </div>
             </div>
@@ -66,7 +66,7 @@
             <div class="carreraTileImg"></div>
             <div class="carreraShade">
                 <div class="wrapperShade"></div>
-                <div class="carreraShadeBtn" ref="./ISI">
+                <div class="carreraShadeBtn" ref="./ISI.php">
                     <label>LEER MAS</label>
                 </div>
             </div>
@@ -85,7 +85,7 @@
             <div class="carreraTileImg"></div>
             <div class="carreraShade">
                 <div class="wrapperShade"></div>
-                <div class="carreraShadeBtn" ref="./MAPTA">
+                <div class="carreraShadeBtn" ref="./MAPTA.php">
                     <label>LEER MAS</label>
                 </div>
             </div>
@@ -108,7 +108,7 @@
             <div class="carreraTileImg"></div>
             <div class="carreraShade">
                 <div class="wrapperShade"></div>
-                <div class="carreraShadeBtn" ref="./DM">
+                <div class="carreraShadeBtn" ref="./DM.php">
                     <label>LEER MAS</label>
                 </div>
             </div>
@@ -125,7 +125,7 @@
             <div class="carreraTileImg"></div>
             <div class="carreraShade">
                 <div class="wrapperShade"></div>
-                <div class="carreraShadeBtn" ref="./DFI">
+                <div class="carreraShadeBtn" ref="./DFI.php">
                     <label>LEER MAS</label>
                 </div>
             </div>

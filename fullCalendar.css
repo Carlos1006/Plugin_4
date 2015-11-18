@@ -175,10 +175,9 @@
     height:70%;
     width:25%;
     top:15%;
-    left:71%;
+    left:70%;
     background:transparent;
     color:rgb(200,200,200);
-    overflow:hidden;
     font-size:1.6em;
     border-radius:0.1em;
     transition:all 0.2s;

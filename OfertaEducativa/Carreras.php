@@ -24,7 +24,7 @@
             <div class="carreraTileImg"></div>
             <div class="carreraShade">
                 <div class="wrapperShade"></div>
-                <div class="carreraShadeBtn" ref="./LF">
+                <div class="carreraShadeBtn" ref="./LF.php">
                     <label>LEER MAS</label>
                 </div>
             </div>
@@ -41,7 +41,7 @@
             <div class="carreraTileImg"></div>
             <div class="carreraShade">
                 <div class="wrapperShade"></div>
-                <div class="carreraShadeBtn" ref="./LM">
+                <div class="carreraShadeBtn" ref="./LM.php">
                     <label>LEER MAS</label>
                 </div>
             </div>
@@ -59,7 +59,7 @@
             <div class="carreraTileImg"></div>
             <div class="carreraShade">
                 <div class="wrapperShade"></div>
-                <div class="carreraShadeBtn" ref="./LCC">
+                <div class="carreraShadeBtn" ref="./LCC.php">
                     <label>LEER MAS</label>
                 </div>
             </div>
@@ -76,7 +76,7 @@
             <div class="carreraTileImg"></div>
             <div class="carreraShade">
                 <div class="wrapperShade"></div>
-                <div class="carreraShadeBtn" ref="./LMAD">
+                <div class="carreraShadeBtn" ref="./LMAD.php">
                     <label>LEER MAS</label>
                 </div>
             </div>
@@ -92,7 +92,7 @@
             <div class="carreraTileImg"></div>
             <div class="carreraShade">
                 <div class="wrapperShade"></div>
-                <div class="carreraShadeBtn" ref="./LA">
+                <div class="carreraShadeBtn" ref="./LA.php">
                     <label>LEER MAS</label>
                 </div>
             </div>
@@ -109,7 +109,7 @@
             <div class="carreraTileImg"></div>
             <div class="carreraShade">
                 <div class="wrapperShade"></div>
-                <div class="carreraShadeBtn" ref="./LSTI">
+                <div class="carreraShadeBtn" ref="./LSTI.php">
                     <label>LEER MAS</label>
                 </div>
             </div>

@@ -58,7 +58,7 @@ $(function() {
     $("b").click(function () {
         var id = $(this).attr("idnoticia");
         if($.trim(id) !='' && id!=null && typeof id != 'undefined') {
-            var url = "../Noticias/Noticia?id="+id;
+            var url = "../Noticias/Noticia.php?id="+id;
             window.location.replace(url);
         }
     });

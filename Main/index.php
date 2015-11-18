@@ -34,19 +34,19 @@
             <div id="sideBanner">
                 <div class="quickAccessContainer">
                     <div class="wrapQ"></div>
-                    <div class="quickAccess" ref="../OfertaEducativa/LMAD"><label>LMAD</label></div>
+                    <div class="quickAccess" ref="../OfertaEducativa/LMAD.php"><label>LMAD</label></div>
                     <div class="wrapR"></div>
-                    <div class="quickAccess" ref="../OfertaEducativa/LSTI"><label>LSTI</label></div>
+                    <div class="quickAccess" ref="../OfertaEducativa/LSTI.php"><label>LSTI</label></div>
                     <div class="wrapR"></div>
-                    <div class="quickAccess" ref="../OfertaEducativa/LCC"><label>LCC</label></div>
+                    <div class="quickAccess" ref="../OfertaEducativa/LCC.php"><label>LCC</label></div>
                     <div class="wrapR"></div>
-                    <div class="quickAccess" ref="../OfertaEducativa/LM"><label>LM</label></div>
+                    <div class="quickAccess" ref="../OfertaEducativa/LM.php"><label>LM</label></div>
                     <div class="wrapR"></div>
-                    <div class="quickAccess" ref="../OfertaEducativa/LA"><label>LA</label></div>
+                    <div class="quickAccess" ref="../OfertaEducativa/LA.php"><label>LA</label></div>
                     <div class="wrapR"></div>
-                    <div class="quickAccess" ref="../OfertaEducativa/LF"><label>LF</label></div>
+                    <div class="quickAccess" ref="../OfertaEducativa/LF.php"><label>LF</label></div>
                     <div class="wrapR"></div>
-                    <div class="quickAccess" ref="../OfertaEducativa/Posgrado"><label>Posgrado</label></div>
+                    <div class="quickAccess" ref="../OfertaEducativa/Posgrado.php"><label>Posgrado</label></div>
                     <div class="wrapQ"></div>
                 </div>
             </div>
@@ -57,7 +57,7 @@
             </div>
             <div class="moreContainer">
                 <span class="wrapM"></span>
-                <div id="moreEvent" class="moreBtn" ref="../Noticias/Eventos">
+                <div id="moreEvent" class="moreBtn" ref="../Noticias/Eventos.php">
                     <label>Ver mas...</label>
                 </div>
             </div>
@@ -110,7 +110,7 @@
             </div>
             <div class="moreContainer">
                 <span class="wrapM"></span>
-                <div id="moreNews" class="moreBtn" ref="../Noticias/">
+                <div id="moreNews" class="moreBtn" ref="../Noticias/Noticias.php">
                     <label>Ver mas...</label>
                 </div>
             </div>

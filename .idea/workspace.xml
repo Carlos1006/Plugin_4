@@ -2,83 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09686260-ad31-4682-ad35-2be26be78e50" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/oferta/ASPIRANTE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/oferta/CIEES.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/oferta/FISICA.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/oferta/LCC.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/oferta/LMAD.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/oferta/LSTI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/oferta/MAESTRO.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/oferta/MATE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/oferta/PLAN DE ESTUDIO.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/oferta/PROPOSITO.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/oferta/actuaría.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/oferta/egresado.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/rsc/egresadosDM.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/rsc/estadisticasDFI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/rsc/estadisticasDM.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/rsc/estudiantesDFI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/rsc/estudiantesDM.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/oferta/laptop.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/oferta/MAPTA/movilidad.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/polydark.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/rsc/profesoresDFI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/rsc/profesoresDM.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Main/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/Style/COM.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/Style/DFI.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/Style/DM.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Noticias/Script/Eventos.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/Style/IFI.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/Style/ISI.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/Style/LA.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/Style/LCC.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/Style/LF.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/Style/LM.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/Style/LMAD.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/Style/LSTI.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OfertaEducativa/Style/MAPTA.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Main/ajaxRequest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/next.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/prev.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Noticias/returnBusqueda.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Noticias/returnEventos.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Noticias/returnNoticias.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Main/returnNoticiasYEventos.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Noticias/Style/Busqueda.css" afterPath="$PROJECT_DIR$/Noticias/Style/Busqueda.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EducacionContinua/.htaccess" afterPath="$PROJECT_DIR$/EducacionContinua/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facultad/.htaccess" afterPath="$PROJECT_DIR$/Facultad/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main/.htaccess" afterPath="$PROJECT_DIR$/Main/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Noticias/.htaccess" afterPath="$PROJECT_DIR$/Noticias/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfertaEducativa/.htaccess" afterPath="$PROJECT_DIR$/OfertaEducativa/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servicios/.htaccess" afterPath="$PROJECT_DIR$/Servicios/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/404/404.css" afterPath="$PROJECT_DIR$/404/404.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/404/404.js" afterPath="$PROJECT_DIR$/404/404.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Noticias/Busqueda.php" afterPath="$PROJECT_DIR$/Noticias/Busqueda.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfertaEducativa/COM.php" afterPath="$PROJECT_DIR$/OfertaEducativa/COM.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfertaEducativa/Script/Carreras.js" afterPath="$PROJECT_DIR$/OfertaEducativa/Script/Carreras.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfertaEducativa/Carreras.php" afterPath="$PROJECT_DIR$/OfertaEducativa/Carreras.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfertaEducativa/DFI.php" afterPath="$PROJECT_DIR$/OfertaEducativa/DFI.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfertaEducativa/DM.php" afterPath="$PROJECT_DIR$/OfertaEducativa/DM.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Noticias/Eventos.php" afterPath="$PROJECT_DIR$/Noticias/Eventos.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfertaEducativa/IFI.php" afterPath="$PROJECT_DIR$/OfertaEducativa/IFI.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfertaEducativa/ISI.php" afterPath="$PROJECT_DIR$/OfertaEducativa/ISI.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfertaEducativa/LA.php" afterPath="$PROJECT_DIR$/OfertaEducativa/LA.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfertaEducativa/LCC.php" afterPath="$PROJECT_DIR$/OfertaEducativa/LCC.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfertaEducativa/LF.php" afterPath="$PROJECT_DIR$/OfertaEducativa/LF.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfertaEducativa/LM.php" afterPath="$PROJECT_DIR$/OfertaEducativa/LM.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfertaEducativa/LMAD.php" afterPath="$PROJECT_DIR$/OfertaEducativa/LMAD.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfertaEducativa/LSTI.php" afterPath="$PROJECT_DIR$/OfertaEducativa/LSTI.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfertaEducativa/MAPTA.php" afterPath="$PROJECT_DIR$/OfertaEducativa/MAPTA.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Noticias/Noticia.php" afterPath="$PROJECT_DIR$/Noticias/Noticia.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Noticias/Style/Noticias.css" afterPath="$PROJECT_DIR$/Noticias/Style/Noticias.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Noticias/Script/Noticias.js" afterPath="$PROJECT_DIR$/Noticias/Script/Noticias.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Noticias/Noticias.php" afterPath="$PROJECT_DIR$/Noticias/Noticias.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfertaEducativa/Posgrado.php" afterPath="$PROJECT_DIR$/OfertaEducativa/Posgrado.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfertaEducativa/Script/Posgrados.js" afterPath="$PROJECT_DIR$/OfertaEducativa/Script/Posgrados.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts.css" afterPath="$PROJECT_DIR$/fonts.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/footer.html" afterPath="$PROJECT_DIR$/Include/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Footer/footer.js" afterPath="$PROJECT_DIR$/Footer/footer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fullCalendar.css" afterPath="$PROJECT_DIR$/fullCalendar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fullCalendar.js" afterPath="$PROJECT_DIR$/fullCalendar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Header/header.css" afterPath="$PROJECT_DIR$/Header/header.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Include/header.html" afterPath="$PROJECT_DIR$/Include/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Header/header.js" afterPath="$PROJECT_DIR$/Header/header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main/index.php" afterPath="$PROJECT_DIR$/Main/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main/main.css" afterPath="$PROJECT_DIR$/Main/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main/main.js" afterPath="$PROJECT_DIR$/Main/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slide/slide.js" afterPath="$PROJECT_DIR$/Slide/slide.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Plugin_4.iws" />
@@ -100,18 +43,7 @@
     <favorites_list name="Plugin_4" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/EducacionContinua/.htaccess">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.08732877">
-              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -127,17 +59,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/OfertaEducativa/Style/LM.css" />
-        <option value="$PROJECT_DIR$/OfertaEducativa/Style/LMAD.css" />
-        <option value="$PROJECT_DIR$/OfertaEducativa/LSTI.php" />
-        <option value="$PROJECT_DIR$/OfertaEducativa/Style/LSTI.css" />
-        <option value="$PROJECT_DIR$/OfertaEducativa/Style/LF.css" />
-        <option value="$PROJECT_DIR$/OfertaEducativa/LF.php" />
-        <option value="$PROJECT_DIR$/OfertaEducativa/LA.php" />
-        <option value="$PROJECT_DIR$/OfertaEducativa/Style/LA.css" />
-        <option value="$PROJECT_DIR$/OfertaEducativa/COM.php" />
-        <option value="$PROJECT_DIR$/OfertaEducativa/Style/COM.css" />
-        <option value="$PROJECT_DIR$/OfertaEducativa/IFI.php" />
         <option value="$PROJECT_DIR$/OfertaEducativa/Style/IFI.css" />
         <option value="$PROJECT_DIR$/OfertaEducativa/Style/ISI.css" />
         <option value="$PROJECT_DIR$/OfertaEducativa/ISI.php" />
@@ -161,23 +82,34 @@
         <option value="$PROJECT_DIR$/Noticias/returnBusqueda.php" />
         <option value="$PROJECT_DIR$/Noticias/Style/Busqueda.css" />
         <option value="$PROJECT_DIR$/OfertaEducativa/LMAD.php" />
-        <option value="$PROJECT_DIR$/Main/.htaccess" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/Include/header.html" />
         <option value="$PROJECT_DIR$/Footer/footer.js" />
-        <option value="$PROJECT_DIR$/Include/footer.html" />
         <option value="$PROJECT_DIR$/Header/header.js" />
-        <option value="$PROJECT_DIR$/Main/index.php" />
         <option value="$PROJECT_DIR$/OfertaEducativa/Script/Carreras.js" />
-        <option value="$PROJECT_DIR$/OfertaEducativa/Carreras.php" />
         <option value="$PROJECT_DIR$/OfertaEducativa/Script/Posgrados.js" />
-        <option value="$PROJECT_DIR$/OfertaEducativa/Posgrado.php" />
         <option value="$PROJECT_DIR$/Noticias/Noticia.php" />
         <option value="$PROJECT_DIR$/Main/ajaxRequest.js" />
+        <option value="$PROJECT_DIR$/Main/.htaccess" />
+        <option value="$PROJECT_DIR$/Facultad/.htaccess" />
+        <option value="$PROJECT_DIR$/EducacionContinua/.htaccess" />
+        <option value="$PROJECT_DIR$/Noticias/.htaccess" />
+        <option value="$PROJECT_DIR$/OfertaEducativa/.htaccess" />
+        <option value="$PROJECT_DIR$/Servicios/.htaccess" />
+        <option value="$PROJECT_DIR$/404/404.js" />
+        <option value="$PROJECT_DIR$/404/404.css" />
+        <option value="$PROJECT_DIR$/fonts.css" />
+        <option value="$PROJECT_DIR$/Header/header.css" />
+        <option value="$PROJECT_DIR$/Include/header.html" />
+        <option value="$PROJECT_DIR$/OfertaEducativa/Carreras.php" />
+        <option value="$PROJECT_DIR$/OfertaEducativa/Posgrado.php" />
+        <option value="$PROJECT_DIR$/Slide/slide.js" />
         <option value="$PROJECT_DIR$/Main/main.js" />
         <option value="$PROJECT_DIR$/Noticias/Script/Noticias.js" />
         <option value="$PROJECT_DIR$/Noticias/Busqueda.php" />
+        <option value="$PROJECT_DIR$/Main/index.php" />
+        <option value="$PROJECT_DIR$/Include/footer.html" />
+        <option value="$PROJECT_DIR$/fullCalendar.css" />
       </list>
     </option>
   </component>
@@ -240,7 +172,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -260,22 +191,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Plugin_4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Plugin_4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EducacionContinua" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -392,27 +310,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2118003" sideWeight="0.49346405" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21482602" sideWeight="0.49346405" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3267974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22844176" sideWeight="0.50653595" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3267974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -466,389 +384,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/OfertaEducativa/Style/IFI.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OfertaEducativa/ISI.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57347673">
-          <caret line="96" column="20" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OfertaEducativa/MAPTA.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2437276">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OfertaEducativa/DM.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OfertaEducativa/Style/ISI.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34931508">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OfertaEducativa/Style/MAPTA.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23287672">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OfertaEducativa/Style/DM.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.224138">
-          <caret line="11" column="53" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OfertaEducativa/Style/DFI.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41754386">
-          <caret line="14" column="73" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/oferta/MAPTA/movilidad.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OfertaEducativa/DFI.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6702509">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Slide/slide.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32020548">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/prev.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="49" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/next.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14554794">
-          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Pasar a Carlos 3/Noticias/Script/Eventos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17465754">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Noticias/Eventos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33512545">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fullCalendar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="235" column="43" selection-start-line="235" selection-start-column="43" selection-end-line="235" selection-end-column="43" />
-          <folding>
-            <element signature="e#102#147#0" expanded="false" />
-            <element signature="e#171#213#0" expanded="false" />
-            <element signature="e#241#277#0" expanded="false" />
-            <element signature="e#307#390#0" expanded="false" />
-            <element signature="e#433#635#0" expanded="false" />
-            <element signature="e#554#606#0" expanded="false" />
-            <element signature="e#665#703#0" expanded="false" />
-            <element signature="e#724#925#0" expanded="false" />
-            <element signature="e#955#1003#0" expanded="false" />
-            <element signature="e#1049#1768#0" expanded="false" />
-            <element signature="e#1792#2049#0" expanded="false" />
-            <element signature="e#2095#2397#0" expanded="false" />
-            <element signature="e#2433#2599#0" expanded="false" />
-            <element signature="e#2483#2518#0" expanded="false" />
-            <element signature="e#2537#2572#0" expanded="false" />
-            <element signature="e#2844#3263#0" expanded="false" />
-            <element signature="e#3331#3567#0" expanded="false" />
-            <element signature="e#3622#5277#0" expanded="false" />
-            <element signature="e#3894#3951#0" expanded="false" />
-            <element signature="e#4101#4233#0" expanded="false" />
-            <element signature="e#4765#4842#0" expanded="false" />
-            <element signature="e#5123#5233#0" expanded="false" />
-            <element signature="e#5338#5766#0" expanded="false" />
-            <element signature="e#5821#6708#0" expanded="false" />
-            <element signature="e#5851#5970#0" expanded="false" />
-            <element signature="e#6000#6046#0" expanded="false" />
-            <element signature="e#6255#6330#0" expanded="false" />
-            <element signature="e#6364#6425#0" expanded="false" />
-            <element signature="e#6529#6593#0" expanded="false" />
-            <element signature="e#6763#8949#0" expanded="false" />
-            <element signature="e#6917#8943#0" expanded="false" />
-            <element signature="e#7282#7756#0" expanded="false" />
-            <element signature="e#7363#7474#0" expanded="false" />
-            <element signature="e#7492#7618#0" expanded="false" />
-            <element signature="e#7636#7738#0" expanded="false" />
-            <element signature="e#7773#8178#0" expanded="false" />
-            <element signature="e#7808#7972#0" expanded="false" />
-            <element signature="e#8005#8160#0" expanded="false" />
-            <element signature="e#8195#8574#0" expanded="false" />
-            <element signature="e#8230#8370#0" expanded="false" />
-            <element signature="e#8403#8556#0" expanded="false" />
-            <element signature="e#8628#8933#0" expanded="false" />
-            <element signature="e#8686#8758#0" expanded="false" />
-            <element signature="e#9415#12131#0" expanded="false" />
-            <element signature="e#9991#10593#0" expanded="false" />
-            <element signature="e#10042#10106#0" expanded="false" />
-            <element signature="e#10147#10244#0" expanded="false" />
-            <element signature="e#10249#10583#0" expanded="false" />
-            <element signature="e#10465#10545#0" expanded="false" />
-            <element signature="e#10720#10777#0" expanded="false" />
-            <element signature="e#10816#11146#0" expanded="false" />
-            <element signature="e#10865#11031#0" expanded="false" />
-            <element signature="e#11035#11091#0" expanded="false" />
-            <element signature="e#11401#12123#0" expanded="false" />
-            <element signature="e#11560#11711#0" expanded="false" />
-            <element signature="e#11753#12113#0" expanded="false" />
-            <element signature="e#11886#11960#0" expanded="false" />
-            <element signature="e#12004#12076#0" expanded="false" />
-            <element signature="e#12200#12253#0" expanded="false" />
-            <element signature="e#12365#12982#0" expanded="false" />
-            <element signature="e#12409#12480#0" expanded="false" />
-            <element signature="e#12525#12767#0" expanded="false" />
-            <element signature="e#12813#12970#0" expanded="false" />
-            <element signature="e#12880#12956#0" expanded="false" />
-            <element signature="e#13010#13628#0" expanded="false" />
-            <element signature="e#13054#13616#0" expanded="false" />
-            <element signature="e#13189#13240#0" expanded="false" />
-            <element signature="e#13690#13858#0" expanded="false" />
-            <element signature="e#13774#13848#0" expanded="false" />
-            <element signature="e#13890#13957#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/main.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34417808">
-          <caret line="260" column="0" selection-start-line="260" selection-start-column="0" selection-end-line="260" selection-end-column="0" />
-          <folding>
-            <element signature="e#8#116#0" expanded="false" />
-            <element signature="e#127#553#0" expanded="false" />
-            <element signature="e#570#631#0" expanded="false" />
-            <element signature="e#645#796#0" expanded="false" />
-            <element signature="e#830#917#0" expanded="false" />
-            <element signature="e#938#975#0" expanded="false" />
-            <element signature="e#995#1045#0" expanded="false" />
-            <element signature="e#1072#1381#0" expanded="false" />
-            <element signature="e#1413#1584#0" expanded="false" />
-            <element signature="e#1617#1678#0" expanded="false" />
-            <element signature="e#1711#1752#0" expanded="false" />
-            <element signature="e#1792#1835#0" expanded="false" />
-            <element signature="e#1859#1949#0" expanded="false" />
-            <element signature="e#1964#2025#0" expanded="false" />
-            <element signature="e#2046#2141#0" expanded="false" />
-            <element signature="e#2168#2263#0" expanded="false" />
-            <element signature="e#2279#2331#0" expanded="false" />
-            <element signature="e#2339#2393#0" expanded="false" />
-            <element signature="e#2403#2670#0" expanded="false" />
-            <element signature="e#2686#2739#0" expanded="false" />
-            <element signature="e#2756#2809#0" expanded="false" />
-            <element signature="e#2824#2973#0" expanded="false" />
-            <element signature="e#2991#3010#0" expanded="false" />
-            <element signature="e#3026#3045#0" expanded="false" />
-            <element signature="e#3053#3121#0" expanded="false" />
-            <element signature="e#3132#3157#0" expanded="false" />
-            <element signature="e#3176#3227#0" expanded="false" />
-            <element signature="e#3244#3422#0" expanded="false" />
-            <element signature="e#3448#3586#0" expanded="false" />
-            <element signature="e#3612#3689#0" expanded="false" />
-            <element signature="e#3721#3850#0" expanded="false" />
-            <element signature="e#3872#3951#0" expanded="false" />
-            <element signature="e#3983#4125#0" expanded="false" />
-            <element signature="e#4163#4218#0" expanded="false" />
-            <element signature="e#4250#4354#0" expanded="false" />
-            <element signature="e#4376#4411#0" expanded="false" />
-            <element signature="e#4445#4481#0" expanded="false" />
-            <element signature="e#4517#4553#0" expanded="false" />
-            <element signature="e#4560#4586#0" expanded="false" />
-            <element signature="e#4599#4771#0" expanded="false" />
-            <element signature="e#4788#4820#0" expanded="false" />
-            <element signature="e#4845#4865#0" expanded="false" />
-            <element signature="e#4882#4931#0" expanded="false" />
-            <element signature="e#4946#5151#0" expanded="false" />
-            <element signature="e#5173#5269#0" expanded="false" />
-            <element signature="e#5291#5326#0" expanded="false" />
-            <element signature="e#5350#5479#0" expanded="false" />
-            <element signature="e#5500#5698#0" expanded="false" />
-            <element signature="e#5726#5828#0" expanded="false" />
-            <element signature="e#5854#5909#0" expanded="false" />
-            <element signature="e#5930#6130#0" expanded="false" />
-            <element signature="e#6152#6206#0" expanded="false" />
-            <element signature="e#6235#6285#0" expanded="false" />
-            <element signature="e#6308#6434#0" expanded="false" />
-            <element signature="e#6465#6508#0" expanded="false" />
-            <element signature="e#6718#6850#0" expanded="false" />
-            <element signature="e#6870#6907#0" expanded="false" />
-            <element signature="e#6924#6960#0" expanded="false" />
-            <element signature="e#6992#7023#0" expanded="false" />
-            <element signature="e#7033#7062#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Noticias/returnEventos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3655914">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/returnNoticiasYEventos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42664418">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/returnBusquedas.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51792115">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Noticias/returnNoticias.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03046595">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Noticias/returnBusqueda.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.384615">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Noticias/Style/Noticias.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="75" column="15" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/polydark.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Noticias/Style/Busqueda.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7563694">
-          <caret line="163" column="17" selection-start-line="163" selection-start-column="17" selection-end-line="163" selection-end-column="17" />
-          <folding>
-            <element signature="e#14#89#0" expanded="false" />
-            <element signature="e#101#347#0" expanded="false" />
-            <element signature="e#365#543#0" expanded="false" />
-            <element signature="e#549#879#0" expanded="false" />
-            <element signature="e#1034#1136#0" expanded="false" />
-            <element signature="e#1146#1248#0" expanded="false" />
-            <element signature="e#1656#2021#0" expanded="false" />
-            <element signature="e#2037#2255#0" expanded="false" />
-            <element signature="e#2271#2334#0" expanded="false" />
-            <element signature="e#2362#2531#0" expanded="false" />
-            <element signature="e#2560#2649#0" expanded="false" />
-            <element signature="e#2682#2878#0" expanded="false" />
-            <element signature="e#2889#2991#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08717949">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OfertaEducativa/LMAD.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3041145">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3041145">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Include/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.1153846">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Footer/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="50.346153">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -856,17 +395,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27370304">
           <caret line="9" column="41" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Header/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42218247">
-          <caret line="77" column="33" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="33" />
-          <folding>
-            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -878,47 +406,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Header/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.82564104">
-          <caret line="71" column="43" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Include/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2862254">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OfertaEducativa/Carreras.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28085867">
-          <caret line="102" column="35" selection-start-line="102" selection-start-column="35" selection-end-line="102" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OfertaEducativa/Script/Posgrados.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OfertaEducativa/Posgrado.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61538464">
-          <caret line="83" column="69" selection-start-line="83" selection-start-column="69" selection-end-line="83" selection-end-column="69" />
-          <folding>
-            <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#0;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#0;n#div#3;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -926,15 +417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41880342">
           <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/ajaxRequest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52397263">
-          <caret line="58" column="111" selection-start-line="58" selection-start-column="111" selection-end-line="58" selection-end-column="111" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -942,26 +424,330 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0609319">
           <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Noticias/Noticias.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.82258064">
+          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08717949">
+          <caret line="3" column="47" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfertaEducativa/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05811966">
+          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servicios/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05811966">
+          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Noticias/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08717949">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404/404.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5521368">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72629696">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fonts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08732877">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404/404.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05821918">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EducacionContinua/Script/Script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.018835617">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EducacionContinua/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EducacionContinua/Style/CCCM.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EducacionContinua/Style/EducacionContinua.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EducacionContinua/Style/Style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facultad/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08732877">
+          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facultad/Organizacion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.1827957">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facultad/Style/Maestros.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facultad/Style/Celerinet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facultad/Style/Directores.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Header/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.87931037">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Header/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46774194">
+          <caret line="77" column="33" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="33" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1447818948357" expanded="true" signature="-1:-1" placeholder="SELECT DISTI..." />
-            <marker date="1447818948357" expanded="true" signature="-1:-1" placeholder="SELECT DISTI..." />
+            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main/index.php">
+    <entry file="file://$PROJECT_DIR$/Include/root.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20430107">
-          <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Include/slide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Include/table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Include/tabs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03046595">
+          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Include/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6200717">
+          <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfertaEducativa/Carreras.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9761904">
+          <caret line="111" column="60" selection-start-line="111" selection-start-column="60" selection-end-line="111" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfertaEducativa/Posgrado.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.774">
+          <caret line="121" column="14" selection-start-line="121" selection-start-column="14" selection-end-line="121" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facultad/Script/Script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03938356">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facultad/Celerinet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4265233">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facultad/Script/Celerinet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29109588">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Slide/slide.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.2482877">
+          <caret line="80" column="6" selection-start-line="80" selection-start-column="6" selection-end-line="80" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Header/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/ajaxRequest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Noticias/Script/Script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Noticias/Script/Eventos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61130136">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Noticias/Script/Busqueda.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26198632">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Noticias/Busqueda.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39426523">
+          <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Noticias/Script/Noticias.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4760274">
+          <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Main/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7568493">
-          <caret line="62" column="9" selection-start-line="59" selection-start-column="8" selection-end-line="62" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.55308217">
+          <caret line="55" column="7" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
           <folding>
             <element signature="e#239#490#0" expanded="false" />
             <element signature="e#346#395#0" expanded="false" />
@@ -976,50 +762,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Noticias/Script/Noticias.js">
+    <entry file="file://$PROJECT_DIR$/Main/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56335616">
-          <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="62" selection-end-column="7" />
+        <state vertical-scroll-proportion="-2.3809524">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Noticias/Noticias.php">
+    <entry file="file://$PROJECT_DIR$/fullCalendar.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.82258064">
-          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+        <state vertical-scroll-proportion="-0.09246575">
+          <caret line="172" column="0" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
+          <folding>
+            <element signature="e#131#462#0" expanded="false" />
+            <element signature="e#477#791#0" expanded="false" />
+            <element signature="e#820#883#0" expanded="false" />
+            <element signature="e#891#931#0" expanded="false" />
+            <element signature="e#947#1254#0" expanded="false" />
+            <element signature="e#1276#1416#0" expanded="false" />
+            <element signature="e#1452#1505#0" expanded="false" />
+            <element signature="e#1538#1612#0" expanded="false" />
+            <element signature="e#1624#1794#0" expanded="false" />
+            <element signature="e#1805#2078#0" expanded="false" />
+            <element signature="e#2098#2199#0" expanded="false" />
+            <element signature="e#2214#2552#0" expanded="false" />
+            <element signature="e#2574#2977#0" expanded="false" />
+            <element signature="e#2998#3453#0" expanded="false" />
+            <element signature="e#3483#3542#0" expanded="false" />
+            <element signature="e#3572#3655#0" expanded="false" />
+            <element signature="e#3665#3892#0" expanded="false" />
+            <element signature="e#3913#3969#0" expanded="false" />
+            <element signature="e#3991#4027#0" expanded="false" />
+            <element signature="e#4042#4275#0" expanded="false" />
+            <element signature="e#4290#4462#0" expanded="false" />
+            <element signature="e#4474#4716#0" expanded="false" />
+            <element signature="e#4722#5063#0" expanded="false" />
+            <element signature="e#5078#5262#0" expanded="false" />
+            <element signature="e#5283#5306#0" expanded="false" />
+            <element signature="e#5328#5369#0" expanded="false" />
+            <element signature="e#5387#5462#0" expanded="false" />
+            <element signature="e#5473#5860#0" expanded="false" />
+            <element signature="e#5868#6092#0" expanded="false" />
+            <element signature="e#6106#6128#0" expanded="false" />
+            <element signature="e#6141#6162#0" expanded="false" />
+            <element signature="e#6170#6206#0" expanded="false" />
+            <element signature="e#6215#6236#0" expanded="false" />
+            <element signature="e#6249#6665#0" expanded="false" />
+            <element signature="e#6674#6802#0" expanded="false" />
+            <element signature="e#6820#6914#0" expanded="false" />
+            <element signature="e#6932#7026#0" expanded="false" />
+            <element signature="e#7039#7213#0" expanded="false" />
+            <element signature="e#7228#7433#0" expanded="false" />
+            <element signature="e#7446#7693#0" expanded="false" />
+            <element signature="e#7701#8003#0" expanded="false" />
+            <element signature="e#8012#8354#0" expanded="false" />
+            <element signature="e#8365#8412#0" expanded="false" />
+            <element signature="e#8755#9040#0" expanded="false" />
+            <element signature="e#9053#9311#0" expanded="false" />
+            <element signature="e#9325#9692#0" expanded="false" />
+            <element signature="e#9712#9766#0" expanded="false" />
+            <element signature="e#9784#9834#0" expanded="false" />
+            <element signature="e#9849#10169#0" expanded="false" />
+            <element signature="e#10182#10200#0" expanded="false" />
+            <element signature="e#10219#10334#0" expanded="false" />
+            <element signature="e#10355#10551#0" expanded="false" />
+            <element signature="e#10578#10805#0" expanded="false" />
+            <element signature="e#10833#10869#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Include/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3154122">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Noticias/Busqueda.php">
+    <entry file="file://$PROJECT_DIR$/getRanges.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.609319">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5483871">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Noticias/Script/Busqueda.js">
+    <entry file="file://$PROJECT_DIR$/Main/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23287672">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Noticias/Script/Eventos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26198632">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EducacionContinua/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08732877">
-          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        <state vertical-scroll-proportion="-9.945206">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding />
         </state>
       </provider>

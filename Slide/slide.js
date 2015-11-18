@@ -77,7 +77,7 @@ var div="div",span = "span",ul="ul",a="a",li="li",lbl="label",img="img",p="p",sw
         return  {width:w,height:h};
     };
     function getPath(name) {
-        return "http://localhost/__naker/Plugin_4/rsc/"+name;
+        return "http://52.33.172.255/PGMM/rsc/"+name;
     };
     function tagForm(name) {
         return "<"+name+">";

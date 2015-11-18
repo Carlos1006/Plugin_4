@@ -50,7 +50,7 @@
                             });
 
                         $objeto.find(".newMore").click(function() {
-                            var url = "./Noticia?id="+obj.id;
+                            var url = "./Noticia.php?id="+obj.id;
                             window.location.replace(url);
                         });
 
